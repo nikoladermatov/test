@@ -1,0 +1,916 @@
+2016-06-29 17:19:43,514 [main] INFO SimpleRestTestGet - goTo completed
+2016-06-29 17:28:28,741 [main] INFO SimpleRestTestGet - goTo completed
+2016-06-29 17:28:41,587 [main] INFO SimpleRestTestGet - goTo completed
+2016-06-30 13:30:06,637 [main] INFO submitRequest - URL is added.
+2016-06-30 13:30:07,006 [main] INFO submitRequest - The request is executed.
+2016-06-30 13:33:24,409 [main] INFO submitRequest - URL is added.
+2016-06-30 13:33:24,770 [main] INFO submitRequest - The request is executed.
+2016-06-30 13:33:25,200 [main] INFO Response - Successful call , executed on: 20160630
+2016-06-30 13:33:25,410 [main] INFO Response - Response Details:
+2016-06-30 13:33:25,410 [main] INFO Response - Status Code
+: 
+200 OK
+Content-Length
+: 
+748
+Content-Type
+: 
+application/json;charset=ISO-8859-1
+Date
+: 
+Thu, 30 Jun 2016 10:33:24 GMT
+Server
+: 
+Apache-Coyote/1.1
+2016-06-30 13:36:26,022 [main] INFO HomePage - Home Page is presented.
+2016-06-30 13:36:26,333 [main] INFO submitRequest - URL is added.
+2016-06-30 13:36:26,813 [main] INFO submitRequest - The request is executed.
+2016-06-30 13:36:27,233 [main] INFO Response - Successful call , executed on: 20160630
+2016-06-30 13:36:27,434 [main] INFO Response - Response Details:
+2016-06-30 13:36:27,434 [main] INFO Response - Status Code
+: 
+200 OK
+Content-Length
+: 
+748
+Content-Type
+: 
+application/json;charset=ISO-8859-1
+Date
+: 
+Thu, 30 Jun 2016 10:36:26 GMT
+Server
+: 
+Apache-Coyote/1.1
+2016-06-30 13:36:27,916 [main] INFO Response - Response Body (Preview) tab is selected
+2016-06-30 13:36:28,088 [main] INFO Response - JSON Response:
+2016-06-30 13:36:28,098 [main] INFO Response - {
+  "Output": {
+    "EndDt": {
+      "Immutable": false,
+      "Attribs": 1
+    },
+    "PrdctParentAccountNo": {
+      "Immutable": false,
+      "Value": 290,
+      "Attribs": 1
+    },
+    "PrdctParentSubscrNo": {
+      "Immutable": false,
+      "Value": 999999999,
+      "Attribs": 1
+    },
+    "PrdctParentSubscrNoResets": {
+      "Immutable": false,
+      "Value": 999999,
+      "Attribs": 1
+    },
+    "ServerId": {
+      "Immutable": false,
+      "Value": 999,
+      "Attribs": 1
+    },
+    "StartDt": {
+      "Immutable": false,
+      "Value": "May 10, 2016 11:00:00 AM",
+      "Attribs": 1
+    },
+    "GroupId": {
+      "Immutable": false,
+      "Value": 8,
+      "Attribs": 1
+    },
+    "GroupIdServ": {
+      "Immutable": false,
+      "Value": 1,
+      "Attribs": 1
+    },
+    "TrackingId": {
+      "Immutable": false,
+      "Value": 2,
+      "Attribs": 1
+    },
+    "TrackingIdServ": {
+      "Immutable": false,
+      "Value": 3,
+      "Attribs": 1
+    },
+    "Attribs": 0
+  },
+  "WarningCodes": [],
+  "TotalCount": 1,
+  "ServerDate": "Jun 30, 2016 6:36:26 AM",
+  "ProductVersion": "FX4.0",
+  "ServerLocator": {}
+}
+2016-06-30 13:38:16,523 [main] INFO HomePage - Home Page is presented.
+2016-06-30 13:38:16,812 [main] INFO Request - URL is added.
+2016-06-30 13:38:17,266 [main] INFO Request - The request is executed.
+2016-06-30 13:38:17,668 [main] INFO Response - Successful call , executed on: 20160630
+2016-06-30 13:38:17,880 [main] INFO Response - Response Details:
+2016-06-30 13:38:17,880 [main] INFO Response - Status Code
+: 
+200 OK
+Content-Length
+: 
+748
+Content-Type
+: 
+application/json;charset=ISO-8859-1
+Date
+: 
+Thu, 30 Jun 2016 10:38:17 GMT
+Server
+: 
+Apache-Coyote/1.1
+2016-06-30 13:38:18,302 [main] INFO Response - Response Body (Preview) tab is selected
+2016-06-30 13:38:18,452 [main] INFO Response - JSON Response:
+2016-06-30 13:38:18,452 [main] INFO Response - {
+  "Output": {
+    "EndDt": {
+      "Immutable": false,
+      "Attribs": 1
+    },
+    "PrdctParentAccountNo": {
+      "Immutable": false,
+      "Value": 290,
+      "Attribs": 1
+    },
+    "PrdctParentSubscrNo": {
+      "Immutable": false,
+      "Value": 999999999,
+      "Attribs": 1
+    },
+    "PrdctParentSubscrNoResets": {
+      "Immutable": false,
+      "Value": 999999,
+      "Attribs": 1
+    },
+    "ServerId": {
+      "Immutable": false,
+      "Value": 999,
+      "Attribs": 1
+    },
+    "StartDt": {
+      "Immutable": false,
+      "Value": "May 10, 2016 11:00:00 AM",
+      "Attribs": 1
+    },
+    "GroupId": {
+      "Immutable": false,
+      "Value": 8,
+      "Attribs": 1
+    },
+    "GroupIdServ": {
+      "Immutable": false,
+      "Value": 1,
+      "Attribs": 1
+    },
+    "TrackingId": {
+      "Immutable": false,
+      "Value": 2,
+      "Attribs": 1
+    },
+    "TrackingIdServ": {
+      "Immutable": false,
+      "Value": 3,
+      "Attribs": 1
+    },
+    "Attribs": 0
+  },
+  "WarningCodes": [],
+  "TotalCount": 1,
+  "ServerDate": "Jun 30, 2016 6:38:17 AM",
+  "ProductVersion": "FX4.0",
+  "ServerLocator": {}
+}
+2016-06-30 13:44:07,350 [main] INFO HomePage - Firefox browser instance was successfully started.
+2016-06-30 13:44:07,701 [main] INFO HomePage - Home Page is presented.
+2016-06-30 13:44:08,113 [main] INFO Request - URL is added.
+2016-06-30 13:44:08,587 [main] INFO Request - The request is executed.
+2016-06-30 13:44:08,960 [main] INFO Response - Successful call , executed on: 20160630
+2016-06-30 13:44:09,150 [main] INFO Response - Response Details:Status Code
+: 
+200 OK
+Content-Length
+: 
+748
+Content-Type
+: 
+application/json;charset=ISO-8859-1
+Date
+: 
+Thu, 30 Jun 2016 10:44:08 GMT
+Server
+: 
+Apache-Coyote/1.1
+2016-06-30 13:44:09,561 [main] INFO Response - Response Body (Preview) tab is selected
+2016-06-30 13:44:09,711 [main] INFO Response - JSON Response:{
+  "Output": {
+    "EndDt": {
+      "Immutable": false,
+      "Attribs": 1
+    },
+    "PrdctParentAccountNo": {
+      "Immutable": false,
+      "Value": 290,
+      "Attribs": 1
+    },
+    "PrdctParentSubscrNo": {
+      "Immutable": false,
+      "Value": 999999999,
+      "Attribs": 1
+    },
+    "PrdctParentSubscrNoResets": {
+      "Immutable": false,
+      "Value": 999999,
+      "Attribs": 1
+    },
+    "ServerId": {
+      "Immutable": false,
+      "Value": 999,
+      "Attribs": 1
+    },
+    "StartDt": {
+      "Immutable": false,
+      "Value": "May 10, 2016 11:00:00 AM",
+      "Attribs": 1
+    },
+    "GroupId": {
+      "Immutable": false,
+      "Value": 8,
+      "Attribs": 1
+    },
+    "GroupIdServ": {
+      "Immutable": false,
+      "Value": 1,
+      "Attribs": 1
+    },
+    "TrackingId": {
+      "Immutable": false,
+      "Value": 2,
+      "Attribs": 1
+    },
+    "TrackingIdServ": {
+      "Immutable": false,
+      "Value": 3,
+      "Attribs": 1
+    },
+    "Attribs": 0
+  },
+  "WarningCodes": [],
+  "TotalCount": 1,
+  "ServerDate": "Jun 30, 2016 6:44:08 AM",
+  "ProductVersion": "FX4.0",
+  "ServerLocator": {}
+}
+2016-06-30 13:47:04,978 [main] INFO SimpleRestTestGet - executing SimpleRestTestForGetMethod test
+2016-06-30 13:47:05,679 [main] INFO HomePage - Firefox browser instance was successfully started.
+2016-06-30 13:47:05,982 [main] INFO HomePage - Home Page is presented.
+2016-06-30 13:47:06,272 [main] INFO Request - URL is added.
+2016-06-30 13:47:06,573 [main] INFO Request - The request is executed.
+2016-06-30 13:47:07,023 [main] INFO Response - Successful call , executed on: 20160630
+2016-06-30 13:47:07,223 [main] INFO Response - Response Details:Status Code
+: 
+200 OK
+Content-Length
+: 
+748
+Content-Type
+: 
+application/json;charset=ISO-8859-1
+Date
+: 
+Thu, 30 Jun 2016 10:47:06 GMT
+Server
+: 
+Apache-Coyote/1.1
+2016-06-30 13:47:07,623 [main] INFO Response - Response Body (Preview) tab is selected
+2016-06-30 13:47:07,774 [main] INFO Response - JSON Response:{
+  "Output": {
+    "EndDt": {
+      "Immutable": false,
+      "Attribs": 1
+    },
+    "PrdctParentAccountNo": {
+      "Immutable": false,
+      "Value": 290,
+      "Attribs": 1
+    },
+    "PrdctParentSubscrNo": {
+      "Immutable": false,
+      "Value": 999999999,
+      "Attribs": 1
+    },
+    "PrdctParentSubscrNoResets": {
+      "Immutable": false,
+      "Value": 999999,
+      "Attribs": 1
+    },
+    "ServerId": {
+      "Immutable": false,
+      "Value": 999,
+      "Attribs": 1
+    },
+    "StartDt": {
+      "Immutable": false,
+      "Value": "May 10, 2016 11:00:00 AM",
+      "Attribs": 1
+    },
+    "GroupId": {
+      "Immutable": false,
+      "Value": 8,
+      "Attribs": 1
+    },
+    "GroupIdServ": {
+      "Immutable": false,
+      "Value": 1,
+      "Attribs": 1
+    },
+    "TrackingId": {
+      "Immutable": false,
+      "Value": 2,
+      "Attribs": 1
+    },
+    "TrackingIdServ": {
+      "Immutable": false,
+      "Value": 3,
+      "Attribs": 1
+    },
+    "Attribs": 0
+  },
+  "WarningCodes": [],
+  "TotalCount": 1,
+  "ServerDate": "Jun 30, 2016 6:47:06 AM",
+  "ProductVersion": "FX4.0",
+  "ServerLocator": {}
+}
+2016-06-30 13:47:07,774 [main] INFO SimpleRestTestGet - SimpleRestTestForGetMethod test is completed!
+2016-06-30 13:48:55,907 [main] INFO SimpleRestTestGet - Executing SimpleRestTestForGetMethod test
+2016-06-30 13:48:56,589 [main] INFO HomePage - Firefox browser instance was successfully started.
+2016-06-30 13:48:56,909 [main] INFO HomePage - Home Page is presented.
+2016-06-30 13:48:57,230 [main] INFO Request - URL is added.
+2016-06-30 13:48:57,590 [main] INFO Request - The request is executed.
+2016-06-30 13:48:58,022 [main] INFO Response - Successful call , executed on: 20160630
+2016-06-30 13:48:58,234 [main] INFO Response - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+748
+Content-Type
+: 
+application/json;charset=ISO-8859-1
+Date
+: 
+Thu, 30 Jun 2016 10:48:57 GMT
+Server
+: 
+Apache-Coyote/1.1
+2016-06-30 13:48:58,674 [main] INFO Response - Response Body (Preview) tab is selected
+2016-06-30 13:48:58,824 [main] INFO Response - JSON Response:{
+  "Output": {
+    "EndDt": {
+      "Immutable": false,
+      "Attribs": 1
+    },
+    "PrdctParentAccountNo": {
+      "Immutable": false,
+      "Value": 290,
+      "Attribs": 1
+    },
+    "PrdctParentSubscrNo": {
+      "Immutable": false,
+      "Value": 999999999,
+      "Attribs": 1
+    },
+    "PrdctParentSubscrNoResets": {
+      "Immutable": false,
+      "Value": 999999,
+      "Attribs": 1
+    },
+    "ServerId": {
+      "Immutable": false,
+      "Value": 999,
+      "Attribs": 1
+    },
+    "StartDt": {
+      "Immutable": false,
+      "Value": "May 10, 2016 11:00:00 AM",
+      "Attribs": 1
+    },
+    "GroupId": {
+      "Immutable": false,
+      "Value": 8,
+      "Attribs": 1
+    },
+    "GroupIdServ": {
+      "Immutable": false,
+      "Value": 1,
+      "Attribs": 1
+    },
+    "TrackingId": {
+      "Immutable": false,
+      "Value": 2,
+      "Attribs": 1
+    },
+    "TrackingIdServ": {
+      "Immutable": false,
+      "Value": 3,
+      "Attribs": 1
+    },
+    "Attribs": 0
+  },
+  "WarningCodes": [],
+  "TotalCount": 1,
+  "ServerDate": "Jun 30, 2016 6:48:57 AM",
+  "ProductVersion": "FX4.0",
+  "ServerLocator": {}
+}
+2016-06-30 13:48:58,824 [main] INFO SimpleRestTestGet - SimpleRestTestForGetMethod test is completed!
+2016-06-30 13:55:27,462 [main] INFO SimpleRestTestGet - Executing SimpleRestTestForGetMethod test
+2016-06-30 13:55:28,164 [main] INFO HomePage - Firefox browser instance was successfully started.
+2016-06-30 13:55:28,475 [main] INFO HomePage - Home Page is presented.
+2016-06-30 13:55:28,756 [main] INFO Request - URL is added.
+2016-06-30 13:55:29,196 [main] INFO Request - The request is executed.
+2016-06-30 13:55:29,764 [main] INFO Response - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+748
+Content-Type
+: 
+application/json;charset=ISO-8859-1
+Date
+: 
+Thu, 30 Jun 2016 10:55:29 GMT
+Server
+: 
+Apache-Coyote/1.1
+2016-06-30 13:55:30,196 [main] INFO Response - Response Body (Preview) tab is selected
+2016-06-30 13:55:30,400 [main] INFO Response - JSON Response:{
+  "Output": {
+    "EndDt": {
+      "Immutable": false,
+      "Attribs": 1
+    },
+    "PrdctParentAccountNo": {
+      "Immutable": false,
+      "Value": 290,
+      "Attribs": 1
+    },
+    "PrdctParentSubscrNo": {
+      "Immutable": false,
+      "Value": 999999999,
+      "Attribs": 1
+    },
+    "PrdctParentSubscrNoResets": {
+      "Immutable": false,
+      "Value": 999999,
+      "Attribs": 1
+    },
+    "ServerId": {
+      "Immutable": false,
+      "Value": 999,
+      "Attribs": 1
+    },
+    "StartDt": {
+      "Immutable": false,
+      "Value": "May 10, 2016 11:00:00 AM",
+      "Attribs": 1
+    },
+    "GroupId": {
+      "Immutable": false,
+      "Value": 8,
+      "Attribs": 1
+    },
+    "GroupIdServ": {
+      "Immutable": false,
+      "Value": 1,
+      "Attribs": 1
+    },
+    "TrackingId": {
+      "Immutable": false,
+      "Value": 2,
+      "Attribs": 1
+    },
+    "TrackingIdServ": {
+      "Immutable": false,
+      "Value": 3,
+      "Attribs": 1
+    },
+    "Attribs": 0
+  },
+  "WarningCodes": [],
+  "TotalCount": 1,
+  "ServerDate": "Jun 30, 2016 6:55:29 AM",
+  "ProductVersion": "FX4.0",
+  "ServerLocator": {}
+}
+2016-06-30 13:55:30,400 [main] INFO SimpleRestTestGet - SimpleRestTestForGetMethod test is completed!
+2016-06-30 13:57:30,892 [main] INFO SimpleRestTestGet - Executing SimpleRestTestGet test
+2016-06-30 13:57:31,525 [main] INFO HomePage - Firefox browser instance was successfully started.
+2016-06-30 13:57:31,835 [main] INFO HomePage - Home Page is presented.
+2016-06-30 13:57:32,122 [main] INFO Request - URL is added.
+2016-06-30 13:57:32,526 [main] INFO Request - The request is executed.
+2016-06-30 13:57:33,228 [main] INFO Response - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+748
+Content-Type
+: 
+application/json;charset=ISO-8859-1
+Date
+: 
+Thu, 30 Jun 2016 10:57:32 GMT
+Server
+: 
+Apache-Coyote/1.1
+2016-06-30 13:57:33,825 [main] INFO Response - Response Body (Preview) tab is selected
+2016-06-30 13:57:34,017 [main] INFO Response - JSON Response Message:{
+  "Output": {
+    "EndDt": {
+      "Immutable": false,
+      "Attribs": 1
+    },
+    "PrdctParentAccountNo": {
+      "Immutable": false,
+      "Value": 290,
+      "Attribs": 1
+    },
+    "PrdctParentSubscrNo": {
+      "Immutable": false,
+      "Value": 999999999,
+      "Attribs": 1
+    },
+    "PrdctParentSubscrNoResets": {
+      "Immutable": false,
+      "Value": 999999,
+      "Attribs": 1
+    },
+    "ServerId": {
+      "Immutable": false,
+      "Value": 999,
+      "Attribs": 1
+    },
+    "StartDt": {
+      "Immutable": false,
+      "Value": "May 10, 2016 11:00:00 AM",
+      "Attribs": 1
+    },
+    "GroupId": {
+      "Immutable": false,
+      "Value": 8,
+      "Attribs": 1
+    },
+    "GroupIdServ": {
+      "Immutable": false,
+      "Value": 1,
+      "Attribs": 1
+    },
+    "TrackingId": {
+      "Immutable": false,
+      "Value": 2,
+      "Attribs": 1
+    },
+    "TrackingIdServ": {
+      "Immutable": false,
+      "Value": 3,
+      "Attribs": 1
+    },
+    "Attribs": 0
+  },
+  "WarningCodes": [],
+  "TotalCount": 1,
+  "ServerDate": "Jun 30, 2016 6:57:32 AM",
+  "ProductVersion": "FX4.0",
+  "ServerLocator": {}
+}
+2016-06-30 13:57:34,017 [main] INFO SimpleRestTestGet - SimpleRestTestGet test is completed!
+2016-06-30 14:04:38,715 [main] INFO SimpleRestTestGet - Executing SimpleRestTestGet test
+2016-06-30 14:04:39,451 [main] INFO HomePage - Firefox browser instance was successfully initiated.
+2016-06-30 14:04:39,781 [main] INFO HomePage - Home Page is presented.
+2016-06-30 14:04:40,284 [main] INFO Request - URL is added.
+2016-06-30 14:04:40,764 [main] INFO Request - The request is executed.
+2016-06-30 14:04:41,734 [main] INFO Response - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+748
+Content-Type
+: 
+application/json;charset=ISO-8859-1
+Date
+: 
+Thu, 30 Jun 2016 11:04:40 GMT
+Server
+: 
+Apache-Coyote/1.1
+2016-06-30 14:04:42,260 [main] INFO Response - Response Body (Preview) tab is selected
+2016-06-30 14:04:42,480 [main] INFO Response - JSON Response Message:{
+  "Output": {
+    "EndDt": {
+      "Immutable": false,
+      "Attribs": 1
+    },
+    "PrdctParentAccountNo": {
+      "Immutable": false,
+      "Value": 290,
+      "Attribs": 1
+    },
+    "PrdctParentSubscrNo": {
+      "Immutable": false,
+      "Value": 999999999,
+      "Attribs": 1
+    },
+    "PrdctParentSubscrNoResets": {
+      "Immutable": false,
+      "Value": 999999,
+      "Attribs": 1
+    },
+    "ServerId": {
+      "Immutable": false,
+      "Value": 999,
+      "Attribs": 1
+    },
+    "StartDt": {
+      "Immutable": false,
+      "Value": "May 10, 2016 11:00:00 AM",
+      "Attribs": 1
+    },
+    "GroupId": {
+      "Immutable": false,
+      "Value": 8,
+      "Attribs": 1
+    },
+    "GroupIdServ": {
+      "Immutable": false,
+      "Value": 1,
+      "Attribs": 1
+    },
+    "TrackingId": {
+      "Immutable": false,
+      "Value": 2,
+      "Attribs": 1
+    },
+    "TrackingIdServ": {
+      "Immutable": false,
+      "Value": 3,
+      "Attribs": 1
+    },
+    "Attribs": 0
+  },
+  "WarningCodes": [],
+  "TotalCount": 1,
+  "ServerDate": "Jun 30, 2016 7:04:40 AM",
+  "ProductVersion": "FX4.0",
+  "ServerLocator": {}
+}
+2016-06-30 14:04:42,480 [main] INFO SimpleRestTestGet - SimpleRestTestGet test is completed!
+2016-06-30 15:26:27,052 [main] INFO SimpleRestTestGet - Executing SimpleRestTestGet test
+2016-06-30 15:26:27,743 [main] INFO HomePage - Firefox browser instance was successfully initiated.
+2016-06-30 15:26:28,073 [main] INFO HomePage - Home Page is presented.
+2016-06-30 15:26:28,374 [main] INFO Request - URL is added.
+2016-06-30 15:26:28,734 [main] INFO Request - The request is executed.
+2016-06-30 15:26:29,596 [main] INFO Response - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+748
+Content-Type
+: 
+application/json;charset=ISO-8859-1
+Date
+: 
+Thu, 30 Jun 2016 12:26:29 GMT
+Server
+: 
+Apache-Coyote/1.1
+2016-06-30 15:26:30,017 [main] INFO Response - Response Body (Preview) tab is selected
+2016-06-30 15:26:30,167 [main] INFO Response - JSON Response Message:{
+  "Output": {
+    "EndDt": {
+      "Immutable": false,
+      "Attribs": 1
+    },
+    "PrdctParentAccountNo": {
+      "Immutable": false,
+      "Value": 290,
+      "Attribs": 1
+    },
+    "PrdctParentSubscrNo": {
+      "Immutable": false,
+      "Value": 999999999,
+      "Attribs": 1
+    },
+    "PrdctParentSubscrNoResets": {
+      "Immutable": false,
+      "Value": 999999,
+      "Attribs": 1
+    },
+    "ServerId": {
+      "Immutable": false,
+      "Value": 999,
+      "Attribs": 1
+    },
+    "StartDt": {
+      "Immutable": false,
+      "Value": "May 10, 2016 11:00:00 AM",
+      "Attribs": 1
+    },
+    "GroupId": {
+      "Immutable": false,
+      "Value": 8,
+      "Attribs": 1
+    },
+    "GroupIdServ": {
+      "Immutable": false,
+      "Value": 1,
+      "Attribs": 1
+    },
+    "TrackingId": {
+      "Immutable": false,
+      "Value": 2,
+      "Attribs": 1
+    },
+    "TrackingIdServ": {
+      "Immutable": false,
+      "Value": 3,
+      "Attribs": 1
+    },
+    "Attribs": 0
+  },
+  "WarningCodes": [],
+  "TotalCount": 1,
+  "ServerDate": "Jun 30, 2016 8:26:29 AM",
+  "ProductVersion": "FX4.0",
+  "ServerLocator": {}
+}
+2016-06-30 15:26:30,167 [main] INFO SimpleRestTestGet - SimpleRestTestGet test is completed!
+2016-06-30 15:27:36,507 [main] INFO SimpleRestTestGet - Executing SimpleRestTestGet test
+2016-06-30 15:27:37,109 [main] INFO HomePage - Firefox browser instance was successfully initiated.
+2016-06-30 15:27:37,479 [main] INFO HomePage - Home Page is presented.
+2016-06-30 15:27:37,799 [main] INFO Request - URL is added.
+2016-06-30 15:27:38,210 [main] INFO Request - The request is executed.
+2016-06-30 15:27:38,800 [main] INFO Response - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+748
+Content-Type
+: 
+application/json;charset=ISO-8859-1
+Date
+: 
+Thu, 30 Jun 2016 12:27:38 GMT
+Server
+: 
+Apache-Coyote/1.1
+2016-06-30 15:27:39,252 [main] INFO Response - Response Body (Preview) tab is selected
+2016-06-30 15:27:39,392 [main] INFO Response - JSON Response Message:{
+  "Output": {
+    "EndDt": {
+      "Immutable": false,
+      "Attribs": 1
+    },
+    "PrdctParentAccountNo": {
+      "Immutable": false,
+      "Value": 290,
+      "Attribs": 1
+    },
+    "PrdctParentSubscrNo": {
+      "Immutable": false,
+      "Value": 999999999,
+      "Attribs": 1
+    },
+    "PrdctParentSubscrNoResets": {
+      "Immutable": false,
+      "Value": 999999,
+      "Attribs": 1
+    },
+    "ServerId": {
+      "Immutable": false,
+      "Value": 999,
+      "Attribs": 1
+    },
+    "StartDt": {
+      "Immutable": false,
+      "Value": "May 10, 2016 11:00:00 AM",
+      "Attribs": 1
+    },
+    "GroupId": {
+      "Immutable": false,
+      "Value": 8,
+      "Attribs": 1
+    },
+    "GroupIdServ": {
+      "Immutable": false,
+      "Value": 1,
+      "Attribs": 1
+    },
+    "TrackingId": {
+      "Immutable": false,
+      "Value": 2,
+      "Attribs": 1
+    },
+    "TrackingIdServ": {
+      "Immutable": false,
+      "Value": 3,
+      "Attribs": 1
+    },
+    "Attribs": 0
+  },
+  "WarningCodes": [],
+  "TotalCount": 1,
+  "ServerDate": "Jun 30, 2016 8:27:38 AM",
+  "ProductVersion": "FX4.0",
+  "ServerLocator": {}
+}
+2016-06-30 15:27:39,392 [main] INFO SimpleRestTestGet - SimpleRestTestGet test is completed!
+2016-06-30 16:59:57,672 [main] INFO SimpleRestTestGet - Executing SimpleRestTestGet test
+2016-06-30 16:59:59,163 [main] INFO HomePage - Firefox browser instance was successfully initiated.
+2016-06-30 16:59:59,472 [main] INFO HomePage - Home Page is presented.
+2016-06-30 16:59:59,794 [main] INFO Request - URL is added.
+2016-06-30 17:00:00,109 [main] INFO Request - The request is executed.
+2016-06-30 17:00:00,926 [main] INFO Response - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+749
+Content-Type
+: 
+application/json;charset=ISO-8859-1
+Date
+: 
+Thu, 30 Jun 2016 14:00:00 GMT
+Server
+: 
+Apache-Coyote/1.1
+2016-06-30 17:00:01,363 [main] INFO Response - Response Body (Preview) tab is selected
+2016-06-30 17:00:01,492 [main] INFO Response - JSON Response Message:{
+  "Output": {
+    "EndDt": {
+      "Immutable": false,
+      "Attribs": 1
+    },
+    "PrdctParentAccountNo": {
+      "Immutable": false,
+      "Value": 290,
+      "Attribs": 1
+    },
+    "PrdctParentSubscrNo": {
+      "Immutable": false,
+      "Value": 999999999,
+      "Attribs": 1
+    },
+    "PrdctParentSubscrNoResets": {
+      "Immutable": false,
+      "Value": 999999,
+      "Attribs": 1
+    },
+    "ServerId": {
+      "Immutable": false,
+      "Value": 999,
+      "Attribs": 1
+    },
+    "StartDt": {
+      "Immutable": false,
+      "Value": "May 10, 2016 11:00:00 AM",
+      "Attribs": 1
+    },
+    "GroupId": {
+      "Immutable": false,
+      "Value": 8,
+      "Attribs": 1
+    },
+    "GroupIdServ": {
+      "Immutable": false,
+      "Value": 1,
+      "Attribs": 1
+    },
+    "TrackingId": {
+      "Immutable": false,
+      "Value": 2,
+      "Attribs": 1
+    },
+    "TrackingIdServ": {
+      "Immutable": false,
+      "Value": 3,
+      "Attribs": 1
+    },
+    "Attribs": 0
+  },
+  "WarningCodes": [],
+  "TotalCount": 1,
+  "ServerDate": "Jun 30, 2016 10:00:00 AM",
+  "ProductVersion": "FX4.0",
+  "ServerLocator": {}
+}
+2016-06-30 17:00:01,493 [main] INFO SimpleRestTestGet - SimpleRestTestGet test is completed!
