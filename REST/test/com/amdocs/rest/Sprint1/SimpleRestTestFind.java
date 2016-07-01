@@ -1,4 +1,4 @@
-package com.amdocs.rest.test;
+package com.amdocs.rest.Sprint1;
 
 import java.util.concurrent.TimeUnit;
 
@@ -30,18 +30,18 @@ public class SimpleRestTestFind {
 	@Test
 	public void SimpleRestTestForGetMethod() {
 	
-	logger.info("Executing SimpleRestTestGet test");
-		HomePage.goTo();
-		HomePage.verifyHomePagePresented("RESTClient");
+//	logger.info("Executing SimpleRestTestGet test");
+//		HomePage.goTo();
+//		HomePage.verifyHomePagePresented("RESTClient");
 //		Request.chooseMethod("GET");
 //		Request.verifyMethodSelection("GET");
-		Request.addURL();
-		Request.submitRequest();
-		Response.verifySuccessResponse("200 OK");
-		Response.goToResponseBodyTab("Response Body (Preview)");
-		Response.collectResponseBodyTabData();
-	
-	logger.info("SimpleRestTestFind test is completed!");
+//		Request.addURL();
+//		Request.submitRequest();
+//		Response.verifySuccessResponse("200 OK");
+//		Response.goToResponseBodyTab("Response Body (Preview)");
+//		Response.collectResponseBodyTabData();
+//	
+//	logger.info("SimpleRestTestFind test is completed!");
 //	System.out.println("Test is completed!");
 	
 	}

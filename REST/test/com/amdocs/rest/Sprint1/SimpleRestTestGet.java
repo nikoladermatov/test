@@ -1,4 +1,4 @@
-package com.amdocs.rest.test;
+package com.amdocs.rest.Sprint1;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
