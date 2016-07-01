@@ -28,20 +28,21 @@ import com.amdocs.rest.utils.Browser;
 
 		@Test
 		public void SimpleRestTestForGetMethod() {
-		
-		logger.info("Executing SimpleRestTestGet test");
+	
+			String url = "http://10.230.21.49:8080/fx_rest/rest/HqGroupProducts?GroupId=8&GroupIdServ=1&TrackingId=2&TrackingIdServ=3" ;
+						
+			logger.info("Executing SimpleRestTestGet test");
+			
 			HomePage.goTo();
 			HomePage.verifyHomePagePresented("RESTClient");
-//			Request.chooseMethod("GET");
-//			Request.verifyMethodSelection("GET");
-			Request.addURL();
+			Request.chooseMethod("GET");
+			Request.addURL(url);
 			Request.submitRequest();
 			Response.verifySuccessResponse("200 OK");
 			Response.goToResponseBodyTab("Response Body (Preview)");
 			Response.collectResponseBodyTabData();
 		
-		logger.info("SimpleRestTestGet test is completed!");
-//		System.out.println("Test is completed!");
+			logger.info("SimpleRestTestGet test is completed!");
 			
 		}
 }
