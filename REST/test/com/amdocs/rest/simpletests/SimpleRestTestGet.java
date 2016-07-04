@@ -1,4 +1,9 @@
-package com.amdocs.rest.Sprint1;
+package com.amdocs.rest.simpletests;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
@@ -14,7 +19,7 @@ import com.amdocs.rest.utils.Browser;
 	public class SimpleRestTestGet {
 		
 		static Logger logger = Logger.getLogger("SimpleRestTestGet");
-		
+
 		@Before
 		public void setup() {
 			Browser.init();
@@ -27,16 +32,20 @@ import com.amdocs.rest.utils.Browser;
 		}
 
 		@Test
-		public void SimpleRestTestForGetMethod() {
-	
-			String url = "http://10.230.21.49:8080/fx_rest/rest/HqGroupProducts?GroupId=8&GroupIdServ=1&TrackingId=2&TrackingIdServ=3" ;
-						
+		public void SimpleRestTestForGetMethod() throws Exception {
+		
+			//test settings
+			FileInputStream  configfile = new FileInputStream("config.properties");
+			Properties prop = new Properties();
+			prop.load(configfile);
+			
+			//test execution
 			logger.info("Executing SimpleRestTestGet test");
 			
 			HomePage.goTo();
 			HomePage.verifyHomePagePresented("RESTClient");
 			Request.chooseMethod("GET");
-			Request.addURL(url);
+			Request.addURL(prop.getProperty("HqGroupProductGetUrl"));
 			Request.submitRequest();
 			Response.verifySuccessResponse("200 OK");
 			Response.goToResponseBodyTab("Response Body (Preview)");

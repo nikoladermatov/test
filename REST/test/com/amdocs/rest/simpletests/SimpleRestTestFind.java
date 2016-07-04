@@ -1,8 +1,15 @@
-package com.amdocs.rest.Sprint1;
+package com.amdocs.rest.simpletests;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Appender;
+import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.apache.log4j.PatternLayout;
+import org.apache.log4j.DailyRollingFileAppender;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -16,7 +23,7 @@ import com.amdocs.rest.utils.Browser;
 public class SimpleRestTestFind {
 
 	
-	static Logger logger = Logger.getLogger("SimpleRestTestGet");
+	static Logger logger = Logger.getLogger("SimpleRestTestFind");
 	
 	@Before
 	public void setup() {
@@ -30,18 +37,21 @@ public class SimpleRestTestFind {
 	}
 
 	@Test
-	public void SimpleRestTestFindMethod() {
-	
-		String url = "http://10.230.21.49:8080/fx_rest/rest/HqGroupProducts/find" ;
-		String payload = "{\"GroupId\":{\"filters\":[{\"StringLike\":{\"Value\":\"8%\",\"negated\":false}}]},\"GroupIdServ\":{\"filters\":[{\"IntegerEquals\":{\"Value\":1,\"negated\":false}}]}}";
-				
+	public void SimpleRestTestFindMethod() throws Exception {
+
+		//test settings
+		FileInputStream  configfile = new FileInputStream("config.properties");
+		Properties prop =new Properties();
+		prop.load(configfile);	
+		
+		//test execution
 		logger.info("Executing SimpleRestTestFind test");
 		
 		HomePage.goTo();
 		HomePage.verifyHomePagePresented("RESTClient");
 		Request.chooseMethod("POST");
-		Request.addURL(url);
-		Body.addPayload(payload);
+		Request.addURL(prop.getProperty("HqGroupProductFindUrl"));
+		Body.addPayload(prop.getProperty("HqGroupProductFindPayload"));
 		Request.submitRequest();
 		Response.verifySuccessResponse("200 OK");
 		Response.goToResponseBodyTab("Response Body (Preview)");
