@@ -4,12 +4,10 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
+import java.io.File;
+import java.io.IOException;
 
-import org.apache.log4j.Appender;
-import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.apache.log4j.PatternLayout;
-import org.apache.log4j.DailyRollingFileAppender;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -19,11 +17,12 @@ import com.amdocs.rest.init.HomePage;
 import com.amdocs.rest.init.Request;
 import com.amdocs.rest.init.Response;
 import com.amdocs.rest.utils.Browser;
+import com.amdocs.rest.utils.DatabaseUtil;
 
-public class SimpleRestTestFind {
+public class DBconnectionTest {
 
 	
-	static Logger logger = Logger.getLogger("SimpleRestTestFind");
+	static Logger logger = Logger.getLogger("SimpleRestTestCreate");
 	
 	@Before
 	public void setup() {
@@ -31,10 +30,10 @@ public class SimpleRestTestFind {
 		Browser.driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	}
 
-	@After
-	public void tearDown() {
-		Browser.quitBrowser();
-	}
+//	@After
+//	public void tearDown() {
+//		Browser.quitBrowser();
+//	}
 
 	@Test
 	public void SimpleRestTestFindMethod() throws Exception {
@@ -45,19 +44,22 @@ public class SimpleRestTestFind {
 		prop.load(configfile);	
 		
 		//test execution
-		logger.info("Executing SimpleRestTestFind test");
+		logger.info("Executing SimpleRestTestCreate test"); 
 		
 		HomePage.goTo();
 		HomePage.verifyHomePagePresented("RESTClient");
 		Request.chooseMethod("POST");
-		Request.addURL(prop.getProperty("HqGroupProductFindUrl"));
-		Body.addPayload(prop.getProperty("HqGroupProductFindPayload"));
-		Request.submitRequest();
-		Response.verifySuccessResponse("200 OK");
-		Response.goToResponseBodyTab("Response Body (Preview)");
-		Response.collectResponseBodyTabData();
-	
-		logger.info("SimpleRestTestFind test is completed!");
+		Request.addURL(prop.getProperty("HqGroupProductCreateUrl"));
+		//Change the trackingId before execution, its a key field and should be unique.
+//		DatabaseUtil.executeQuery(prop.getProperty("HqGroupProductCreateQuery"), prop.getProperty("HqGroupProductCreateQueryColumn"));
+		DatabaseUtil.getHqGroupProductTrackingId();
+//		Body.addPayload(prop.getProperty("HqGroupProductCreatePayload"));
+//		Request.submitRequest();
+//		Response.verifySuccessResponse("200 OK");
+//		Response.goToResponseBodyTab("Response Body (Preview)");
+//		Response.collectResponseBodyTabData();
+//	
+//		logger.info("SimpleRestTestCreate test is completed!");
 		
 	}
 }

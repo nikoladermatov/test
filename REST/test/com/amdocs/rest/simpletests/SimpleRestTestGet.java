@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.FileAppender;
 import org.apache.log4j.Logger;
 import org.junit.After;
 import org.junit.Before;
@@ -35,7 +36,7 @@ import com.amdocs.rest.utils.Browser;
 		public void SimpleRestTestForGetMethod() throws Exception {
 		
 			//test settings
-			FileInputStream  configfile = new FileInputStream("config.properties");
+			FileInputStream  configfile = new FileInputStream("properties/config.properties");
 			Properties prop = new Properties();
 			prop.load(configfile);
 			

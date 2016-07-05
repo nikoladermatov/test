@@ -17,6 +17,7 @@ import com.amdocs.rest.init.HomePage;
 import com.amdocs.rest.init.Request;
 import com.amdocs.rest.init.Response;
 import com.amdocs.rest.utils.Browser;
+import com.amdocs.rest.utils.DatabaseUtil;
 
 public class SimpleRestTestCreate {
 
@@ -38,7 +39,7 @@ public class SimpleRestTestCreate {
 	public void SimpleRestTestFindMethod() throws Exception {
 
 		//test settings
-		FileInputStream  configfile = new FileInputStream("config.properties");
+		FileInputStream  configfile = new FileInputStream("properties/config.properties");
 		Properties prop =new Properties();
 		prop.load(configfile);	
 		
@@ -50,6 +51,8 @@ public class SimpleRestTestCreate {
 		Request.chooseMethod("POST");
 		Request.addURL(prop.getProperty("HqGroupProductCreateUrl"));
 		//Change the trackingId before execution, its a key field and should be unique.
+//		DatabaseUtil.executeQuery(prop.getProperty("HqGroupProductCreateQuery"), prop.getProperty("HqGroupProductCreateQueryColumn"));
+//		DatabaseUtil.getHqGroupProductTrackingId();
 		Body.addPayload(prop.getProperty("HqGroupProductCreatePayload"));
 		Request.submitRequest();
 		Response.verifySuccessResponse("200 OK");
