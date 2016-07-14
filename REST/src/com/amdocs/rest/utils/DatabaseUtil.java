@@ -72,22 +72,66 @@ public class DatabaseUtil {
 			}
 			
 			
-			public static void getHqGroupProductTrackingId() {
-				Connection connection = conn();
-				String query = "select * from HQ_GROUP_PRODUCTS order by tracking_id desc";	
+			public static void getHqGroupProductTrackingId() throws SQLException {
+						
+					Connection connection = conn();
+					
+//					java.sql.Statement stmt = null;
+				    String query = "select MAX(tracking_id)+3 from HQ_GROUP_PRODUCTS";
+
+				    try {
+				    	java.sql.Statement stmt = connection.createStatement();
+				        ResultSet rs = stmt.executeQuery(query);
+				        while (rs.next()) {
+//				            String hqGroupProducts = rs.getString("HQ_GROUP_PRODUCTS");
+				            int trackingId = rs.getInt("TRACKING_ID");
+				            System.out.println(trackingId);
+				        }}
+					    catch (SQLException ex) {
+					      System.out.println(ex);
+					    }
+					
+						
+//				   try {
+//					   	  java.sql.Statement stmt = connection.createStatement();
+//					      String query = "select MAX(tracking_id)+3 from HQ_GROUP_PRODUCTS";
+//					      ResultSet result = (ResultSet) stmt.executeQuery(query);
+//					      if (result.next()) {
+//					        while (result.next()) {
+//					          // Fetch value of "username" and "password" from "result"
+//					          // object; this will return 2 existing users in the DB.
+//
+//					         
+//					          String trackingId = result.getString("tracking_id");
+//					          
+//					          // print them on the console
+//					          System.out.println(result);
+//					          
+//					        }
+//					        result.close();
+//					      }
+//					    }
+//
+//					    catch (SQLException ex) {
+//					      System.out.println(ex);
+//					    }
 				
-				try {
-
-					java.sql.Statement stmt = connection.createStatement();
-					stmt.executeQuery(query);
-					ResultSet rs = (ResultSet) stmt.executeQuery(query);
-					System.out.println(rs);
-					stmt.close();
-					connection.close();
-
-				} catch (SQLException e) {
-					e.printStackTrace();
-					throw new SkipException("Insert comment failed");
-				}
-	    }	
+//				String query = "select MAX(tracking_id)+3 from HQ_GROUP_PRODUCTS";	
+//				
+//				try {
+//
+//					java.sql.Statement stmt = connection.createStatement();
+//					stmt.executeQuery(query);
+//					ResultSet rs = (ResultSet) stmt.executeQuery(query);
+//					System.out.println(rs);
+//					stmt.close();
+//					connection.close();
+//					
+//				} catch (SQLException e) {
+//					e.printStackTrace();
+//					throw new SkipException("Insert comment failed");
+//				}
+//	    }	
+						
+			}					
 }
