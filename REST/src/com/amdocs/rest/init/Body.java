@@ -15,12 +15,11 @@ public class Body {
 	static Logger logger = Logger.getLogger("Body");
 	
 	public static void addPayload(String string) {
-		Browser.driver.findElement(By.id("request-body")).sendKeys(string);
-//		System.out.println("URL is added.");
-		logger.info("Payload was successfully added.");
+		// Add the previously created payload to the request
 		
-		System.out.println("Payload was successfully added.");
-	}
+		Browser.driver.findElement(By.id("request-body")).sendKeys(string);
+		logger.info("Payload was successfully added.");
+	  }
 
 
 	

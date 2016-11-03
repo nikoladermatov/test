@@ -50,10 +50,10 @@ public class SimpleRestTestFind {
 		HomePage.goTo();
 		HomePage.verifyHomePagePresented("RESTClient");
 		Request.chooseMethod("POST");
-		Request.addURL(prop.getProperty("HqGroupProductFindUrl"));
+//		Request.addURL(prop.getProperty("HqGroupProductFindUrl"));
 		Body.addPayload(prop.getProperty("HqGroupProductFindPayload"));
 		Request.submitRequest();
-		Response.verifySuccessResponse("200 OK");
+		Response.verifyResponseStatus("200 OK");
 		Response.goToResponseBodyTab("Response Body (Preview)");
 		Response.collectResponseBodyTabData();
 	

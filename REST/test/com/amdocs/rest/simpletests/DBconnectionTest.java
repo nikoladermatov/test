@@ -49,7 +49,7 @@ public class DBconnectionTest {
 		HomePage.goTo();
 		HomePage.verifyHomePagePresented("RESTClient");
 		Request.chooseMethod("POST");
-		Request.addURL(prop.getProperty("HqGroupProductCreateUrl"));
+//		Request.addURL(prop.getProperty("HqGroupProductCreateUrl"));
 		//Change the trackingId before execution, its a key field and should be unique.
 //		DatabaseUtil.executeQuery(prop.getProperty("HqGroupProductCreateQuery"), prop.getProperty("HqGroupProductCreateQueryColumn"));
 		DatabaseUtil.getHqGroupProductTrackingId();

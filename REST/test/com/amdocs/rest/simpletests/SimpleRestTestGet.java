@@ -46,9 +46,9 @@ import com.amdocs.rest.utils.Browser;
 			HomePage.goTo();
 			HomePage.verifyHomePagePresented("RESTClient");
 			Request.chooseMethod("GET");
-			Request.addURL(prop.getProperty("HqGroupProductGetUrl"));
+//			Request.addURL(prop.getProperty("TMW_OPTIMA_220_001_URL"));
 			Request.submitRequest();
-			Response.verifySuccessResponse("200 OK");
+			Response.verifyResponseStatus("200 OK");
 			Response.goToResponseBodyTab("Response Body (Preview)");
 			Response.collectResponseBodyTabData();
 		

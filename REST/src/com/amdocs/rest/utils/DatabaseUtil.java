@@ -3,28 +3,33 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.Map;
 
+import org.apache.log4j.Logger;
 import org.testng.SkipException;
 
 public class DatabaseUtil {
 
 	static ResultSet res;
-
+	static Logger logger = Logger.getLogger("DatabaseUtil");
+	
 			private static Connection conn() {
-				// Load the JDBC driver
-				String driverName = "oracle.jdbc.OracleDriver";
-				Connection connection = null;
+					// Load the JDBC driver
+				
+					String driverName = "oracle.jdbc.OracleDriver";
+					Connection connection = null;
 				try {
 					Class.forName(driverName);
+					
 				} catch (ClassNotFoundException e) {
 					e.printStackTrace();
 				}
 
 				// Create a connection to the database
 				Connection conn = null;
-				String url = "jdbc:oracle:thin:@10.8.32.232:1521/CATFX30";
-				String username = "fx40tc1t";
+				String url = "jdbc:oracle:thin:@10.230.16.75:1521/cust1";
+				String username = "optimaesb_10_dev";
 				String password = "arbor123";
 
 				try {
@@ -37,11 +42,7 @@ public class DatabaseUtil {
 				return connection;
 			}
 			
-			
-			
 			//Executes a query and returns a ResultSet
-			
-
 			public static String executeQuery(String query, String columnName) {
 				Connection connection = conn();
 				String result = null;
@@ -91,47 +92,32 @@ public class DatabaseUtil {
 					      System.out.println(ex);
 					    }
 					
-						
-//				   try {
-//					   	  java.sql.Statement stmt = connection.createStatement();
-//					      String query = "select MAX(tracking_id)+3 from HQ_GROUP_PRODUCTS";
-//					      ResultSet result = (ResultSet) stmt.executeQuery(query);
-//					      if (result.next()) {
-//					        while (result.next()) {
-//					          // Fetch value of "username" and "password" from "result"
-//					          // object; this will return 2 existing users in the DB.
-//
-//					         
-//					          String trackingId = result.getString("tracking_id");
-//					          
-//					          // print them on the console
-//					          System.out.println(result);
-//					          
-//					        }
-//					        result.close();
-//					      }
-//					    }
-//
-//					    catch (SQLException ex) {
-//					      System.out.println(ex);
-//					    }
+					
+			}
+
+
+
+			public static void verifyDBrecordForDeposits() throws SQLException {
+				Connection connection = conn();
 				
-//				String query = "select MAX(tracking_id)+3 from HQ_GROUP_PRODUCTS";	
-//				
-//				try {
-//
-//					java.sql.Statement stmt = connection.createStatement();
-//					stmt.executeQuery(query);
-//					ResultSet rs = (ResultSet) stmt.executeQuery(query);
-//					System.out.println(rs);
-//					stmt.close();
-//					connection.close();
-//					
-//				} catch (SQLException e) {
-//					e.printStackTrace();
-//					throw new SkipException("Insert comment failed");
-//				}
-//	    }	
-						
+			    String query = "select tracking_id, tracking_id_serv, account_no from DEPOSIT WHERE ROWNUM <= 1 order by tracking_id desc";
+
+			    try {
+			    	java.sql.Statement stmt = connection.createStatement();
+			        ResultSet rs = stmt.executeQuery(query);
+			        while (rs.next()) {
+
+			            int trackingId = rs.getInt("TRACKING_ID");
+			            int trackingIdServ = rs.getInt("TRACKING_ID_SERV");
+			            int accountNo = rs.getInt("ACCOUNT_NO");
+			            
+			            logger.info("The latest DB record for Customer Deposit is : " + "TrackingID :"  + trackingId + " , " + "TrackingIdServ :" + trackingIdServ + " for AccountNo:" + accountNo);
+			            
+//			            System.out.println("The latest DB record for Customer Deposit is : " + "TrackingID :"  + trackingId + " , " + "TrackingIdServ :" + trackingIdServ + " for AccountNo:" + accountNo);
+			        }}
+				    catch (SQLException ex) {
+				      System.out.println(ex);
+				    }
+			
 			}					
 }
