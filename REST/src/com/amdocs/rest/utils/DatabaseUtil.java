@@ -6,7 +6,10 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Map;
 
+import org.junit.Assert;
+
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.testng.SkipException;
 
 public class DatabaseUtil {
@@ -119,5 +122,28 @@ public class DatabaseUtil {
 				      System.out.println(ex);
 				    }
 			
-			}					
+			}
+			
+			public static void AssertDBrecordForDeposits() throws SQLException {
+				Connection connection = conn();
+				
+			    String query = "select tracking_id from DEPOSIT WHERE ROWNUM <= 1 order by tracking_id desc";
+			    String responseMessageText = Browser.driver.findElement(By.cssSelector("span[class='header-value']")).getText();
+
+			    try {
+			    	java.sql.Statement stmt = connection.createStatement();
+			        ResultSet rs = stmt.executeQuery(query);
+			        while (rs.next()) {
+
+			            int trackingId = rs.getInt("TRACKING_ID");
+			            Assert.assertEquals(responseMessageText, responseMessageText.contains(query), false);
+			            
+			            logger.info("The response is presenting the same TRACKING_ID as the one at the DB : " + trackingId);       
+			        }}
+				    catch (SQLException ex) {
+				      System.out.println(ex);
+				    }
+			    
+			}
+			
 }

@@ -177,7 +177,8 @@ public class Response {
 		try {
 				
 				// If the text is presented continue with the next
-				Assert.assertTrue(Browser.driver.findElement(By.cssSelector("div[class='pre']")).getText().contains(string)); 			
+				Assert.assertTrue(Browser.driver.findElement(By.cssSelector("div[class='pre']")).getText().contains(string));
+				string.split(",");
 				logger.info(string + " field is presented at the Response!");
 				
 			} catch (AssertionError e) {

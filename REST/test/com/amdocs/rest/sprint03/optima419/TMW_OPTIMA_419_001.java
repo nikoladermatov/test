@@ -25,18 +25,31 @@ public class TMW_OPTIMA_419_001 {
 		Browser.driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 	}
 
-	@After
-	public void tearDown() {
-		Browser.quitBrowser();
-	}
+//	@After
+//	public void tearDown() {
+//		Browser.quitBrowser();
+//	}
 
 	@Test
 	public void Optima419_001() throws Exception {
 	
 		//test settings
-		FileInputStream  configfile = new FileInputStream("properties/config.properties");
-		Properties prop = new Properties();
-		prop.load(configfile);
+		FileInputStream  env = new FileInputStream("properties/env.properties");
+		FileInputStream  services = new FileInputStream("properties/services.properties");
+		FileInputStream  parameters = new FileInputStream("properties/parameters.properties");
+		FileInputStream  config = new FileInputStream("properties/config.properties");
+		Properties propenv = new Properties();
+		Properties propservices = new Properties();
+		Properties propparameters = new Properties();
+		Properties propconfig = new Properties();
+		propenv.load(env);
+		propservices.load(services);
+		propparameters.load(parameters);
+		propconfig.load(config);
+		propconfig.entrySet();
+		
+		//set Test Data:
+		int AccountInternalId = 135;
 		
 		//test execution
 		logger.info("######################          Executing TMW_OPTIMA_419_001 test          ######################");
@@ -45,14 +58,22 @@ public class TMW_OPTIMA_419_001 {
 		HomePage.verifyHomePagePresented("RESTClient");
 		Request.chooseMethod("POST");
 		Request.addContentTypeHeader("Content-Type","application/json");
-		Request.addURL(prop.getProperty("TMW_OPTIMA_419_001_URL"));
-		Request.addPayload(prop.getProperty("TMW_OPTIMA_419_001_Payload"));
+		Request.buildURL(
+				//set environment ENDPOINT for the test
+				propenv.getProperty("DEV") +
+				//set required type ACCOUNT / SERVICE and accompanying Test Data
+				propservices.getProperty("customeraccount") + AccountInternalId + 
+				//set required SERVICE and accompanying Test Data
+				propservices.getProperty("customerdeposits") 			
+				);
+		Request.addPayload(propconfig.getProperty("TMW_OPTIMA_419_001_Payload"));
 		Request.submitRequest();
-		Response.verifyResponseStatus("200 OK");
-		Browser.driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+		Response.verifyResponseStatus("201 Created");
 		Response.goToResponseBodyTab("Response Body (Preview)");
+		Response.verifyTextPresence("Success");
 		Response.collectResponseBodyTabData();
 		DatabaseUtil.verifyDBrecordForDeposits();
+		DatabaseUtil.AssertDBrecordForDeposits();
 		
 		logger.info("######################          TMW_OPTIMA_419_001 test is completed!      ######################");
 		
