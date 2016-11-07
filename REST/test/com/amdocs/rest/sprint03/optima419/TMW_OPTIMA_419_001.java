@@ -64,13 +64,13 @@ public class TMW_OPTIMA_419_001 {
 				//set required type ACCOUNT / SERVICE and accompanying Test Data
 				propservices.getProperty("customeraccount") + AccountInternalId + 
 				//set required SERVICE and accompanying Test Data
-				propservices.getProperty("customerdeposits") 			
-				);
+				propservices.getProperty("customerdeposits"));
 		Request.addPayload(propconfig.getProperty("TMW_OPTIMA_419_001_Payload"));
 		Request.submitRequest();
 		Response.verifyResponseStatus("201 Created");
 		Response.goToResponseBodyTab("Response Body (Preview)");
 		Response.verifyTextPresence("Success");
+		
 		Response.collectResponseBodyTabData();
 		DatabaseUtil.verifyDBrecordForDeposits();
 		DatabaseUtil.AssertDBrecordForDeposits();
