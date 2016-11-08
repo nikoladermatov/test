@@ -3,6 +3,7 @@ package com.amdocs.rest.init;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -173,12 +174,11 @@ public class Response {
 	
 	public static void verifyBasicSummaryInformationPresence(String string) {
 		// Verify the existence of all required Basic Summary Information fields
-
+				
 		try {
 				
 				// If the text is presented continue with the next
-				Assert.assertTrue(Browser.driver.findElement(By.cssSelector("div[class='pre']")).getText().contains(string));
-				string.split(",");
+				Assert.assertTrue(Browser.driver.findElement(By.cssSelector("div[class='pre']")).getText().equals(string));
 				logger.info(string + " field is presented at the Response!");
 				
 			} catch (AssertionError e) {

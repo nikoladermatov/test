@@ -70,7 +70,6 @@ public class TMW_OPTIMA_419_001 {
 		Response.verifyResponseStatus("201 Created");
 		Response.goToResponseBodyTab("Response Body (Preview)");
 		Response.verifyTextPresence("Success");
-		
 		Response.collectResponseBodyTabData();
 		DatabaseUtil.verifyDBrecordForDeposits();
 		DatabaseUtil.AssertDBrecordForDeposits();
