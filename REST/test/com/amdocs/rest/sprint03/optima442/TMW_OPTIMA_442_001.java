@@ -84,7 +84,7 @@ public class TMW_OPTIMA_442_001 {
 		Request.submitRequest();
 		Response.verifyResponseStatus("200 OK");
 		Response.goToResponseBodyTab("Response Body (Preview)");
-		Response.verifyBasicSummaryInformationPresence(propconfig.getProperty("442"));
+		Response.verifyBasicSummaryInformationPresence(propconfig.getProperty("us442"));
 //		Response.verifyBasicSummaryInformationPresenceNew();
 //		Response.verifyBasicSummaryInformationPresenceNew111(String[] ,"442");
 		Response.verifyTextPresence("creditUnitCr");

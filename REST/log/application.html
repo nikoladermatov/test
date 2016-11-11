@@ -43032,3 +43032,507 @@ Jetty(8.1.17.v20150415)</td>
 <td>TMW_OPTIMA_442_001.java:93</td>
 <td title="Message">######################          TMW_OPTIMA_442_001 test is completed!      ######################</td>
 </tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Fri Nov 11 16:44:19 EET 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="TMW_OPTIMA_442_001 category">TMW_OPTIMA_442_001</td>
+<td>TMW_OPTIMA_442_001.java:66</td>
+<td title="Message">######################          Executing TMW_OPTIMA_442_001 test          ######################</td>
+</tr>
+
+<tr>
+<td>1536</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="HomePage category">HomePage</td>
+<td>HomePage.java:31</td>
+<td title="Message">Firefox browser instance was successfully initiated.</td>
+</tr>
+
+<tr>
+<td>1893</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="HomePage category">HomePage</td>
+<td>HomePage.java:41</td>
+<td title="Message">Home Page is successfully presented.</td>
+</tr>
+
+<tr>
+<td>2201</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="Request category">Request</td>
+<td>Request.java:61</td>
+<td title="Message">The request Method was successfully selected.</td>
+</tr>
+
+<tr>
+<td>3232</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="Request category">Request</td>
+<td>Request.java:35</td>
+<td title="Message">The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&amp;maxcount=2</td>
+</tr>
+
+<tr>
+<td>7236</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="Response category">Response</td>
+<td>Response.java:61</td>
+<td title="Message">Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 14:45:57 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)</td>
+</tr>
+
+<tr>
+<td>7536</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="Response category">Response</td>
+<td>Response.java:74</td>
+<td title="Message">Response Body (Preview) tab is successfully selected</td>
+</tr>
+
+<tr>
+<td>7604</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="Response category">Response</td>
+<td>Response.java:92</td>
+<td title="Message">Validation was done and 'creditUnitCr' is successfully presented!</td>
+</tr>
+
+<tr>
+<td>7662</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="Response category">Response</td>
+<td>Response.java:82</td>
+<td title="Message">JSON Response Message:{
+  &quot;code&quot;: 0,
+  &quot;response&quot;: [
+    {
+      &quot;billRefNo&quot;: 15201,
+      &quot;toDate&quot;: &quot;2016-04-01T04:00:00Z&quot;,
+      &quot;statementDate&quot;: &quot;2016-04-01T04:00:00Z&quot;,
+      &quot;postPaidBilledRcTotal&quot;: 0,
+      &quot;fromDate&quot;: &quot;2016-03-01T05:00:00Z&quot;,
+      &quot;paymentDueDate&quot;: &quot;2016-04-28T04:00:00Z&quot;,
+      &quot;creditUnitCr&quot;: [
+        {
+          &quot;serviceInternalId&quot;: 82,
+          &quot;serviceInternalIdResets&quot;: 0,
+          &quot;contractId&quot;: 25001,
+          &quot;contractTypeDescription&quot;: {
+            &quot;key&quot;: &quot;30285556&quot;,
+            &quot;displayValue&quot;: &quot;Niko_UC_Contracts&quot;
+          },
+          &quot;unitCrId&quot;: 30373,
+          &quot;unitCrDescriptionCode&quot;: {
+            &quot;key&quot;: &quot;30285555&quot;,
+            &quot;displayValue&quot;: &quot;Niko_UC&quot;
+          },
+          &quot;domainId&quot;: 0,
+          &quot;unitCrDomain&quot;: &quot;3&quot;,
+          &quot;unitCrDomainText&quot;: &quot;Usage Charges&quot;,
+          &quot;unitsApplied&quot;: 0.6,
+          &quot;unitsAvailable&quot;: 1,
+          &quot;amountAppliedDiscCurrency&quot;: 0,
+          &quot;secondaryAmount&quot;: 0
+        }
+      ],
+      &quot;postPaidBilledUsageTotal&quot;: 0,
+      &quot;postPaidBilledNrcTotal&quot;: 0,
+      &quot;billRefResets&quot;: 0,
+      &quot;nextToDate&quot;: &quot;2016-05-01T04:00:00Z&quot;
+    }
+  ],
+  &quot;message&quot;: &quot;Success&quot;
+}</td>
+</tr>
+
+<tr>
+<td>7663</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="TMW_OPTIMA_442_001 category">TMW_OPTIMA_442_001</td>
+<td>TMW_OPTIMA_442_001.java:93</td>
+<td title="Message">######################          TMW_OPTIMA_442_001 test is completed!      ######################</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Fri Nov 11 16:45:04 EET 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="TMW_OPTIMA_442_001 category">TMW_OPTIMA_442_001</td>
+<td>TMW_OPTIMA_442_001.java:66</td>
+<td title="Message">######################          Executing TMW_OPTIMA_442_001 test          ######################</td>
+</tr>
+
+<tr>
+<td>1608</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="HomePage category">HomePage</td>
+<td>HomePage.java:31</td>
+<td title="Message">Firefox browser instance was successfully initiated.</td>
+</tr>
+
+<tr>
+<td>1875</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="HomePage category">HomePage</td>
+<td>HomePage.java:41</td>
+<td title="Message">Home Page is successfully presented.</td>
+</tr>
+
+<tr>
+<td>2157</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="Request category">Request</td>
+<td>Request.java:61</td>
+<td title="Message">The request Method was successfully selected.</td>
+</tr>
+
+<tr>
+<td>2510</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="Request category">Request</td>
+<td>Request.java:35</td>
+<td title="Message">The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&amp;maxcount=2</td>
+</tr>
+
+<tr>
+<td>3349</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="Response category">Response</td>
+<td>Response.java:61</td>
+<td title="Message">Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 14:46:03 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)</td>
+</tr>
+
+<tr>
+<td>3663</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="Response category">Response</td>
+<td>Response.java:74</td>
+<td title="Message">Response Body (Preview) tab is successfully selected</td>
+</tr>
+
+<tr>
+<td>3721</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="Response category">Response</td>
+<td>Response.java:92</td>
+<td title="Message">Validation was done and 'creditUnitCr' is successfully presented!</td>
+</tr>
+
+<tr>
+<td>3761</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="Response category">Response</td>
+<td>Response.java:82</td>
+<td title="Message">JSON Response Message:{
+  &quot;code&quot;: 0,
+  &quot;response&quot;: [
+    {
+      &quot;billRefNo&quot;: 15201,
+      &quot;toDate&quot;: &quot;2016-04-01T04:00:00Z&quot;,
+      &quot;statementDate&quot;: &quot;2016-04-01T04:00:00Z&quot;,
+      &quot;postPaidBilledRcTotal&quot;: 0,
+      &quot;fromDate&quot;: &quot;2016-03-01T05:00:00Z&quot;,
+      &quot;paymentDueDate&quot;: &quot;2016-04-28T04:00:00Z&quot;,
+      &quot;creditUnitCr&quot;: [
+        {
+          &quot;serviceInternalId&quot;: 82,
+          &quot;serviceInternalIdResets&quot;: 0,
+          &quot;contractId&quot;: 25001,
+          &quot;contractTypeDescription&quot;: {
+            &quot;key&quot;: &quot;30285556&quot;,
+            &quot;displayValue&quot;: &quot;Niko_UC_Contracts&quot;
+          },
+          &quot;unitCrId&quot;: 30373,
+          &quot;unitCrDescriptionCode&quot;: {
+            &quot;key&quot;: &quot;30285555&quot;,
+            &quot;displayValue&quot;: &quot;Niko_UC&quot;
+          },
+          &quot;domainId&quot;: 0,
+          &quot;unitCrDomain&quot;: &quot;3&quot;,
+          &quot;unitCrDomainText&quot;: &quot;Usage Charges&quot;,
+          &quot;unitsApplied&quot;: 0.6,
+          &quot;unitsAvailable&quot;: 1,
+          &quot;amountAppliedDiscCurrency&quot;: 0,
+          &quot;secondaryAmount&quot;: 0
+        }
+      ],
+      &quot;postPaidBilledUsageTotal&quot;: 0,
+      &quot;postPaidBilledNrcTotal&quot;: 0,
+      &quot;billRefResets&quot;: 0,
+      &quot;nextToDate&quot;: &quot;2016-05-01T04:00:00Z&quot;
+    }
+  ],
+  &quot;message&quot;: &quot;Success&quot;
+}</td>
+</tr>
+
+<tr>
+<td>3762</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="TMW_OPTIMA_442_001 category">TMW_OPTIMA_442_001</td>
+<td>TMW_OPTIMA_442_001.java:93</td>
+<td title="Message">######################          TMW_OPTIMA_442_001 test is completed!      ######################</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Fri Nov 11 16:47:48 EET 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="TMW_OPTIMA_442_001 category">TMW_OPTIMA_442_001</td>
+<td>TMW_OPTIMA_442_001.java:66</td>
+<td title="Message">######################          Executing TMW_OPTIMA_442_001 test          ######################</td>
+</tr>
+
+<tr>
+<td>947</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="HomePage category">HomePage</td>
+<td>HomePage.java:31</td>
+<td title="Message">Firefox browser instance was successfully initiated.</td>
+</tr>
+
+<tr>
+<td>1205</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="HomePage category">HomePage</td>
+<td>HomePage.java:41</td>
+<td title="Message">Home Page is successfully presented.</td>
+</tr>
+
+<tr>
+<td>1340</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="Request category">Request</td>
+<td>Request.java:61</td>
+<td title="Message">The request Method was successfully selected.</td>
+</tr>
+
+<tr>
+<td>1631</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="Request category">Request</td>
+<td>Request.java:35</td>
+<td title="Message">The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&amp;maxcount=2</td>
+</tr>
+
+<tr>
+<td>2533</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="Response category">Response</td>
+<td>Response.java:61</td>
+<td title="Message">Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 14:48:31 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)</td>
+</tr>
+
+<tr>
+<td>2769</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="Response category">Response</td>
+<td>Response.java:74</td>
+<td title="Message">Response Body (Preview) tab is successfully selected</td>
+</tr>
+
+<tr>
+<td>2834</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="Response category">Response</td>
+<td>Response.java:92</td>
+<td title="Message">Validation was done and 'creditUnitCr' is successfully presented!</td>
+</tr>
+
+<tr>
+<td>2896</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="Response category">Response</td>
+<td>Response.java:82</td>
+<td title="Message">JSON Response Message:{
+  &quot;code&quot;: 0,
+  &quot;response&quot;: [
+    {
+      &quot;billRefNo&quot;: 15201,
+      &quot;toDate&quot;: &quot;2016-04-01T04:00:00Z&quot;,
+      &quot;statementDate&quot;: &quot;2016-04-01T04:00:00Z&quot;,
+      &quot;postPaidBilledRcTotal&quot;: 0,
+      &quot;fromDate&quot;: &quot;2016-03-01T05:00:00Z&quot;,
+      &quot;paymentDueDate&quot;: &quot;2016-04-28T04:00:00Z&quot;,
+      &quot;creditUnitCr&quot;: [
+        {
+          &quot;serviceInternalId&quot;: 82,
+          &quot;serviceInternalIdResets&quot;: 0,
+          &quot;contractId&quot;: 25001,
+          &quot;contractTypeDescription&quot;: {
+            &quot;key&quot;: &quot;30285556&quot;,
+            &quot;displayValue&quot;: &quot;Niko_UC_Contracts&quot;
+          },
+          &quot;unitCrId&quot;: 30373,
+          &quot;unitCrDescriptionCode&quot;: {
+            &quot;key&quot;: &quot;30285555&quot;,
+            &quot;displayValue&quot;: &quot;Niko_UC&quot;
+          },
+          &quot;domainId&quot;: 0,
+          &quot;unitCrDomain&quot;: &quot;3&quot;,
+          &quot;unitCrDomainText&quot;: &quot;Usage Charges&quot;,
+          &quot;unitsApplied&quot;: 0.6,
+          &quot;unitsAvailable&quot;: 1,
+          &quot;amountAppliedDiscCurrency&quot;: 0,
+          &quot;secondaryAmount&quot;: 0
+        }
+      ],
+      &quot;postPaidBilledUsageTotal&quot;: 0,
+      &quot;postPaidBilledNrcTotal&quot;: 0,
+      &quot;billRefResets&quot;: 0,
+      &quot;nextToDate&quot;: &quot;2016-05-01T04:00:00Z&quot;
+    }
+  ],
+  &quot;message&quot;: &quot;Success&quot;
+}</td>
+</tr>
+
+<tr>
+<td>2897</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="TMW_OPTIMA_442_001 category">TMW_OPTIMA_442_001</td>
+<td>TMW_OPTIMA_442_001.java:93</td>
+<td title="Message">######################          TMW_OPTIMA_442_001 test is completed!      ######################</td>
+</tr>

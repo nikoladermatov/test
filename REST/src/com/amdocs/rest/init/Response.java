@@ -6,10 +6,12 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.Date;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -99,10 +101,10 @@ public class Response {
     	} 
 
 
-	public static void verifyBasicSummaryInformationPresence(String string)  {
-		// Verify the existence of all required Basic Summary Information fields
-			    			     
-			try {
+	public static void verifyBasicSummaryInformationPresence(String string) throws Exception  {
+			// Verify the existence of all required Basic Summary Information fields
+
+		   try {			     
 					// If the text is presented continue with the next
 					Assert.assertTrue(Browser.driver.findElement(By.cssSelector("div[class='pre']")).getText().contains(string));
 					logger.info("'" + string + "'" + " field is presented at the Response!");
@@ -115,9 +117,10 @@ public class Response {
 		}
 			logger.info("All Basic Summary Information fields are presented at the Response!");
 	}
-  
+			
 	
-	public static void verifyBasicSummaryInformationPresenceNew()  {
+	
+	public static void verify442BasicSummaryInformationPresence()  {
 		// Verify the existence of all required Basic Summary Information fields
 	
 			String[] bsf442 = {"billRefNo","billRefResets","statementDate","paymentDueDate","fromDate","toDate","nextToDate"};
@@ -137,24 +140,4 @@ public class Response {
 			logger.info("All Basic Summary Information fields are presented at the Response!");
 	}
 	
-//	public static String[][] verifyBasicSummaryInformationPresenceNew111(String string)  {
-//		// Verify the existence of all required Basic Summary Information fields
-//	
-////			String[] bsf442 = {"billRefNo","billRefResets","statementDate","paymentDueDate","fromDate","toDate","nextToDate"};
-//			String[] bsf = string;
-//			for (String s: bsf)
-//				
-//			try {
-//					// If the text is presented continue with the next
-//					Assert.assertTrue(Browser.driver.findElement(By.cssSelector("div[class='pre']")).getText().contains(s));
-//					logger.info("'" + s + "'" + " field is presented at the Response!");
-//				
-//				} catch (AssertionError e) {
-//					// If the text is NOT presented return the following and stop the test
-//					logger.info("Basic Summary field : " + "'" + s + "'" + " IS MISSING FROM THE RESPOSE!");
-//					logger.info("The test case has FAILED!");
-//					throw e;
-//		}
-//			logger.info("All Basic Summary Information fields are presented at the Response!");
-//	}
 }
