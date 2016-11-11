@@ -121,7 +121,7 @@ public class Response {
 	
 	
 	public static void verify442BasicSummaryInformationPresence()  {
-		// Verify the existence of all required Basic Summary Information fields
+		// Verify the existence of all required Basic Summary Information fields //
 	
 			String[] bsf442 = {"billRefNo","billRefResets","statementDate","paymentDueDate","fromDate","toDate","nextToDate"};
 			for (String s: bsf442)
