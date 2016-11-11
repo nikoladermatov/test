@@ -15,6 +15,8 @@ import com.amdocs.rest.init.Response;
 import com.amdocs.rest.utils.Browser;
 import com.amdocs.rest.utils.DatabaseUtil;
 
+
+
 public class TMW_OPTIMA_442_001 {
 
 	Logger logger = Logger.getLogger("TMW_OPTIMA_442_001");
@@ -46,15 +48,13 @@ public class TMW_OPTIMA_442_001 {
 		propservices.load(services);
 		propparameters.load(parameters);
 		propconfig.load(config);
-		
-		
-		
-		
+			
 		//set Test Data:
 		int AccountInternalId = 135;
 		int BillRefNo = 15201;
 		int BillRefResets = 0;
 		int Maxcount = 2;
+		String[] bsf442 = {"billRefNo","billRefResets","statementDate","paymentDueDate","fromDate","toDate","nextToDate"};
 		
 		//Test purpose:
 		//Verify requirement 84525, 84526, 84570, 84528
@@ -84,9 +84,8 @@ public class TMW_OPTIMA_442_001 {
 		Request.submitRequest();
 		Response.verifyResponseStatus("200 OK");
 		Response.goToResponseBodyTab("Response Body (Preview)");
-		Response.verifyBasicSummaryInformationPresence(propconfig.getProperty("us442"));
+		Response.verifyBasicSummaryInformationPresence(bsf442);
 //		Response.verifyBasicSummaryInformationPresenceNew();
-//		Response.verifyBasicSummaryInformationPresenceNew111(String[] ,"442");
 		Response.verifyTextPresence("creditUnitCr");
 		Response.collectResponseBodyTabData();
 				

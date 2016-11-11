@@ -101,17 +101,20 @@ public class Response {
     	} 
 
 
-	public static void verifyBasicSummaryInformationPresence(String string) throws Exception  {
+	public static void verifyBasicSummaryInformationPresence(String[] string) throws Exception  {
 			// Verify the existence of all required Basic Summary Information fields
-
+			
+		String[] bsf = string;
+		for (String s: bsf)
+		
 		   try {			     
 					// If the text is presented continue with the next
-					Assert.assertTrue(Browser.driver.findElement(By.cssSelector("div[class='pre']")).getText().contains(string));
-					logger.info("'" + string + "'" + " field is presented at the Response!");
+					Assert.assertTrue(Browser.driver.findElement(By.cssSelector("div[class='pre']")).getText().contains(s));
+					logger.info("'" + s + "'" + " field is presented at the Response!");
 				
 				} catch (AssertionError e) {
 					// If the text is NOT presented return the following and stop the test
-					logger.info("Basic Summary field : " + "'" + string + "'" + " IS MISSING FROM THE RESPOSE!");
+					logger.info("Basic Summary field : " + "'" + s + "'" + " IS MISSING FROM THE RESPOSE!");
 					logger.info("The test case has FAILED!");
 					throw e;
 		}
