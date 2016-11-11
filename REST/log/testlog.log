@@ -37373,3 +37373,2018 @@ Jetty(8.1.17.v20150415)
 2016-11-08 15:01:27,714 - Response -INFO - Response Body (Preview) tab is successfully selected
 2016-11-08 15:01:27,773 - Response -INFO - Basic Summary field : '"billRefNo"' IS MISSING FROM THE RESPOSE!
 2016-11-08 15:01:27,773 - Response -INFO - The test case has FAILED!
+2016-11-09 16:53:54,861 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-09 16:53:56,366 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-09 16:53:56,658 - HomePage -INFO - Home Page is successfully presented.
+2016-11-09 16:53:56,795 - Request -INFO - The request Method was successfully selected.
+2016-11-09 16:53:57,047 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-09 16:53:58,418 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Wed, 09 Nov 2016 14:54:31 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-09 16:53:58,624 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-09 16:56:37,307 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-09 16:56:38,644 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-09 16:56:38,912 - HomePage -INFO - Home Page is successfully presented.
+2016-11-09 16:56:39,144 - Request -INFO - The request Method was successfully selected.
+2016-11-09 16:56:39,468 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-09 16:56:40,400 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Wed, 09 Nov 2016 14:57:13 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-09 16:56:40,594 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-09 16:58:41,614 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-09 16:58:43,111 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-09 16:58:43,383 - HomePage -INFO - Home Page is successfully presented.
+2016-11-09 16:58:43,532 - Request -INFO - The request Method was successfully selected.
+2016-11-09 16:58:43,806 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-09 16:58:44,760 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Wed, 09 Nov 2016 14:59:18 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-09 16:58:45,009 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-09 16:58:45,217 - Response -INFO - Basic Summary field : '442' IS MISSING FROM THE RESPOSE!
+2016-11-09 16:58:45,218 - Response -INFO - The test case has FAILED!
+2016-11-09 17:02:43,486 - TMW_OPTIMA_419_001 -INFO - ######################          Executing TMW_OPTIMA_419_001 test          ######################
+2016-11-09 17:02:44,907 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-09 17:02:45,152 - HomePage -INFO - Home Page is successfully presented.
+2016-11-09 17:02:45,374 - Request -INFO - The request Method was successfully selected.
+2016-11-09 17:02:46,556 - Request -INFO - ContentTypeHeader was successfully added.
+2016-11-09 17:02:46,873 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-09 17:02:47,194 - Request -INFO - The request Payload was successfully added.
+2016-11-09 17:03:35,387 - TMW_OPTIMA_419_001 -INFO - ######################          Executing TMW_OPTIMA_419_001 test          ######################
+2016-11-09 17:03:37,309 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-09 17:03:37,590 - HomePage -INFO - Home Page is successfully presented.
+2016-11-09 17:03:37,736 - Request -INFO - The request Method was successfully selected.
+2016-11-09 17:03:38,969 - Request -INFO - ContentTypeHeader was successfully added.
+2016-11-09 17:03:39,275 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-09 17:03:39,683 - Request -INFO - The request Payload was successfully added.
+2016-11-09 17:03:40,559 - Response -INFO - Response Details: Status Code
+: 
+201 Created
+Content-Length
+: 
+30
+Content-Type
+: 
+application/json
+Date
+: 
+Wed, 09 Nov 2016 15:04:13 GMT
+Location
+: 
+http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits/362003,3
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-09 17:03:40,813 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-09 17:03:40,874 - Response -INFO - Validation was done and 'Success' is successfully presented!
+2016-11-09 17:03:40,926 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "message": "Success"
+}
+2016-11-09 17:03:43,039 - DatabaseUtil -INFO - The latest DB record for Customer Deposit is : TrackingID :362003 , TrackingIdServ :3 for AccountNo:135
+2016-11-09 17:03:44,387 - DatabaseUtil -INFO - The response is presenting the same TRACKING_ID as the one at the DB : 362003
+2016-11-09 17:03:44,388 - TMW_OPTIMA_419_001 -INFO - ######################          TMW_OPTIMA_419_001 test is completed!      ######################
+2016-11-09 17:04:05,242 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-09 17:04:06,823 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-09 17:04:07,072 - HomePage -INFO - Home Page is successfully presented.
+2016-11-09 17:04:07,228 - Request -INFO - The request Method was successfully selected.
+2016-11-09 17:04:07,495 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-09 17:04:08,590 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Wed, 09 Nov 2016 15:04:42 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-09 17:04:08,854 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-09 17:05:49,329 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-09 17:05:50,869 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-09 17:05:51,175 - HomePage -INFO - Home Page is successfully presented.
+2016-11-09 17:05:51,416 - Request -INFO - The request Method was successfully selected.
+2016-11-09 17:05:51,813 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-09 17:05:52,753 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Wed, 09 Nov 2016 15:06:26 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-09 17:05:52,974 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-09 17:05:53,155 - Response -INFO - Basic Summary field : '442' IS MISSING FROM THE RESPOSE!
+2016-11-09 17:05:53,155 - Response -INFO - The test case has FAILED!
+2016-11-09 17:06:42,861 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-09 17:06:44,487 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-09 17:06:44,784 - HomePage -INFO - Home Page is successfully presented.
+2016-11-09 17:06:45,036 - Request -INFO - The request Method was successfully selected.
+2016-11-09 17:06:45,405 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-09 17:06:46,285 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Wed, 09 Nov 2016 15:07:19 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-09 17:06:46,565 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-09 17:06:47,352 - Response -INFO - Basic Summary field : '442' IS MISSING FROM THE RESPOSE!
+2016-11-09 17:06:47,352 - Response -INFO - The test case has FAILED!
+2016-11-09 17:08:35,936 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-09 17:08:37,735 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-09 17:08:38,009 - HomePage -INFO - Home Page is successfully presented.
+2016-11-09 17:08:38,290 - Request -INFO - The request Method was successfully selected.
+2016-11-09 17:08:38,761 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-09 17:08:39,707 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Wed, 09 Nov 2016 15:09:13 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-09 17:08:39,953 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-09 17:08:40,178 - Response -INFO - Basic Summary field : '442' IS MISSING FROM THE RESPOSE!
+2016-11-09 17:08:40,178 - Response -INFO - The test case has FAILED!
+2016-11-09 17:13:19,992 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-09 17:13:21,747 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-09 17:13:22,040 - HomePage -INFO - Home Page is successfully presented.
+2016-11-09 17:13:22,287 - Request -INFO - The request Method was successfully selected.
+2016-11-09 17:13:22,667 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-09 17:13:23,667 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Wed, 09 Nov 2016 15:13:57 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-09 17:13:26,940 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-09 17:13:27,177 - Response -INFO - Basic Summary field : '442' IS MISSING FROM THE RESPOSE!
+2016-11-09 17:13:27,177 - Response -INFO - The test case has FAILED!
+2016-11-09 17:21:28,212 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-09 17:21:29,965 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-09 17:21:30,216 - HomePage -INFO - Home Page is successfully presented.
+2016-11-09 17:21:30,371 - Request -INFO - The request Method was successfully selected.
+2016-11-09 17:21:30,685 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-09 17:21:31,838 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Wed, 09 Nov 2016 15:22:05 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-09 17:21:32,139 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-09 17:21:32,196 - Response -INFO - Basic Summary field : '[billRefNo],[billRefResets]' IS MISSING FROM THE RESPOSE!
+2016-11-09 17:21:32,196 - Response -INFO - The test case has FAILED!
+2016-11-09 17:25:22,590 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-09 17:25:24,286 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-09 17:25:24,607 - HomePage -INFO - Home Page is successfully presented.
+2016-11-09 17:25:24,800 - Request -INFO - The request Method was successfully selected.
+2016-11-09 17:25:25,183 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-09 17:25:26,213 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Wed, 09 Nov 2016 15:25:59 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-09 17:25:26,505 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-09 17:25:26,559 - Response -INFO - Basic Summary field : '[Ljava.lang.String;@47987356' IS MISSING FROM THE RESPOSE!
+2016-11-09 17:25:26,559 - Response -INFO - The test case has FAILED!
+2016-11-09 17:26:28,808 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-09 17:26:30,469 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-09 17:26:30,754 - HomePage -INFO - Home Page is successfully presented.
+2016-11-09 17:26:30,925 - Request -INFO - The request Method was successfully selected.
+2016-11-09 17:26:31,248 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-09 17:26:32,066 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Wed, 09 Nov 2016 15:27:05 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-09 17:26:32,316 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-09 17:26:32,369 - Response -INFO - Basic Summary field : '[Ljava.lang.String;@47987356' IS MISSING FROM THE RESPOSE!
+2016-11-09 17:26:32,370 - Response -INFO - The test case has FAILED!
+2016-11-09 17:27:00,221 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-09 17:27:01,840 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-09 17:27:02,145 - HomePage -INFO - Home Page is successfully presented.
+2016-11-09 17:27:02,305 - Request -INFO - The request Method was successfully selected.
+2016-11-09 17:27:02,682 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-09 17:27:03,464 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Wed, 09 Nov 2016 15:27:36 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-09 17:27:03,650 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-09 17:27:03,691 - Response -INFO - Basic Summary field : '[Ljava.lang.String;@47987356' IS MISSING FROM THE RESPOSE!
+2016-11-09 17:27:03,692 - Response -INFO - The test case has FAILED!
+2016-11-09 17:31:42,807 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-09 17:31:44,452 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-09 17:31:44,743 - HomePage -INFO - Home Page is successfully presented.
+2016-11-09 17:31:44,922 - Request -INFO - The request Method was successfully selected.
+2016-11-09 17:31:45,262 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-09 17:31:46,169 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Wed, 09 Nov 2016 15:32:19 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-09 17:31:46,347 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-09 17:32:44,370 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-09 17:32:45,826 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-09 17:32:46,095 - HomePage -INFO - Home Page is successfully presented.
+2016-11-09 17:32:46,229 - Request -INFO - The request Method was successfully selected.
+2016-11-09 17:32:46,513 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-09 17:32:47,220 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Wed, 09 Nov 2016 15:33:20 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-09 17:32:47,392 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-09 17:32:47,435 - Response -INFO - Basic Summary field : '442' IS MISSING FROM THE RESPOSE!
+2016-11-09 17:32:47,436 - Response -INFO - The test case has FAILED!
+2016-11-09 17:42:52,538 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-09 17:42:54,338 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-09 17:42:54,630 - HomePage -INFO - Home Page is successfully presented.
+2016-11-09 17:42:54,869 - Request -INFO - The request Method was successfully selected.
+2016-11-09 17:42:55,242 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-09 17:43:12,647 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-09 17:43:14,318 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-09 17:43:14,633 - HomePage -INFO - Home Page is successfully presented.
+2016-11-09 17:43:14,854 - Request -INFO - The request Method was successfully selected.
+2016-11-09 17:43:15,223 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-09 17:52:10,283 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-09 17:52:12,016 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-09 17:52:12,303 - HomePage -INFO - Home Page is successfully presented.
+2016-11-09 17:52:12,475 - Request -INFO - The request Method was successfully selected.
+2016-11-09 17:52:12,830 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-09 17:52:13,692 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Wed, 09 Nov 2016 15:52:47 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-09 17:52:13,890 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-09 17:52:13,891 - Response -INFO - Basic Summary field : '442' IS MISSING FROM THE RESPOSE!
+2016-11-09 17:52:13,892 - Response -INFO - The test case has FAILED!
+2016-11-09 17:52:13,893 - Response -INFO - Basic Summary field : '442' IS MISSING FROM THE RESPOSE!
+2016-11-09 17:52:13,893 - Response -INFO - The test case has FAILED!
+2016-11-09 17:52:13,894 - Response -INFO - All Basic Summary Information fields are presented at the Response!
+2016-11-09 17:52:13,978 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-09 17:52:14,049 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 15201,
+      "billRefResets": 0,
+      "statementDate": "2016-04-01T04:00:00Z",
+      "paymentDueDate": "2016-04-28T04:00:00Z",
+      "fromDate": "2016-03-01T05:00:00Z",
+      "toDate": "2016-04-01T04:00:00Z",
+      "nextToDate": "2016-05-01T04:00:00Z",
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0
+        }
+      ]
+    }
+  ],
+  "message": "Success"
+}
+2016-11-09 17:52:14,050 - TMW_OPTIMA_442_001 -INFO - ######################          TMW_OPTIMA_442_001 test is completed!      ######################
+2016-11-09 17:57:22,724 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-09 17:57:24,709 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-09 17:57:25,070 - HomePage -INFO - Home Page is successfully presented.
+2016-11-09 17:57:25,243 - Request -INFO - The request Method was successfully selected.
+2016-11-09 17:57:25,599 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-09 17:57:26,536 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Wed, 09 Nov 2016 15:57:59 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-09 17:57:26,800 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-09 17:57:26,873 - Response -INFO - Basic Summary field : '442' IS MISSING FROM THE RESPOSE!
+2016-11-09 17:57:26,873 - Response -INFO - The test case has FAILED!
+2016-11-09 17:58:06,212 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-09 17:58:08,342 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-09 17:58:08,700 - HomePage -INFO - Home Page is successfully presented.
+2016-11-09 17:58:08,944 - Request -INFO - The request Method was successfully selected.
+2016-11-09 17:58:09,280 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-09 17:58:10,171 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Wed, 09 Nov 2016 15:58:43 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-09 17:58:10,402 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-09 17:58:10,459 - Response -INFO - Basic Summary field : '"billRefNo","billRefResets"' IS MISSING FROM THE RESPOSE!
+2016-11-09 17:58:10,459 - Response -INFO - The test case has FAILED!
+2016-11-09 17:58:53,160 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-09 17:58:55,101 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-09 17:58:55,415 - HomePage -INFO - Home Page is successfully presented.
+2016-11-09 17:58:55,573 - Request -INFO - The request Method was successfully selected.
+2016-11-09 17:58:55,891 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-09 17:58:56,773 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Wed, 09 Nov 2016 15:59:30 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-09 17:58:57,054 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-09 17:58:57,094 - Response -INFO - Basic Summary field : '"billRefNo"' IS MISSING FROM THE RESPOSE!
+2016-11-09 17:58:57,095 - Response -INFO - The test case has FAILED!
+2016-11-09 17:59:28,777 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-09 17:59:30,445 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-09 17:59:30,727 - HomePage -INFO - Home Page is successfully presented.
+2016-11-09 17:59:30,995 - Request -INFO - The request Method was successfully selected.
+2016-11-09 17:59:31,424 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-09 17:59:32,433 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Wed, 09 Nov 2016 16:00:05 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-09 17:59:32,706 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-09 17:59:32,774 - Response -INFO - "billRefNo" field is presented at the Response!
+2016-11-09 17:59:32,774 - Response -INFO - All Basic Summary Information fields are presented at the Response!
+2016-11-09 17:59:32,822 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-09 17:59:32,865 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 15201,
+      "billRefResets": 0,
+      "statementDate": "2016-04-01T04:00:00Z",
+      "paymentDueDate": "2016-04-28T04:00:00Z",
+      "fromDate": "2016-03-01T05:00:00Z",
+      "toDate": "2016-04-01T04:00:00Z",
+      "nextToDate": "2016-05-01T04:00:00Z",
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0
+        }
+      ]
+    }
+  ],
+  "message": "Success"
+}
+2016-11-09 17:59:32,866 - TMW_OPTIMA_442_001 -INFO - ######################          TMW_OPTIMA_442_001 test is completed!      ######################
+2016-11-09 18:01:57,580 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-09 18:01:59,209 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-09 18:01:59,466 - HomePage -INFO - Home Page is successfully presented.
+2016-11-09 18:01:59,679 - Request -INFO - The request Method was successfully selected.
+2016-11-09 18:02:00,049 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-09 18:02:01,095 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Wed, 09 Nov 2016 16:02:34 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-09 18:02:01,297 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-09 18:02:01,341 - Response -INFO - Basic Summary field : '"billRefNo","billRefResets"' IS MISSING FROM THE RESPOSE!
+2016-11-09 18:02:01,342 - Response -INFO - The test case has FAILED!
+2016-11-10 17:40:19,346 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-10 17:40:20,021 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-10 17:40:20,265 - HomePage -INFO - Home Page is successfully presented.
+2016-11-10 17:40:20,449 - Request -INFO - The request Method was successfully selected.
+2016-11-10 17:40:20,834 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-10 17:40:22,494 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Thu, 10 Nov 2016 15:40:52 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-10 17:40:22,665 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-10 17:40:22,709 - Response -INFO - Basic Summary field : '"billRefNo","billRefResets"' IS MISSING FROM THE RESPOSE!
+2016-11-10 17:40:22,709 - Response -INFO - The test case has FAILED!
+2016-11-10 17:41:03,707 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-10 17:41:04,241 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-10 17:41:04,537 - HomePage -INFO - Home Page is successfully presented.
+2016-11-10 17:41:04,662 - Request -INFO - The request Method was successfully selected.
+2016-11-10 17:41:04,963 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-10 17:41:05,680 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Thu, 10 Nov 2016 15:41:35 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-10 17:41:05,892 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-10 17:41:05,928 - Response -INFO - "billRefResets" field is presented at the Response!
+2016-11-10 17:41:05,928 - Response -INFO - All Basic Summary Information fields are presented at the Response!
+2016-11-10 17:41:05,960 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-10 17:41:05,997 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 15201,
+      "billRefResets": 0,
+      "statementDate": "2016-04-01T04:00:00Z",
+      "paymentDueDate": "2016-04-28T04:00:00Z",
+      "fromDate": "2016-03-01T05:00:00Z",
+      "toDate": "2016-04-01T04:00:00Z",
+      "nextToDate": "2016-05-01T04:00:00Z",
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0
+        }
+      ]
+    }
+  ],
+  "message": "Success"
+}
+2016-11-10 17:41:05,998 - TMW_OPTIMA_442_001 -INFO - ######################          TMW_OPTIMA_442_001 test is completed!      ######################
+2016-11-10 17:41:35,412 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-10 17:41:36,098 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-10 17:41:36,331 - HomePage -INFO - Home Page is successfully presented.
+2016-11-10 17:41:36,481 - Request -INFO - The request Method was successfully selected.
+2016-11-10 17:41:36,824 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-10 17:41:37,549 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Thu, 10 Nov 2016 15:42:07 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-10 17:41:37,712 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-10 17:41:37,768 - Response -INFO - "billRefResets" field is presented at the Response!
+2016-11-10 17:41:37,768 - Response -INFO - All Basic Summary Information fields are presented at the Response!
+2016-11-10 17:41:37,826 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-10 17:41:37,856 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 15201,
+      "billRefResets": 0,
+      "statementDate": "2016-04-01T04:00:00Z",
+      "paymentDueDate": "2016-04-28T04:00:00Z",
+      "fromDate": "2016-03-01T05:00:00Z",
+      "toDate": "2016-04-01T04:00:00Z",
+      "nextToDate": "2016-05-01T04:00:00Z",
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0
+        }
+      ]
+    }
+  ],
+  "message": "Success"
+}
+2016-11-10 17:41:37,857 - TMW_OPTIMA_442_001 -INFO - ######################          TMW_OPTIMA_442_001 test is completed!      ######################
+2016-11-10 17:52:06,967 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-10 17:52:07,632 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-10 17:52:07,894 - HomePage -INFO - Home Page is successfully presented.
+2016-11-10 17:52:08,037 - Request -INFO - The request Method was successfully selected.
+2016-11-10 17:52:08,370 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-10 17:52:10,266 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Thu, 10 Nov 2016 15:52:40 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-10 17:52:10,405 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-10 17:52:10,439 - Response -INFO - billRefResets field is presented at the Response!
+2016-11-10 17:52:10,439 - Response -INFO - All Basic Summary Information fields are presented at the Response!
+2016-11-10 17:52:10,467 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-10 17:52:10,498 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 15201,
+      "billRefResets": 0,
+      "statementDate": "2016-04-01T04:00:00Z",
+      "paymentDueDate": "2016-04-28T04:00:00Z",
+      "fromDate": "2016-03-01T05:00:00Z",
+      "toDate": "2016-04-01T04:00:00Z",
+      "nextToDate": "2016-05-01T04:00:00Z",
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0
+        }
+      ]
+    }
+  ],
+  "message": "Success"
+}
+2016-11-10 17:52:10,499 - TMW_OPTIMA_442_001 -INFO - ######################          TMW_OPTIMA_442_001 test is completed!      ######################
+2016-11-10 17:53:42,302 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-10 17:53:43,132 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-10 17:53:43,371 - HomePage -INFO - Home Page is successfully presented.
+2016-11-10 17:53:43,465 - Request -INFO - The request Method was successfully selected.
+2016-11-10 17:53:43,806 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-10 17:53:44,638 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Thu, 10 Nov 2016 15:54:14 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-10 17:53:44,820 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-10 17:53:44,854 - Response -INFO - Basic Summary field : 'billRefRu' IS MISSING FROM THE RESPOSE!
+2016-11-10 17:53:44,855 - Response -INFO - The test case has FAILED!
+2016-11-10 17:54:37,164 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-10 17:54:37,807 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-10 17:54:38,095 - HomePage -INFO - Home Page is successfully presented.
+2016-11-10 17:54:38,220 - Request -INFO - The request Method was successfully selected.
+2016-11-10 17:54:38,521 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-10 17:54:39,343 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Thu, 10 Nov 2016 15:55:09 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-10 17:54:39,509 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-10 17:54:39,538 - Response -INFO - Basic Summary field : '{billRefNo,billRefResets}' IS MISSING FROM THE RESPOSE!
+2016-11-10 17:54:39,539 - Response -INFO - The test case has FAILED!
+2016-11-11 10:58:43,439 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 10:58:44,078 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 10:58:44,371 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 10:58:44,503 - Request -INFO - The request Method was successfully selected.
+2016-11-11 10:58:44,763 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 10:58:46,260 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 08:59:14 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 10:58:46,431 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 10:58:46,477 - Response -INFO - Basic Summary field : 'billRefNo,billRefResets' IS MISSING FROM THE RESPOSE!
+2016-11-11 10:58:46,478 - Response -INFO - The test case has FAILED!
+2016-11-11 11:00:23,035 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 11:00:23,707 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 11:00:23,976 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 11:00:24,109 - Request -INFO - The request Method was successfully selected.
+2016-11-11 11:00:27,348 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 11:00:28,379 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 09:00:56 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 11:00:28,524 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 11:00:28,555 - Response -INFO - Basic Summary field : 'billRefNo,billRefResets' IS MISSING FROM THE RESPOSE!
+2016-11-11 11:00:28,556 - Response -INFO - The test case has FAILED!
+2016-11-11 11:01:02,050 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 11:01:02,763 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 11:01:02,997 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 11:01:03,219 - Request -INFO - The request Method was successfully selected.
+2016-11-11 11:01:03,623 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 11:01:04,611 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 09:01:32 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 11:01:04,800 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 11:01:04,843 - Response -INFO - billRefResets field is presented at the Response!
+2016-11-11 11:01:04,844 - Response -INFO - All Basic Summary Information fields are presented at the Response!
+2016-11-11 11:01:04,896 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-11 11:01:04,937 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 15201,
+      "toDate": "2016-04-01T04:00:00Z",
+      "statementDate": "2016-04-01T04:00:00Z",
+      "postPaidBilledRcTotal": 0,
+      "fromDate": "2016-03-01T05:00:00Z",
+      "paymentDueDate": "2016-04-28T04:00:00Z",
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0
+        }
+      ],
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "billRefResets": 0,
+      "nextToDate": "2016-05-01T04:00:00Z"
+    }
+  ],
+  "message": "Success"
+}
+2016-11-11 11:01:04,938 - TMW_OPTIMA_442_001 -INFO - ######################          TMW_OPTIMA_442_001 test is completed!      ######################
+2016-11-11 11:01:51,632 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 11:01:52,188 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 11:01:52,458 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 11:01:52,593 - Request -INFO - The request Method was successfully selected.
+2016-11-11 11:01:52,846 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 11:01:53,620 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 09:02:21 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 11:01:53,779 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 11:01:53,815 - Response -INFO - Basic Summary field : 'billRefResets;' IS MISSING FROM THE RESPOSE!
+2016-11-11 11:01:53,815 - Response -INFO - The test case has FAILED!
+2016-11-11 11:02:44,574 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 11:02:45,328 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 11:02:45,625 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 11:02:45,723 - Request -INFO - The request Method was successfully selected.
+2016-11-11 11:02:45,961 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 11:02:47,346 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 09:03:15 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 11:02:47,544 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 11:02:47,589 - Response -INFO - Basic Summary field : 'billRefNo \ billRefResets' IS MISSING FROM THE RESPOSE!
+2016-11-11 11:02:47,589 - Response -INFO - The test case has FAILED!
+2016-11-11 11:04:15,581 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 11:04:16,210 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 11:04:16,433 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 11:04:16,668 - Request -INFO - The request Method was successfully selected.
+2016-11-11 11:04:17,105 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 11:04:17,959 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 09:04:45 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 11:04:18,126 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 11:04:18,164 - Response -INFO - Basic Summary field : 'billRefNo + billRefResets' IS MISSING FROM THE RESPOSE!
+2016-11-11 11:04:18,165 - Response -INFO - The test case has FAILED!
+2016-11-11 11:39:22,196 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 11:39:22,846 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 11:39:23,108 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 11:39:23,265 - Request -INFO - The request Method was successfully selected.
+2016-11-11 11:39:23,597 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 11:39:25,844 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 09:39:53 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 11:39:25,982 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 11:39:26,014 - Response -INFO - Basic Summary field : 'billRefNo + billRefResets' IS MISSING FROM THE RESPOSE!
+2016-11-11 11:39:26,014 - Response -INFO - The test case has FAILED!
+2016-11-11 11:39:53,158 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 11:39:54,016 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 11:39:54,245 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 11:39:54,462 - Request -INFO - The request Method was successfully selected.
+2016-11-11 11:39:55,105 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 11:39:55,987 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 09:40:23 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 11:39:56,173 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 11:39:56,227 - Response -INFO - Basic Summary field : 'billRefNo , billRefResets' IS MISSING FROM THE RESPOSE!
+2016-11-11 11:39:56,228 - Response -INFO - The test case has FAILED!
+2016-11-11 13:15:40,574 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 13:15:41,252 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 13:15:41,574 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 13:15:41,680 - Request -INFO - The request Method was successfully selected.
+2016-11-11 13:15:41,938 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 13:15:44,363 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 11:16:11 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 13:15:44,521 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 13:15:44,550 - Response -INFO - Basic Summary field : 'billRefNo\billRefResets' IS MISSING FROM THE RESPOSE!
+2016-11-11 13:15:44,551 - Response -INFO - The test case has FAILED!
+2016-11-11 13:16:23,018 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 13:16:23,913 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 13:16:24,147 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 13:16:24,273 - Request -INFO - The request Method was successfully selected.
+2016-11-11 13:16:24,554 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 13:16:25,851 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 11:16:53 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 13:16:26,004 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 13:16:26,054 - Response -INFO - Basic Summary field : '{billRefNo},{billRefResets}' IS MISSING FROM THE RESPOSE!
+2016-11-11 13:16:26,055 - Response -INFO - The test case has FAILED!
+2016-11-11 13:34:02,040 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 13:34:02,745 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 13:34:03,030 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 13:34:03,221 - Request -INFO - The request Method was successfully selected.
+2016-11-11 13:34:03,552 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 13:34:05,291 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 11:34:32 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 13:34:05,474 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 13:34:57,203 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 13:34:57,892 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 13:34:58,245 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 13:34:58,400 - Request -INFO - The request Method was successfully selected.
+2016-11-11 13:34:58,679 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 13:34:59,928 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 11:35:27 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 13:35:00,090 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 13:35:00,139 - Response -INFO - Basic Summary field : '[billRefNo,billRefResets]' IS MISSING FROM THE RESPOSE!
+2016-11-11 13:35:00,139 - Response -INFO - The test case has FAILED!
+2016-11-11 13:41:41,107 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 13:41:41,938 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 13:41:42,168 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 13:41:42,314 - Request -INFO - The request Method was successfully selected.
+2016-11-11 13:41:42,664 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 13:41:43,644 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 11:42:11 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 13:41:43,840 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 13:42:14,772 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 13:42:15,553 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 13:42:15,800 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 13:42:15,939 - Request -INFO - The request Method was successfully selected.
+2016-11-11 13:42:16,262 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 13:42:17,551 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 11:42:44 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 13:42:17,796 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 13:49:25,993 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 13:49:26,689 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 13:49:27,090 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 13:49:27,275 - Request -INFO - The request Method was successfully selected.
+2016-11-11 13:49:27,567 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 13:49:28,958 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 11:49:56 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 13:49:29,183 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 13:51:25,573 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 13:51:26,446 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 13:51:26,745 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 13:51:26,995 - Request -INFO - The request Method was successfully selected.
+2016-11-11 13:51:27,380 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 13:51:28,314 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 11:51:55 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 13:51:28,578 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 13:54:31,861 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 13:54:32,555 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 13:54:32,843 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 13:54:32,968 - Request -INFO - The request Method was successfully selected.
+2016-11-11 13:54:33,266 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 13:54:34,019 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 11:55:01 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 13:54:34,157 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 13:54:34,201 - Response -INFO - Basic Summary field : 'billRefNo billRefResets' IS MISSING FROM THE RESPOSE!
+2016-11-11 13:54:34,203 - Response -INFO - The test case has FAILED!
+2016-11-11 14:12:51,530 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 14:12:52,090 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 14:12:52,375 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 14:12:52,576 - Request -INFO - The request Method was successfully selected.
+2016-11-11 14:12:52,896 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 14:12:53,836 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 12:13:21 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 14:12:53,979 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 14:13:43,684 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 14:13:44,466 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 14:13:44,825 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 14:13:44,922 - Request -INFO - The request Method was successfully selected.
+2016-11-11 14:13:45,220 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 14:13:46,038 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 12:14:13 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 14:13:46,184 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 14:14:59,957 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 14:15:00,543 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 14:15:00,890 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 14:15:00,996 - Request -INFO - The request Method was successfully selected.
+2016-11-11 14:15:01,244 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 14:15:01,963 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 12:15:29 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 14:15:02,116 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 14:15:02,153 - Response -INFO - billRefNo field is presented at the Response!
+2016-11-11 14:15:02,153 - Response -INFO - All Basic Summary Information fields are presented at the Response!
+2016-11-11 14:15:02,183 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-11 14:15:02,226 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 15201,
+      "toDate": "2016-04-01T04:00:00Z",
+      "statementDate": "2016-04-01T04:00:00Z",
+      "postPaidBilledRcTotal": 0,
+      "fromDate": "2016-03-01T05:00:00Z",
+      "paymentDueDate": "2016-04-28T04:00:00Z",
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0
+        }
+      ],
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "billRefResets": 0,
+      "nextToDate": "2016-05-01T04:00:00Z"
+    }
+  ],
+  "message": "Success"
+}
+2016-11-11 14:15:02,227 - TMW_OPTIMA_442_001 -INFO - ######################          TMW_OPTIMA_442_001 test is completed!      ######################
+2016-11-11 14:15:31,975 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 14:15:32,617 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 14:15:32,894 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 14:15:32,987 - Request -INFO - The request Method was successfully selected.
+2016-11-11 14:15:33,219 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 14:15:33,970 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 12:16:01 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 14:15:34,139 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 14:15:34,189 - Response -INFO - Basic Summary field : 'bill3333333' IS MISSING FROM THE RESPOSE!
+2016-11-11 14:15:34,190 - Response -INFO - The test case has FAILED!
+2016-11-11 14:16:14,203 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 14:16:14,775 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 14:16:15,020 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 14:16:15,148 - Request -INFO - The request Method was successfully selected.
+2016-11-11 14:16:15,384 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 14:16:16,139 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 12:16:43 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 14:16:16,312 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 14:16:16,349 - Response -INFO - billRefNo field is presented at the Response!
+2016-11-11 14:16:16,350 - Response -INFO - All Basic Summary Information fields are presented at the Response!
+2016-11-11 14:16:16,383 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-11 14:16:16,425 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 15201,
+      "toDate": "2016-04-01T04:00:00Z",
+      "statementDate": "2016-04-01T04:00:00Z",
+      "postPaidBilledRcTotal": 0,
+      "fromDate": "2016-03-01T05:00:00Z",
+      "paymentDueDate": "2016-04-28T04:00:00Z",
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0
+        }
+      ],
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "billRefResets": 0,
+      "nextToDate": "2016-05-01T04:00:00Z"
+    }
+  ],
+  "message": "Success"
+}
+2016-11-11 14:16:16,426 - TMW_OPTIMA_442_001 -INFO - ######################          TMW_OPTIMA_442_001 test is completed!      ######################
+2016-11-11 14:37:57,458 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 14:37:57,989 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 14:37:58,227 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 14:37:58,348 - Request -INFO - The request Method was successfully selected.
+2016-11-11 14:37:58,615 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 14:38:00,042 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 12:38:27 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 14:38:00,195 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 14:38:00,237 - Response -INFO - billRefNo field is presented at the Response!
+2016-11-11 14:38:00,238 - Response -INFO - All Basic Summary Information fields are presented at the Response!
+2016-11-11 14:38:00,301 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-11 14:38:00,332 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 15201,
+      "toDate": "2016-04-01T04:00:00Z",
+      "statementDate": "2016-04-01T04:00:00Z",
+      "postPaidBilledRcTotal": 0,
+      "fromDate": "2016-03-01T05:00:00Z",
+      "paymentDueDate": "2016-04-28T04:00:00Z",
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0
+        }
+      ],
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "billRefResets": 0,
+      "nextToDate": "2016-05-01T04:00:00Z"
+    }
+  ],
+  "message": "Success"
+}
+2016-11-11 14:38:00,333 - TMW_OPTIMA_442_001 -INFO - ######################          TMW_OPTIMA_442_001 test is completed!      ######################
+2016-11-11 14:38:23,227 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 14:38:23,793 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 14:38:24,059 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 14:38:24,201 - Request -INFO - The request Method was successfully selected.
+2016-11-11 14:38:24,488 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 14:38:25,640 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 12:38:52 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 14:38:25,787 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 14:38:25,819 - Response -INFO - 'billRefNo' field is presented at the Response!
+2016-11-11 14:38:25,820 - Response -INFO - All Basic Summary Information fields are presented at the Response!
+2016-11-11 14:38:25,853 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-11 14:38:25,904 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 15201,
+      "toDate": "2016-04-01T04:00:00Z",
+      "statementDate": "2016-04-01T04:00:00Z",
+      "postPaidBilledRcTotal": 0,
+      "fromDate": "2016-03-01T05:00:00Z",
+      "paymentDueDate": "2016-04-28T04:00:00Z",
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0
+        }
+      ],
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "billRefResets": 0,
+      "nextToDate": "2016-05-01T04:00:00Z"
+    }
+  ],
+  "message": "Success"
+}
+2016-11-11 14:38:25,905 - TMW_OPTIMA_442_001 -INFO - ######################          TMW_OPTIMA_442_001 test is completed!      ######################
+2016-11-11 15:04:56,888 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 15:04:57,426 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 15:04:57,712 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 15:04:57,843 - Request -INFO - The request Method was successfully selected.
+2016-11-11 15:04:58,147 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 15:04:59,978 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 13:05:27 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 15:05:00,127 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 15:05:00,171 - Response -INFO - '0' field is presented at the Response!
+2016-11-11 15:05:00,208 - Response -INFO - '1' field is presented at the Response!
+2016-11-11 15:05:00,209 - Response -INFO - All Basic Summary Information fields are presented at the Response!
+2016-11-11 15:05:00,249 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-11 15:05:00,284 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 15201,
+      "toDate": "2016-04-01T04:00:00Z",
+      "statementDate": "2016-04-01T04:00:00Z",
+      "postPaidBilledRcTotal": 0,
+      "fromDate": "2016-03-01T05:00:00Z",
+      "paymentDueDate": "2016-04-28T04:00:00Z",
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0
+        }
+      ],
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "billRefResets": 0,
+      "nextToDate": "2016-05-01T04:00:00Z"
+    }
+  ],
+  "message": "Success"
+}
+2016-11-11 15:05:00,285 - TMW_OPTIMA_442_001 -INFO - ######################          TMW_OPTIMA_442_001 test is completed!      ######################
+2016-11-11 15:05:39,669 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 15:05:40,225 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 15:05:40,629 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 15:05:40,747 - Request -INFO - The request Method was successfully selected.
+2016-11-11 15:05:41,052 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 15:05:42,668 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 13:06:09 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 15:05:42,811 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 15:05:42,849 - Response -INFO - '0' field is presented at the Response!
+2016-11-11 15:05:42,883 - Response -INFO - Basic Summary field : '1' IS MISSING FROM THE RESPOSE!
+2016-11-11 15:05:42,883 - Response -INFO - The test case has FAILED!
+2016-11-11 15:06:57,210 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 15:06:57,905 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 15:06:58,182 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 15:06:58,280 - Request -INFO - The request Method was successfully selected.
+2016-11-11 15:06:58,500 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 15:06:59,279 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 13:07:26 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 15:06:59,425 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 15:06:59,459 - Response -INFO - 'billRefNo' field is presented at the Response!
+2016-11-11 15:06:59,497 - Response -INFO - Basic Summary field : 'billRef111' IS MISSING FROM THE RESPOSE!
+2016-11-11 15:06:59,498 - Response -INFO - The test case has FAILED!
+2016-11-11 15:10:44,714 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 15:10:46,398 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 15:10:46,678 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 15:10:46,893 - Request -INFO - The request Method was successfully selected.
+2016-11-11 15:10:47,256 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 15:10:49,352 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 13:11:16 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 15:10:49,589 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 15:10:49,651 - Response -INFO - 'billRefNo' field is presented at the Response!
+2016-11-11 15:10:49,706 - Response -INFO - 'billRefResets' field is presented at the Response!
+2016-11-11 15:10:49,763 - Response -INFO - 'statementDate' field is presented at the Response!
+2016-11-11 15:10:49,823 - Response -INFO - 'paymentDueDate' field is presented at the Response!
+2016-11-11 15:10:49,870 - Response -INFO - 'fromDate' field is presented at the Response!
+2016-11-11 15:10:49,930 - Response -INFO - 'toDate' field is presented at the Response!
+2016-11-11 15:10:49,975 - Response -INFO - 'nextToDate' field is presented at the Response!
+2016-11-11 15:10:49,976 - Response -INFO - All Basic Summary Information fields are presented at the Response!
+2016-11-11 15:10:50,036 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-11 15:10:50,109 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 15201,
+      "toDate": "2016-04-01T04:00:00Z",
+      "statementDate": "2016-04-01T04:00:00Z",
+      "postPaidBilledRcTotal": 0,
+      "fromDate": "2016-03-01T05:00:00Z",
+      "paymentDueDate": "2016-04-28T04:00:00Z",
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0
+        }
+      ],
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "billRefResets": 0,
+      "nextToDate": "2016-05-01T04:00:00Z"
+    }
+  ],
+  "message": "Success"
+}
+2016-11-11 15:10:50,110 - TMW_OPTIMA_442_001 -INFO - ######################          TMW_OPTIMA_442_001 test is completed!      ######################
+2016-11-11 15:23:39,676 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 15:23:41,261 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 15:23:41,539 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 15:23:41,694 - Request -INFO - The request Method was successfully selected.
+2016-11-11 15:23:41,969 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 15:23:43,792 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 13:24:10 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 15:23:43,988 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 15:23:44,034 - Response -INFO - 'billRefNo' field is presented at the Response!
+2016-11-11 15:23:44,083 - Response -INFO - 'billRefResets' field is presented at the Response!
+2016-11-11 15:23:44,123 - Response -INFO - 'statementDate' field is presented at the Response!
+2016-11-11 15:23:44,162 - Response -INFO - 'paymentDueDate' field is presented at the Response!
+2016-11-11 15:23:44,202 - Response -INFO - 'fromDate' field is presented at the Response!
+2016-11-11 15:23:44,247 - Response -INFO - 'toDate' field is presented at the Response!
+2016-11-11 15:23:44,302 - Response -INFO - 'nextToDate' field is presented at the Response!
+2016-11-11 15:23:44,302 - Response -INFO - All Basic Summary Information fields are presented at the Response!
+2016-11-11 15:23:44,364 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-11 15:23:44,420 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 15201,
+      "toDate": "2016-04-01T04:00:00Z",
+      "statementDate": "2016-04-01T04:00:00Z",
+      "postPaidBilledRcTotal": 0,
+      "fromDate": "2016-03-01T05:00:00Z",
+      "paymentDueDate": "2016-04-28T04:00:00Z",
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0
+        }
+      ],
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "billRefResets": 0,
+      "nextToDate": "2016-05-01T04:00:00Z"
+    }
+  ],
+  "message": "Success"
+}
+2016-11-11 15:23:44,421 - TMW_OPTIMA_442_001 -INFO - ######################          TMW_OPTIMA_442_001 test is completed!      ######################
+2016-11-11 15:24:43,321 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 15:24:44,741 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 15:24:45,034 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 15:24:45,253 - Request -INFO - The request Method was successfully selected.
+2016-11-11 15:24:45,607 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 15:24:46,951 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 13:25:14 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 15:24:47,149 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 15:24:47,206 - Response -INFO - '1806516717' field is presented at the Response!
+2016-11-11 15:24:47,255 - Response -INFO - '1957481264' field is presented at the Response!
+2016-11-11 15:24:47,294 - Response -INFO - '406273469' field is presented at the Response!
+2016-11-11 15:24:47,344 - Response -INFO - '1005388508' field is presented at the Response!
+2016-11-11 15:24:47,383 - Response -INFO - '-1245145480' field is presented at the Response!
+2016-11-11 15:24:47,436 - Response -INFO - '-869352247' field is presented at the Response!
+2016-11-11 15:24:47,494 - Response -INFO - '-1241386596' field is presented at the Response!
+2016-11-11 15:24:47,495 - Response -INFO - All Basic Summary Information fields are presented at the Response!
+2016-11-11 15:24:47,571 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-11 15:24:47,639 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 15201,
+      "toDate": "2016-04-01T04:00:00Z",
+      "statementDate": "2016-04-01T04:00:00Z",
+      "postPaidBilledRcTotal": 0,
+      "fromDate": "2016-03-01T05:00:00Z",
+      "paymentDueDate": "2016-04-28T04:00:00Z",
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0
+        }
+      ],
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "billRefResets": 0,
+      "nextToDate": "2016-05-01T04:00:00Z"
+    }
+  ],
+  "message": "Success"
+}
+2016-11-11 15:24:47,640 - TMW_OPTIMA_442_001 -INFO - ######################          TMW_OPTIMA_442_001 test is completed!      ######################
+2016-11-11 15:25:25,459 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-11 15:25:27,049 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-11 15:25:27,306 - HomePage -INFO - Home Page is successfully presented.
+2016-11-11 15:25:27,442 - Request -INFO - The request Method was successfully selected.
+2016-11-11 15:25:27,740 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-11 15:25:29,415 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 11 Nov 2016 13:25:56 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-11 15:25:29,606 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-11 15:25:29,664 - Response -INFO - 'billRefNobillRefNo' field is presented at the Response!
+2016-11-11 15:25:29,707 - Response -INFO - 'billRefResetsbillRefResets' field is presented at the Response!
+2016-11-11 15:25:29,750 - Response -INFO - 'statementDatestatementDate' field is presented at the Response!
+2016-11-11 15:25:29,796 - Response -INFO - 'paymentDueDatepaymentDueDate' field is presented at the Response!
+2016-11-11 15:25:29,834 - Response -INFO - 'fromDatefromDate' field is presented at the Response!
+2016-11-11 15:25:29,874 - Response -INFO - 'toDatetoDate' field is presented at the Response!
+2016-11-11 15:25:29,921 - Response -INFO - 'nextToDatenextToDate' field is presented at the Response!
+2016-11-11 15:25:29,922 - Response -INFO - All Basic Summary Information fields are presented at the Response!
+2016-11-11 15:25:29,984 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-11 15:25:30,032 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 15201,
+      "toDate": "2016-04-01T04:00:00Z",
+      "statementDate": "2016-04-01T04:00:00Z",
+      "postPaidBilledRcTotal": 0,
+      "fromDate": "2016-03-01T05:00:00Z",
+      "paymentDueDate": "2016-04-28T04:00:00Z",
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0
+        }
+      ],
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "billRefResets": 0,
+      "nextToDate": "2016-05-01T04:00:00Z"
+    }
+  ],
+  "message": "Success"
+}
+2016-11-11 15:25:30,033 - TMW_OPTIMA_442_001 -INFO - ######################          TMW_OPTIMA_442_001 test is completed!      ######################

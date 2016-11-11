@@ -46,8 +46,9 @@ public class TMW_OPTIMA_442_001 {
 		propservices.load(services);
 		propparameters.load(parameters);
 		propconfig.load(config);
-		propconfig.entrySet();
-		propconfig.contains(toString());
+		
+		
+		
 		
 		//set Test Data:
 		int AccountInternalId = 135;
@@ -83,8 +84,9 @@ public class TMW_OPTIMA_442_001 {
 		Request.submitRequest();
 		Response.verifyResponseStatus("200 OK");
 		Response.goToResponseBodyTab("Response Body (Preview)");
-//		Response.verify442BasicSummaryInformationPresence();
-		Response.verifyBasicSummaryInformationPresence(propconfig.getProperty("1", "2"));
+		Response.verifyBasicSummaryInformationPresence(propconfig.getProperty("442"));
+//		Response.verifyBasicSummaryInformationPresenceNew();
+//		Response.verifyBasicSummaryInformationPresenceNew111(String[] ,"442");
 		Response.verifyTextPresence("creditUnitCr");
 		Response.collectResponseBodyTabData();
 				

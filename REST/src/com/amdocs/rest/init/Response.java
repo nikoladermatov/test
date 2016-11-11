@@ -1,15 +1,29 @@
 package com.amdocs.rest.init;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
+import java.util.Enumeration;
+import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
 import java.util.NoSuchElementException;
+import java.util.Properties;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
+import java.util.regex.Pattern;
 
 import junit.framework.AssertionFailedError;
+import jxl.Cell;
+import jxl.Sheet;
+import jxl.Workbook;
+import jxl.read.biff.BiffException;
 
 import org.apache.commons.exec.ExecuteException;
 import org.apache.log4j.Appender;
@@ -26,6 +40,8 @@ import org.openqa.selenium.WebElement;
 import org.testng.SkipException;
 
 import com.amdocs.rest.utils.Browser;
+import com.sun.media.sound.InvalidFormatException;
+import com.sun.rowset.internal.Row;
 import com.thoughtworks.selenium.condition.Presence;
 
 
@@ -82,114 +98,63 @@ public class Response {
 				}	
     	} 
 
-	public static void verify442BasicSummaryInformationPresence() {
-			// Verify the existence of all required for US442 Basic Summary Information fields
-		
-			String s1_442 = "billRefNo";
-			String s2_442 = "billRefResets";
-			String s3_442 = "statementDate";
-			String s4_442 = "paymentDueDate";
-			String s5_442 = "fromDate";
-			String s6_442 = "toDate";
-			String s7_442 = "nextToDate";
-		
-			try {
-				// If the text is presented continue with the next
-				Assert.assertTrue(Browser.driver.findElement(By.cssSelector("div[class='pre']")).getText().contains(s1_442)); 			
-					
-				} catch (AssertionError e) {
-					// If the text is NOT presented return the following and stop the test
-					logger.info("Basic Summary field : " + "'" + s1_442 + "'" + " IS MISSING FROM THE RESPOSE!");
-					logger.info("The test case has FAILED!");
-					throw e;
-				}
-		
-			try {
-				// If the text is presented continue with the next
-				Assert.assertTrue(Browser.driver.findElement(By.cssSelector("div[class='pre']")).getText().contains(s2_442)); 			
-					
-				} catch (AssertionError e) {
-					// If the text is NOT presented return the following and stop the test
-					logger.info("Basic Summary field : " + "'" + s2_442 + "'" + " IS MISSING FROM THE RESPOSE!");
-					logger.info("The test case has FAILED!");
-					throw e;
-				}
-		
-			try {
-				// If the text is presented continue with the next
-				Assert.assertTrue(Browser.driver.findElement(By.cssSelector("div[class='pre']")).getText().contains(s3_442)); 			
-					
-				} catch (AssertionError e) {
-					// If the text is NOT presented return the following and stop the test
-					logger.info("Basic Summary field : " + "'" + s3_442 + "'" + " IS MISSING FROM THE RESPOSE!");
-					logger.info("The test case has FAILED!");
-					throw e;
-				}
 
-			try {
-				// If the text is presented continue with the next
-				Assert.assertTrue(Browser.driver.findElement(By.cssSelector("div[class='pre']")).getText().contains(s4_442)); 			
-					
-				} catch (AssertionError e) {
-					// If the text is NOT presented return the following and stop the test
-					logger.info("Basic Summary field : " + "'" + s4_442 + "'" + " IS MISSING FROM THE RESPOSE!");
-					logger.info("The test case has FAILED!");
-					throw e;
-				}
-		
-			try {
-				// If the text is presented continue with the next
-				Assert.assertTrue(Browser.driver.findElement(By.cssSelector("div[class='pre']")).getText().contains(s5_442)); 			
-					
-				} catch (AssertionError e) {
-					// If the text is NOT presented return the following and stop the test
-					logger.info("Basic Summary field : " + "'" + s5_442 + "'" + " IS MISSING FROM THE RESPOSE!");
-					logger.info("The test case has FAILED!");
-					throw e;
-				}
-		
-			try {
-				// If the text is presented continue with the next
-				Assert.assertTrue(Browser.driver.findElement(By.cssSelector("div[class='pre']")).getText().contains(s6_442)); 			
-					
-				} catch (AssertionError e) {
-					// If the text is NOT presented return the following and stop the test
-					logger.info("Basic Summary field : " + "'" + s6_442 + "'" + " IS MISSING FROM THE RESPOSE!");
-					logger.info("The test case has FAILED!");
-					throw e;
-				}
-		
-			try {
-				// If the text is presented continue with the next
-				Assert.assertTrue(Browser.driver.findElement(By.cssSelector("div[class='pre']")).getText().contains(s7_442)); 			
-					
-				} catch (AssertionError e) {
-					// If the text is NOT presented return the following and stop the test
-					logger.info("Basic Summary field : " + "'" + s7_442 + "'" + " IS MISSING FROM THE RESPOSE!");
-					logger.error("The test case has FAILED!");
-					throw e;
-				}
-			logger.info("All Basic Summary Information fields are presented at the Response!");
-		}
-	
-	public static void verifyBasicSummaryInformationPresence(String string) {
+	public static void verifyBasicSummaryInformationPresence(String string)  {
 		// Verify the existence of all required Basic Summary Information fields
+			    			     
+			try {
+					// If the text is presented continue with the next
+					Assert.assertTrue(Browser.driver.findElement(By.cssSelector("div[class='pre']")).getText().contains(string));
+					logger.info("'" + string + "'" + " field is presented at the Response!");
 				
-		try {
-				
-				// If the text is presented continue with the next
-				Assert.assertTrue(Browser.driver.findElement(By.cssSelector("div[class='pre']")).getText().equals(string));
-				logger.info(string + " field is presented at the Response!");
-				
-			} catch (AssertionError e) {
-				// If the text is NOT presented return the following and stop the test
-				logger.info("Basic Summary field : " + "'" + string + "'" + " IS MISSING FROM THE RESPOSE!");
-				logger.info("The test case has FAILED!");
-				throw e;
-			}
-		logger.info("All Basic Summary Information fields are presented at the Response!");
+				} catch (AssertionError e) {
+					// If the text is NOT presented return the following and stop the test
+					logger.info("Basic Summary field : " + "'" + string + "'" + " IS MISSING FROM THE RESPOSE!");
+					logger.info("The test case has FAILED!");
+					throw e;
+		}
+			logger.info("All Basic Summary Information fields are presented at the Response!");
 	}
-
-
-
+  
+	
+	public static void verifyBasicSummaryInformationPresenceNew()  {
+		// Verify the existence of all required Basic Summary Information fields
+	
+			String[] bsf442 = {"billRefNo","billRefResets","statementDate","paymentDueDate","fromDate","toDate","nextToDate"};
+			for (String s: bsf442)
+				
+			try {
+					// If the text is presented continue with the next
+					Assert.assertTrue(Browser.driver.findElement(By.cssSelector("div[class='pre']")).getText().contains(s));
+					logger.info("'" + s + "'" + " field is presented at the Response!");
+				
+				} catch (AssertionError e) {
+					// If the text is NOT presented return the following and stop the test
+					logger.info("Basic Summary field : " + "'" + s + "'" + " IS MISSING FROM THE RESPOSE!");
+					logger.info("The test case has FAILED!");
+					throw e;
+		}
+			logger.info("All Basic Summary Information fields are presented at the Response!");
 	}
+	
+//	public static String[][] verifyBasicSummaryInformationPresenceNew111(String string)  {
+//		// Verify the existence of all required Basic Summary Information fields
+//	
+////			String[] bsf442 = {"billRefNo","billRefResets","statementDate","paymentDueDate","fromDate","toDate","nextToDate"};
+//			String[] bsf = string;
+//			for (String s: bsf)
+//				
+//			try {
+//					// If the text is presented continue with the next
+//					Assert.assertTrue(Browser.driver.findElement(By.cssSelector("div[class='pre']")).getText().contains(s));
+//					logger.info("'" + s + "'" + " field is presented at the Response!");
+//				
+//				} catch (AssertionError e) {
+//					// If the text is NOT presented return the following and stop the test
+//					logger.info("Basic Summary field : " + "'" + s + "'" + " IS MISSING FROM THE RESPOSE!");
+//					logger.info("The test case has FAILED!");
+//					throw e;
+//		}
+//			logger.info("All Basic Summary Information fields are presented at the Response!");
+//	}
+}
