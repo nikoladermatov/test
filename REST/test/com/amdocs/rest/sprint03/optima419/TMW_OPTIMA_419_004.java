@@ -13,47 +13,57 @@ import com.amdocs.rest.init.HomePage;
 import com.amdocs.rest.init.Request;
 import com.amdocs.rest.init.Response;
 import com.amdocs.rest.utils.Browser;
+import com.amdocs.rest.utils.DatabaseUtil;
 
 public class TMW_OPTIMA_419_004 {
 
 	Logger logger = Logger.getLogger("TMW_OPTIMA_419_004");
 
-	@Before
-	public void setup() {
-		Browser.init();
-		Browser.driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-	}
-
-	@After
-	public void tearDown() {
-		Browser.quitBrowser();
-	}
-
 	@Test
 	public void Optima419_004() throws Exception {
 	
-		//test settings
-		FileInputStream  configfile = new FileInputStream("properties/config.properties");
-		Properties prop = new Properties();
-		prop.load(configfile);
+		//Test Property Reading Settings:
+			FileInputStream  env = new FileInputStream("properties/env.properties");
+			FileInputStream  services = new FileInputStream("properties/services.properties");
+			FileInputStream  parameters = new FileInputStream("properties/parameters.properties");
+			FileInputStream  config = new FileInputStream("properties/config.properties");
+			Properties propenv = new Properties();
+			Properties propservices = new Properties();
+			Properties propparameters = new Properties();
+			Properties propconfig = new Properties();
+			propenv.load(env);
+			propservices.load(services);
+			propparameters.load(parameters);
+			propconfig.load(config);
+	
+		//Set Test Data:
+			int AccountInternalId = 1355;
+	
 		
-		//test execution
+		//Test execution:
 		logger.info("######################          Executing TMW_OPTIMA_419_004 test          ######################");
 		
-		HomePage.goTo();
+//		HomePage.goTo();
+		HomePage.browserRefresh();
 		HomePage.verifyHomePagePresented("RESTClient");
 		Request.chooseMethod("POST");
 		Request.addContentTypeHeader("Content-Type","application/json");
-		Request.addURL(prop.getProperty("TMW_OPTIMA_419_004_URL"));
-		Request.addPayload(prop.getProperty("TMW_OPTIMA_419_004_Payload"));
+		Request.buildURL(
+				//set environment ENDPOINT for the test
+				propenv.getProperty("DEV") +
+				//set required type ACCOUNT / SERVICE and accompanying Test Data
+				propservices.getProperty("customeraccount") + AccountInternalId + 
+				//set required SERVICE and accompanying Test Data
+				propservices.getProperty("customerdeposits"));
+		Request.addPayload(propconfig.getProperty("TMW_OPTIMA_419_004_Payload"));
 		Request.submitRequest();
+		//Validate Required Response Status
 		Response.verifyResponseStatus("404 Not Found");
 		Response.goToResponseBodyTab("Response Body (Preview)");
+		//Validate for Message on wrong account number 
+		Response.verifyTextPresence("customeraccounts not found");
 		Response.collectResponseBodyTabData();
 	
 		logger.info("######################          TMW_OPTIMA_419_004 test is completed!      ######################");
-		
 	}
-	
-	
 }

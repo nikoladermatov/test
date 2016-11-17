@@ -3,12 +3,9 @@ package com.amdocs.rest.sprint03.optima419;
 import java.io.FileInputStream;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-
 import org.apache.log4j.Logger;
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
 import com.amdocs.rest.init.HomePage;
 import com.amdocs.rest.init.Request;
 import com.amdocs.rest.init.Response;
@@ -25,33 +22,27 @@ public class TMW_OPTIMA_419_001 {
 		Browser.driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 	}
 
-//	@After
-//	public void tearDown() {
-//		Browser.quitBrowser();
-//	}
-
 	@Test
 	public void Optima419_001() throws Exception {
 	
-		//test settings
-		FileInputStream  env = new FileInputStream("properties/env.properties");
-		FileInputStream  services = new FileInputStream("properties/services.properties");
-		FileInputStream  parameters = new FileInputStream("properties/parameters.properties");
-		FileInputStream  config = new FileInputStream("properties/config.properties");
-		Properties propenv = new Properties();
-		Properties propservices = new Properties();
-		Properties propparameters = new Properties();
-		Properties propconfig = new Properties();
-		propenv.load(env);
-		propservices.load(services);
-		propparameters.load(parameters);
-		propconfig.load(config);
-		propconfig.entrySet();
+		//Test Property Reading Settings
+			FileInputStream  env = new FileInputStream("properties/env.properties");
+			FileInputStream  services = new FileInputStream("properties/services.properties");
+			FileInputStream  parameters = new FileInputStream("properties/parameters.properties");
+			FileInputStream  config = new FileInputStream("properties/config.properties");
+			Properties propenv = new Properties();
+			Properties propservices = new Properties();
+			Properties propparameters = new Properties();
+			Properties propconfig = new Properties();
+			propenv.load(env);
+			propservices.load(services);
+			propparameters.load(parameters);
+			propconfig.load(config);
 		
-		//set Test Data:
-		int AccountInternalId = 135;
+		//Set Test Data:
+			int AccountInternalId = 135;
 		
-		//test execution
+		//Test execution
 		logger.info("######################          Executing TMW_OPTIMA_419_001 test          ######################");
 		
 		HomePage.goTo();
@@ -67,16 +58,14 @@ public class TMW_OPTIMA_419_001 {
 				propservices.getProperty("customerdeposits"));
 		Request.addPayload(propconfig.getProperty("TMW_OPTIMA_419_001_Payload"));
 		Request.submitRequest();
+		//Validate Required Response Status
 		Response.verifyResponseStatus("201 Created");
 		Response.goToResponseBodyTab("Response Body (Preview)");
 		Response.verifyTextPresence("Success");
+		DatabaseUtil.verifyDBrecord(propconfig.getProperty("sqlResult419"));
+		DatabaseUtil.AssertDBrecord(propconfig.getProperty("sqlAssert419"));
 		Response.collectResponseBodyTabData();
-		DatabaseUtil.verifyDBrecordForDeposits();
-		DatabaseUtil.AssertDBrecordForDeposits();
 		
 		logger.info("######################          TMW_OPTIMA_419_001 test is completed!      ######################");
-		
 	}
-	
-	
 }

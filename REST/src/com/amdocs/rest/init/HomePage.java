@@ -40,7 +40,7 @@ public class HomePage {
 			Assert.assertEquals(expectedValidationMessage, actualValidationMessage);
 			logger.info("Home Page is successfully presented.");
 		} else {
-			Browser.driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);	
+			Browser.driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);	
 		}
 		
 	}

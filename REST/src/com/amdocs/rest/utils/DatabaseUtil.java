@@ -100,11 +100,12 @@ public class DatabaseUtil {
 
 
 
-			public static void verifyDBrecordForDeposits() throws SQLException {
+			public static void verifyDBrecord(String string) throws SQLException {
 				Connection connection = conn();
 				
-			    String query = "select tracking_id, tracking_id_serv, account_no from DEPOSIT WHERE ROWNUM <= 1 order by tracking_id desc";
-
+//			    String query = "select tracking_id, tracking_id_serv, account_no from DEPOSIT WHERE ROWNUM <= 1 order by tracking_id desc";
+				String query = string;
+				
 			    try {
 			    	java.sql.Statement stmt = connection.createStatement();
 			        ResultSet rs = stmt.executeQuery(query);
@@ -124,10 +125,11 @@ public class DatabaseUtil {
 			
 			}
 			
-			public static void AssertDBrecordForDeposits() throws SQLException {
+			public static void AssertDBrecord(String string) throws SQLException {
 				Connection connection = conn();
 				
-			    String query = "select tracking_id from DEPOSIT WHERE ROWNUM <= 1 order by tracking_id desc";
+//			    String query = "select tracking_id from DEPOSIT WHERE ROWNUM <= 1 order by tracking_id desc";
+				String query = string;
 			    String responseMessageText = Browser.driver.findElement(By.cssSelector("span[class='header-value']")).getText();
 
 			    try {

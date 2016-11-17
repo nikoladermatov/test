@@ -43,8 +43,10 @@ public class Request {
 						
 			if	(Browser.driver.findElement(By.cssSelector("div[class='progressBar']")).isDisplayed()) {
 						
-					Browser.driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-				
+					do { Browser.driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS); 
+					
+					} while (Browser.driver.findElement(By.cssSelector("div[class='progressBar']")).isDisplayed());
+						
 			} else {
 				
 					logger.info("The request was successfully submitted.");								
