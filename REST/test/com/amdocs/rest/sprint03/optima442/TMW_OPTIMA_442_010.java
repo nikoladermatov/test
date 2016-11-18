@@ -56,7 +56,7 @@ public class TMW_OPTIMA_442_010 {
 				//set environment ENDPOINT for the test
 				propenv.getProperty("DEV") +
 				//set required type ACCOUNT / SERVICE and accompanying Test Data
-				propservices.getProperty("customeraccount") + AccountInternalId + 
+				propservices.getProperty("customeraccounts") + AccountInternalId + 
 				//set required SERVICE and accompanying Test Data
 				propservices.getProperty("customerbills_withCBiD") + BillRefNo + "%2C" + BillRefResets + "?" +
 				//set ADDITIONAL PARAMETERS section:

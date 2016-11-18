@@ -44697,3 +44697,2966 @@ Jetty(8.1.17.v20150415)
   "message": "Success"
 }
 2016-11-17 17:49:46,809 - TMW_OPTIMA_419_020 -INFO - ######################          TMW_OPTIMA_419_020 test is completed!      ######################
+2016-11-18 12:23:03,888 - TMW_OPTIMA_466_001 -INFO - ######################          Executing TMW_OPTIMA_466_001 test          ######################
+2016-11-18 12:23:04,499 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-18 12:23:04,719 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 12:23:04,859 - Request -INFO - The request Method was successfully selected.
+2016-11-18 12:23:05,089 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/25embed=servicecenters
+2016-11-18 12:24:26,510 - TMW_OPTIMA_466_001 -INFO - ######################          Executing TMW_OPTIMA_466_001 test          ######################
+2016-11-18 12:24:27,041 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-18 12:24:27,391 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 12:24:27,561 - Request -INFO - The request Method was successfully selected.
+2016-11-18 12:24:27,842 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/25?embed=servicecenters
+2016-11-18 12:24:29,492 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+1055
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 10:24:33 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 12:24:29,613 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 12:24:29,613 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 12:24:29,643 - Response -INFO - 'accountInternalId' field is presented at the Response!
+2016-11-18 12:24:29,673 - Response -INFO - 'serverId' field is presented at the Response!
+2016-11-18 12:24:29,713 - Response -INFO - 'hierarchyId' field is presented at the Response!
+2016-11-18 12:24:29,753 - Response -INFO - 'billFname' field is presented at the Response!
+2016-11-18 12:24:29,773 - Response -INFO - 'billLname' field is presented at the Response!
+2016-11-18 12:24:29,803 - Response -INFO - 'dateActive' field is presented at the Response!
+2016-11-18 12:24:29,823 - Response -INFO - 'accountCategory' field is presented at the Response!
+2016-11-18 12:24:29,823 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 12:24:29,843 - Response -INFO - Validation was done and 'serviceCenters' is successfully presented!
+2016-11-18 12:24:29,843 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 12:24:29,863 - Response -INFO - 'serviceCenterId' field is presented at the Response!
+2016-11-18 12:24:29,893 - Response -INFO - 'serviceCenterType' field is presented at the Response!
+2016-11-18 12:24:29,893 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 12:24:29,913 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": {
+    "accountInternalId": 25,
+    "serverId": 3,
+    "hierarchyId": 25,
+    "billFname": "Valentin",
+    "billLname": "Gyavurov",
+    "dateActive": "2015-02-02T11:15:53Z",
+    "accountCategory": {
+      "key": "2",
+      "displayValue": "Residential"
+    },
+    "serviceCenters": [
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "2",
+          "displayValue": "Remittance Center"
+        },
+        "isDefault": false
+      },
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "3",
+          "displayValue": "Service Inquiry Center"
+        },
+        "isDefault": false
+      },
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "6",
+          "displayValue": "Print Service Center"
+        },
+        "isDefault": false
+      },
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "4",
+          "displayValue": "Collections Center"
+        },
+        "isDefault": false
+      },
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "1",
+          "displayValue": "Billing Service Center"
+        },
+        "isDefault": false
+      }
+    ]
+  },
+  "message": "Success"
+}
+2016-11-18 12:24:29,923 - TMW_OPTIMA_466_001 -INFO - ######################          TMW_OPTIMA_466_001 test is completed!      ######################
+2016-11-18 12:37:53,065 - TMW_OPTIMA_466_001 -INFO - ######################          Executing TMW_OPTIMA_466_001 test          ######################
+2016-11-18 12:37:53,676 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-18 12:37:53,926 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 12:37:54,096 - Request -INFO - The request Method was successfully selected.
+2016-11-18 12:37:54,357 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/25?embed=servicecenters
+2016-11-18 12:37:55,457 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+1055
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 10:37:59 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 12:37:55,618 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 12:37:55,618 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 12:37:55,678 - Response -INFO - 'accountInternalId' field is presented at the Response!
+2016-11-18 12:37:55,718 - Response -INFO - 'serverId' field is presented at the Response!
+2016-11-18 12:37:55,758 - Response -INFO - 'hierarchyId' field is presented at the Response!
+2016-11-18 12:37:55,809 - Response -INFO - 'billFname' field is presented at the Response!
+2016-11-18 12:37:55,860 - Response -INFO - 'billLname' field is presented at the Response!
+2016-11-18 12:37:55,910 - Response -INFO - 'dateActive' field is presented at the Response!
+2016-11-18 12:37:55,960 - Response -INFO - 'accountCategory' field is presented at the Response!
+2016-11-18 12:37:55,960 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 12:37:56,000 - Response -INFO - Validation was done and 'serviceCenters' is successfully presented!
+2016-11-18 12:37:56,000 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 12:37:56,020 - Response -INFO - 'serviceCenterId' field is presented at the Response!
+2016-11-18 12:37:56,050 - Response -INFO - 'serviceCenterType' field is presented at the Response!
+2016-11-18 12:37:56,050 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 12:37:56,090 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": {
+    "accountInternalId": 25,
+    "serverId": 3,
+    "hierarchyId": 25,
+    "billFname": "Valentin",
+    "billLname": "Gyavurov",
+    "dateActive": "2015-02-02T11:15:53Z",
+    "accountCategory": {
+      "key": "2",
+      "displayValue": "Residential"
+    },
+    "serviceCenters": [
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "2",
+          "displayValue": "Remittance Center"
+        },
+        "isDefault": false
+      },
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "1",
+          "displayValue": "Billing Service Center"
+        },
+        "isDefault": false
+      },
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "6",
+          "displayValue": "Print Service Center"
+        },
+        "isDefault": false
+      },
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "4",
+          "displayValue": "Collections Center"
+        },
+        "isDefault": false
+      },
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "3",
+          "displayValue": "Service Inquiry Center"
+        },
+        "isDefault": false
+      }
+    ]
+  },
+  "message": "Success"
+}
+2016-11-18 12:37:56,090 - TMW_OPTIMA_466_001 -INFO - ######################          TMW_OPTIMA_466_001 test is completed!      ######################
+2016-11-18 12:37:56,100 - TMW_OPTIMA_466_002 -INFO - ######################          Executing TMW_OPTIMA_466_002 test          ######################
+2016-11-18 12:37:56,370 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-18 12:37:56,600 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 12:37:56,721 - Request -INFO - The request Method was successfully selected.
+2016-11-18 12:37:56,971 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/2699?embed=servicecenters
+2016-11-18 12:42:28,201 - TMW_OPTIMA_466_001 -INFO - ######################          Executing TMW_OPTIMA_466_001 test          ######################
+2016-11-18 12:42:28,803 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-18 12:42:29,063 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 12:42:29,153 - Request -INFO - The request Method was successfully selected.
+2016-11-18 12:42:29,343 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/25?embed=servicecenters
+2016-11-18 12:42:30,974 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+1055
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 10:42:35 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 12:42:31,095 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 12:42:31,095 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 12:42:31,125 - Response -INFO - 'accountInternalId' field is presented at the Response!
+2016-11-18 12:42:31,155 - Response -INFO - 'serverId' field is presented at the Response!
+2016-11-18 12:42:31,195 - Response -INFO - 'hierarchyId' field is presented at the Response!
+2016-11-18 12:42:31,225 - Response -INFO - 'billFname' field is presented at the Response!
+2016-11-18 12:42:31,245 - Response -INFO - 'billLname' field is presented at the Response!
+2016-11-18 12:42:31,275 - Response -INFO - 'dateActive' field is presented at the Response!
+2016-11-18 12:42:31,295 - Response -INFO - 'accountCategory' field is presented at the Response!
+2016-11-18 12:42:31,295 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 12:42:31,325 - Response -INFO - Validation was done and 'serviceCenters' is successfully presented!
+2016-11-18 12:42:31,325 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 12:42:31,345 - Response -INFO - 'serviceCenterId' field is presented at the Response!
+2016-11-18 12:42:31,375 - Response -INFO - 'serviceCenterType' field is presented at the Response!
+2016-11-18 12:42:31,375 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 12:42:31,405 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": {
+    "accountInternalId": 25,
+    "serverId": 3,
+    "hierarchyId": 25,
+    "billFname": "Valentin",
+    "billLname": "Gyavurov",
+    "dateActive": "2015-02-02T11:15:53Z",
+    "accountCategory": {
+      "key": "2",
+      "displayValue": "Residential"
+    },
+    "serviceCenters": [
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "4",
+          "displayValue": "Collections Center"
+        },
+        "isDefault": false
+      },
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "3",
+          "displayValue": "Service Inquiry Center"
+        },
+        "isDefault": false
+      },
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "2",
+          "displayValue": "Remittance Center"
+        },
+        "isDefault": false
+      },
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "6",
+          "displayValue": "Print Service Center"
+        },
+        "isDefault": false
+      },
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "1",
+          "displayValue": "Billing Service Center"
+        },
+        "isDefault": false
+      }
+    ]
+  },
+  "message": "Success"
+}
+2016-11-18 12:42:31,405 - TMW_OPTIMA_466_001 -INFO - ######################          TMW_OPTIMA_466_001 test is completed!      ######################
+2016-11-18 12:42:31,405 - TMW_OPTIMA_466_002 -INFO - ######################          Executing TMW_OPTIMA_466_002 test          ######################
+2016-11-18 12:42:31,555 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-18 12:42:31,825 - Request -INFO - The request Method was successfully selected.
+2016-11-18 12:42:35,005 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/2699?embed=servicecenters
+2016-11-18 12:42:35,547 - Response -INFO - Response Details: Status Code
+: 
+404 Not Found
+Content-Length
+: 
+106
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 10:42:39 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 12:42:35,667 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 12:42:35,687 - Response -INFO - Validation was done and 'Invalid request' is successfully presented!
+2016-11-18 12:42:35,717 - Response -INFO - JSON Response Message:{
+  "code": 744621,
+  "message": "Invalid request, customeraccounts not found for IDs:[{AccountInternalId=2699}]"
+}
+2016-11-18 12:42:35,717 - TMW_OPTIMA_466_002 -INFO - ######################          TMW_OPTIMA_466_002 test is completed!      ######################
+2016-11-18 13:21:22,556 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-18 13:21:23,097 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-18 13:21:23,327 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 13:21:23,497 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:21:23,927 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-18 13:21:28,982 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:21:33 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:21:29,103 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:21:29,103 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:21:29,133 - Response -INFO - 'billRefNo' field is presented at the Response!
+2016-11-18 13:21:29,163 - Response -INFO - 'billRefResets' field is presented at the Response!
+2016-11-18 13:21:29,183 - Response -INFO - 'statementDate' field is presented at the Response!
+2016-11-18 13:21:29,203 - Response -INFO - 'paymentDueDate' field is presented at the Response!
+2016-11-18 13:21:29,223 - Response -INFO - 'fromDate' field is presented at the Response!
+2016-11-18 13:21:29,243 - Response -INFO - 'toDate' field is presented at the Response!
+2016-11-18 13:21:29,263 - Response -INFO - 'nextToDate' field is presented at the Response!
+2016-11-18 13:21:29,263 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:21:29,293 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-18 13:21:29,293 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:21:29,323 - Response -INFO - 'serviceInternalId' field is presented at the Response!
+2016-11-18 13:21:29,343 - Response -INFO - 'serviceInternalIdResets' field is presented at the Response!
+2016-11-18 13:21:29,363 - Response -INFO - 'contractId' field is presented at the Response!
+2016-11-18 13:21:29,383 - Response -INFO - 'contractTypeDescription' field is presented at the Response!
+2016-11-18 13:21:29,403 - Response -INFO - 'unitCrId' field is presented at the Response!
+2016-11-18 13:21:29,423 - Response -INFO - 'unitCrDescriptionCode' field is presented at the Response!
+2016-11-18 13:21:29,443 - Response -INFO - 'domainId' field is presented at the Response!
+2016-11-18 13:21:29,463 - Response -INFO - 'unitCrDomain' field is presented at the Response!
+2016-11-18 13:21:29,493 - Response -INFO - 'unitCrDomainText' field is presented at the Response!
+2016-11-18 13:21:29,513 - Response -INFO - 'unitsApplied' field is presented at the Response!
+2016-11-18 13:21:29,533 - Response -INFO - 'unitsAvailable' field is presented at the Response!
+2016-11-18 13:21:29,553 - Response -INFO - 'amountAppliedDiscCurrency' field is presented at the Response!
+2016-11-18 13:21:29,583 - Response -INFO - 'secondaryAmount' field is presented at the Response!
+2016-11-18 13:21:29,583 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:21:29,623 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 15201,
+      "billRefResets": 0,
+      "statementDate": "2016-04-01T04:00:00Z",
+      "paymentDueDate": "2016-04-28T04:00:00Z",
+      "fromDate": "2016-03-01T05:00:00Z",
+      "toDate": "2016-04-01T04:00:00Z",
+      "nextToDate": "2016-05-01T04:00:00Z",
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0
+        }
+      ]
+    }
+  ],
+  "message": "Success"
+}
+2016-11-18 13:21:29,623 - TMW_OPTIMA_442_001 -INFO - ######################          TMW_OPTIMA_442_001 test is completed!      ######################
+2016-11-18 13:21:29,623 - TMW_OPTIMA_442_002 -INFO - ######################          Executing TMW_OPTIMA_442_002 test          ######################
+2016-11-18 13:21:36,104 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:21:36,445 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills?filters=daterange<>2016-07-01 00:00:00^2016-09-02 23:59:00&embed=CreditUnitCr&maxcount=2
+2016-11-18 13:21:38,029 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+978
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:21:42 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:21:38,160 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:21:38,160 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:21:38,190 - Response -INFO - 'billRefNo' field is presented at the Response!
+2016-11-18 13:21:38,210 - Response -INFO - 'billRefResets' field is presented at the Response!
+2016-11-18 13:21:38,250 - Response -INFO - 'statementDate' field is presented at the Response!
+2016-11-18 13:21:38,280 - Response -INFO - 'paymentDueDate' field is presented at the Response!
+2016-11-18 13:21:38,300 - Response -INFO - 'fromDate' field is presented at the Response!
+2016-11-18 13:21:38,330 - Response -INFO - 'toDate' field is presented at the Response!
+2016-11-18 13:21:38,360 - Response -INFO - 'nextToDate' field is presented at the Response!
+2016-11-18 13:21:38,360 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:21:38,422 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-18 13:21:38,422 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:21:38,442 - Response -INFO - 'serviceInternalId' field is presented at the Response!
+2016-11-18 13:21:38,472 - Response -INFO - 'serviceInternalIdResets' field is presented at the Response!
+2016-11-18 13:21:38,502 - Response -INFO - 'contractId' field is presented at the Response!
+2016-11-18 13:21:38,522 - Response -INFO - 'contractTypeDescription' field is presented at the Response!
+2016-11-18 13:21:38,552 - Response -INFO - 'unitCrId' field is presented at the Response!
+2016-11-18 13:21:38,582 - Response -INFO - 'unitCrDescriptionCode' field is presented at the Response!
+2016-11-18 13:21:38,602 - Response -INFO - 'domainId' field is presented at the Response!
+2016-11-18 13:21:38,632 - Response -INFO - 'unitCrDomain' field is presented at the Response!
+2016-11-18 13:21:38,662 - Response -INFO - 'unitCrDomainText' field is presented at the Response!
+2016-11-18 13:21:38,702 - Response -INFO - 'unitsApplied' field is presented at the Response!
+2016-11-18 13:21:38,722 - Response -INFO - 'unitsAvailable' field is presented at the Response!
+2016-11-18 13:21:38,742 - Response -INFO - 'amountAppliedDiscCurrency' field is presented at the Response!
+2016-11-18 13:21:38,772 - Response -INFO - 'secondaryAmount' field is presented at the Response!
+2016-11-18 13:21:38,772 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:21:38,792 - Response -INFO - Validation was done and 'More records Found for the input criteria' is successfully presented!
+2016-11-18 13:21:38,822 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 0,
+      "billRefResets": 0,
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": []
+    },
+    {
+      "billRefNo": 16201,
+      "billRefResets": 0,
+      "statementDate": "2016-09-01T04:00:00Z",
+      "paymentDueDate": "2016-09-30T04:00:00Z",
+      "fromDate": "2016-08-01T04:00:00Z",
+      "toDate": "2016-09-01T04:00:00Z",
+      "nextToDate": "2016-10-01T04:00:00Z",
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0,
+          "taxTypeCode": 100
+        }
+      ]
+    }
+  ],
+  "totalCount": 13,
+  "message": "More records Found for the input criteria, totalCount exist : 13"
+}
+2016-11-18 13:21:38,822 - TMW_OPTIMA_442_002 -INFO - ######################          TMW_OPTIMA_442_002 test is completed!      ######################
+2016-11-18 13:21:38,822 - TMW_OPTIMA_442_003 -INFO - ######################          Executing TMW_OPTIMA_442_003 test          ######################
+2016-11-18 13:21:39,324 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:21:39,585 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr
+2016-11-18 13:21:40,257 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:21:44 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:21:40,387 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:21:40,387 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:21:40,418 - Response -INFO - 'billRefNo' field is presented at the Response!
+2016-11-18 13:21:40,448 - Response -INFO - 'billRefResets' field is presented at the Response!
+2016-11-18 13:21:40,478 - Response -INFO - 'statementDate' field is presented at the Response!
+2016-11-18 13:21:40,508 - Response -INFO - 'paymentDueDate' field is presented at the Response!
+2016-11-18 13:21:40,538 - Response -INFO - 'fromDate' field is presented at the Response!
+2016-11-18 13:21:40,558 - Response -INFO - 'toDate' field is presented at the Response!
+2016-11-18 13:21:40,598 - Response -INFO - 'nextToDate' field is presented at the Response!
+2016-11-18 13:21:40,598 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:21:40,628 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-18 13:21:40,628 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:21:40,668 - Response -INFO - 'serviceInternalId' field is presented at the Response!
+2016-11-18 13:21:40,698 - Response -INFO - 'serviceInternalIdResets' field is presented at the Response!
+2016-11-18 13:21:40,728 - Response -INFO - 'contractId' field is presented at the Response!
+2016-11-18 13:21:40,758 - Response -INFO - 'contractTypeDescription' field is presented at the Response!
+2016-11-18 13:21:40,788 - Response -INFO - 'unitCrId' field is presented at the Response!
+2016-11-18 13:21:40,818 - Response -INFO - 'unitCrDescriptionCode' field is presented at the Response!
+2016-11-18 13:21:40,858 - Response -INFO - 'domainId' field is presented at the Response!
+2016-11-18 13:21:40,888 - Response -INFO - 'unitCrDomain' field is presented at the Response!
+2016-11-18 13:21:43,930 - Response -INFO - 'unitCrDomainText' field is presented at the Response!
+2016-11-18 13:21:43,961 - Response -INFO - 'unitsApplied' field is presented at the Response!
+2016-11-18 13:21:44,001 - Response -INFO - 'unitsAvailable' field is presented at the Response!
+2016-11-18 13:21:44,031 - Response -INFO - 'amountAppliedDiscCurrency' field is presented at the Response!
+2016-11-18 13:21:44,061 - Response -INFO - 'secondaryAmount' field is presented at the Response!
+2016-11-18 13:21:44,061 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:21:44,101 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 15201,
+      "billRefResets": 0,
+      "statementDate": "2016-04-01T04:00:00Z",
+      "paymentDueDate": "2016-04-28T04:00:00Z",
+      "fromDate": "2016-03-01T05:00:00Z",
+      "toDate": "2016-04-01T04:00:00Z",
+      "nextToDate": "2016-05-01T04:00:00Z",
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0
+        }
+      ]
+    }
+  ],
+  "message": "Success"
+}
+2016-11-18 13:21:44,101 - TMW_OPTIMA_442_003 -INFO - ######################          TMW_OPTIMA_442_003 test is completed!      ######################
+2016-11-18 13:21:44,111 - TMW_OPTIMA_442_004 -INFO - ######################          Executing TMW_OPTIMA_442_004 test          ######################
+2016-11-18 13:21:44,613 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:21:44,883 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills?filters=daterange<>2016-07-01 00:00:00^2016-09-02 23:59:00&embed=CreditUnitCr
+2016-11-18 13:21:48,905 - TMW_OPTIMA_442_005 -INFO - ######################          Executing TMW_OPTIMA_442_005 test          ######################
+2016-11-18 13:21:49,396 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:21:49,676 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/16201%2C0?maxcount=2&embed=CreditUnitCr&fields=warmBillFlag,chgWho
+2016-11-18 13:21:50,326 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+834
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:21:54 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:21:50,467 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:21:50,467 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:21:50,497 - Response -INFO - 'billRefNo' field is presented at the Response!
+2016-11-18 13:21:50,527 - Response -INFO - 'billRefResets' field is presented at the Response!
+2016-11-18 13:21:50,547 - Response -INFO - 'statementDate' field is presented at the Response!
+2016-11-18 13:21:50,577 - Response -INFO - 'paymentDueDate' field is presented at the Response!
+2016-11-18 13:21:50,607 - Response -INFO - 'fromDate' field is presented at the Response!
+2016-11-18 13:21:50,628 - Response -INFO - 'toDate' field is presented at the Response!
+2016-11-18 13:21:50,669 - Response -INFO - 'nextToDate' field is presented at the Response!
+2016-11-18 13:21:50,669 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:21:50,699 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-18 13:21:50,699 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:21:50,719 - Response -INFO - 'serviceInternalId' field is presented at the Response!
+2016-11-18 13:21:50,749 - Response -INFO - 'serviceInternalIdResets' field is presented at the Response!
+2016-11-18 13:21:50,779 - Response -INFO - 'contractId' field is presented at the Response!
+2016-11-18 13:21:50,809 - Response -INFO - 'contractTypeDescription' field is presented at the Response!
+2016-11-18 13:21:50,829 - Response -INFO - 'unitCrId' field is presented at the Response!
+2016-11-18 13:21:50,859 - Response -INFO - 'unitCrDescriptionCode' field is presented at the Response!
+2016-11-18 13:21:50,889 - Response -INFO - 'domainId' field is presented at the Response!
+2016-11-18 13:21:50,905 - Response -INFO - 'unitCrDomain' field is presented at the Response!
+2016-11-18 13:21:50,951 - Response -INFO - 'unitCrDomainText' field is presented at the Response!
+2016-11-18 13:21:50,991 - Response -INFO - 'unitsApplied' field is presented at the Response!
+2016-11-18 13:21:51,021 - Response -INFO - 'unitsAvailable' field is presented at the Response!
+2016-11-18 13:21:51,038 - Response -INFO - 'amountAppliedDiscCurrency' field is presented at the Response!
+2016-11-18 13:21:51,073 - Response -INFO - 'secondaryAmount' field is presented at the Response!
+2016-11-18 13:21:51,073 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:21:51,093 - Response -INFO - Validation was done and 'chgWho' is successfully presented!
+2016-11-18 13:21:51,113 - Response -INFO - Validation was done and 'warmBillFlag' is successfully presented!
+2016-11-18 13:21:51,143 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 16201,
+      "statementDate": "2016-09-01T04:00:00Z",
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0,
+          "taxTypeCode": 100
+        }
+      ],
+      "warmBillFlag": false,
+      "postPaidBilledUsageTotal": 0,
+      "billRefResets": 0,
+      "nextToDate": "2016-10-01T04:00:00Z",
+      "chgWho": "bip01                         ",
+      "toDate": "2016-09-01T04:00:00Z",
+      "postPaidBilledRcTotal": 0,
+      "fromDate": "2016-08-01T04:00:00Z",
+      "paymentDueDate": "2016-09-30T04:00:00Z",
+      "postPaidBilledNrcTotal": 0
+    }
+  ],
+  "message": "Success"
+}
+2016-11-18 13:21:51,143 - TMW_OPTIMA_442_005 -INFO - ######################          TMW_OPTIMA_442_005 test is completed!      ######################
+2016-11-18 13:21:51,143 - TMW_OPTIMA_442_006 -INFO - ######################          Executing TMW_OPTIMA_442_006 test          ######################
+2016-11-18 13:21:51,643 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:21:52,074 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills?filters=daterange<>2016-07-01 00:00:00^2016-09-02 23:59:00&maxcount=2&embed=CreditUnitCr&fields=zip
+2016-11-18 13:21:53,406 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+1003
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:21:57 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:21:53,537 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:21:53,537 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:21:53,567 - Response -INFO - 'billRefNo' field is presented at the Response!
+2016-11-18 13:21:53,597 - Response -INFO - 'billRefResets' field is presented at the Response!
+2016-11-18 13:21:53,627 - Response -INFO - 'statementDate' field is presented at the Response!
+2016-11-18 13:21:53,657 - Response -INFO - 'paymentDueDate' field is presented at the Response!
+2016-11-18 13:21:53,697 - Response -INFO - 'fromDate' field is presented at the Response!
+2016-11-18 13:21:53,727 - Response -INFO - 'toDate' field is presented at the Response!
+2016-11-18 13:21:53,757 - Response -INFO - 'nextToDate' field is presented at the Response!
+2016-11-18 13:21:53,757 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:21:53,787 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-18 13:21:53,787 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:21:53,847 - Response -INFO - 'serviceInternalId' field is presented at the Response!
+2016-11-18 13:21:53,877 - Response -INFO - 'serviceInternalIdResets' field is presented at the Response!
+2016-11-18 13:21:53,897 - Response -INFO - 'contractId' field is presented at the Response!
+2016-11-18 13:21:53,927 - Response -INFO - 'contractTypeDescription' field is presented at the Response!
+2016-11-18 13:21:53,967 - Response -INFO - 'unitCrId' field is presented at the Response!
+2016-11-18 13:21:53,997 - Response -INFO - 'unitCrDescriptionCode' field is presented at the Response!
+2016-11-18 13:21:54,017 - Response -INFO - 'domainId' field is presented at the Response!
+2016-11-18 13:21:54,109 - Response -INFO - 'unitCrDomain' field is presented at the Response!
+2016-11-18 13:21:54,149 - Response -INFO - 'unitCrDomainText' field is presented at the Response!
+2016-11-18 13:21:54,179 - Response -INFO - 'unitsApplied' field is presented at the Response!
+2016-11-18 13:21:54,259 - Response -INFO - 'unitsAvailable' field is presented at the Response!
+2016-11-18 13:21:54,289 - Response -INFO - 'amountAppliedDiscCurrency' field is presented at the Response!
+2016-11-18 13:21:54,319 - Response -INFO - 'secondaryAmount' field is presented at the Response!
+2016-11-18 13:21:54,319 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:21:54,369 - Response -INFO - Validation was done and 'More records Found for the input criteria' is successfully presented!
+2016-11-18 13:21:54,389 - Response -INFO - Validation was done and 'zip' is successfully presented!
+2016-11-18 13:21:54,429 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 0,
+      "postPaidBilledRcTotal": 0,
+      "creditUnitCr": [],
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "billRefResets": 0
+    },
+    {
+      "billRefNo": 16201,
+      "zip": "11111           ",
+      "toDate": "2016-09-01T04:00:00Z",
+      "statementDate": "2016-09-01T04:00:00Z",
+      "postPaidBilledRcTotal": 0,
+      "fromDate": "2016-08-01T04:00:00Z",
+      "paymentDueDate": "2016-09-30T04:00:00Z",
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0,
+          "taxTypeCode": 100
+        }
+      ],
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "billRefResets": 0,
+      "nextToDate": "2016-10-01T04:00:00Z"
+    }
+  ],
+  "totalCount": 13,
+  "message": "More records Found for the input criteria, totalCount exist : 13"
+}
+2016-11-18 13:21:54,429 - TMW_OPTIMA_442_006 -INFO - ######################          TMW_OPTIMA_442_006 test is completed!      ######################
+2016-11-18 13:21:54,429 - TMW_OPTIMA_442_007 -INFO - ######################          Executing TMW_OPTIMA_442_007 test          ######################
+2016-11-18 13:21:54,872 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 13:21:54,962 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:21:55,252 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills?filters=daterange<>2016-07-01 00:00:00^2016-09-02 23:59:00&embed=CreditUnitCr&maxcount=3
+2016-11-18 13:21:56,534 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+1297
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:22:00 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:21:56,685 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:21:56,685 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:21:56,715 - Response -INFO - 'billRefNo' field is presented at the Response!
+2016-11-18 13:21:56,755 - Response -INFO - 'billRefResets' field is presented at the Response!
+2016-11-18 13:21:56,785 - Response -INFO - 'statementDate' field is presented at the Response!
+2016-11-18 13:21:56,805 - Response -INFO - 'paymentDueDate' field is presented at the Response!
+2016-11-18 13:21:56,825 - Response -INFO - 'fromDate' field is presented at the Response!
+2016-11-18 13:21:56,845 - Response -INFO - 'toDate' field is presented at the Response!
+2016-11-18 13:21:56,876 - Response -INFO - 'nextToDate' field is presented at the Response!
+2016-11-18 13:21:56,876 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:21:56,888 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-18 13:21:56,888 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:21:56,937 - Response -INFO - 'serviceInternalId' field is presented at the Response!
+2016-11-18 13:21:56,957 - Response -INFO - 'serviceInternalIdResets' field is presented at the Response!
+2016-11-18 13:21:56,987 - Response -INFO - 'contractId' field is presented at the Response!
+2016-11-18 13:21:57,007 - Response -INFO - 'contractTypeDescription' field is presented at the Response!
+2016-11-18 13:21:57,047 - Response -INFO - 'unitCrId' field is presented at the Response!
+2016-11-18 13:21:57,067 - Response -INFO - 'unitCrDescriptionCode' field is presented at the Response!
+2016-11-18 13:21:57,097 - Response -INFO - 'domainId' field is presented at the Response!
+2016-11-18 13:21:57,117 - Response -INFO - 'unitCrDomain' field is presented at the Response!
+2016-11-18 13:21:57,147 - Response -INFO - 'unitCrDomainText' field is presented at the Response!
+2016-11-18 13:21:57,167 - Response -INFO - 'unitsApplied' field is presented at the Response!
+2016-11-18 13:21:57,197 - Response -INFO - 'unitsAvailable' field is presented at the Response!
+2016-11-18 13:21:57,217 - Response -INFO - 'amountAppliedDiscCurrency' field is presented at the Response!
+2016-11-18 13:21:57,247 - Response -INFO - 'secondaryAmount' field is presented at the Response!
+2016-11-18 13:21:57,247 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:21:57,287 - Response -INFO - Validation was done and 'More records Found for the input criteria' is successfully presented!
+2016-11-18 13:21:57,317 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 0,
+      "billRefResets": 0,
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": []
+    },
+    {
+      "billRefNo": 16201,
+      "billRefResets": 0,
+      "statementDate": "2016-09-01T04:00:00Z",
+      "paymentDueDate": "2016-09-30T04:00:00Z",
+      "fromDate": "2016-08-01T04:00:00Z",
+      "toDate": "2016-09-01T04:00:00Z",
+      "nextToDate": "2016-10-01T04:00:00Z",
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0,
+          "taxTypeCode": 100
+        }
+      ]
+    },
+    {
+      "billRefNo": 16001,
+      "billRefResets": 0,
+      "statementDate": "2016-08-01T04:00:00Z",
+      "paymentDueDate": "2016-09-01T04:00:00Z",
+      "fromDate": "2016-07-01T04:00:00Z",
+      "toDate": "2016-08-01T04:00:00Z",
+      "nextToDate": "2016-09-01T04:00:00Z",
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": []
+    }
+  ],
+  "totalCount": 13,
+  "message": "More records Found for the input criteria, totalCount exist : 13"
+}
+2016-11-18 13:21:57,317 - TMW_OPTIMA_442_007 -INFO - ######################          TMW_OPTIMA_442_007 test is completed!      ######################
+2016-11-18 13:21:57,317 - TMW_OPTIMA_442_008 -INFO - ######################          Executing TMW_OPTIMA_442_008 test          ######################
+2016-11-18 13:21:57,807 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:21:58,108 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/16201%2C0?maxcount=0&embed=CreditUnitCr
+2016-11-18 13:21:58,708 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+100
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:22:03 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:21:58,838 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:21:58,859 - Response -INFO - Validation was done and 'More records Found for the input criteria' is successfully presented!
+2016-11-18 13:21:58,899 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [],
+  "message": "More records Found for the input criteria, totalCount exist : 1"
+}
+2016-11-18 13:21:58,899 - TMW_OPTIMA_442_008 -INFO - ######################          TMW_OPTIMA_442_008 test is completed!      ######################
+2016-11-18 13:21:58,899 - TMW_OPTIMA_442_009 -INFO - ######################          Executing TMW_OPTIMA_442_009 test          ######################
+2016-11-18 13:21:59,449 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:21:59,729 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills?filters=daterange<>2015-06-01 00:00:00^2016-09-05 23:59:00&embed=CreditUnitCr
+2016-11-18 13:22:00,369 - Response -INFO - Response Details: Status Code
+: 
+400 Bad Request
+Content-Length
+: 
+91
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:22:04 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:22:00,650 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:22:00,670 - Response -INFO - Validation was done and 'Date range must not exceed configuration parameter maxdays 365.' is successfully presented!
+2016-11-18 13:22:00,700 - Response -INFO - JSON Response Message:{
+  "code": 714421,
+  "message": "Date range must not exceed configuration parameter maxdays 365."
+}
+2016-11-18 13:22:00,700 - TMW_OPTIMA_442_009 -INFO - ######################          TMW_OPTIMA_442_009 test is completed!      ######################
+2016-11-18 13:22:00,700 - TMW_OPTIMA_442_010 -INFO - ######################          Executing TMW_OPTIMA_442_010 test          ######################
+2016-11-18 13:22:01,121 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 13:22:01,201 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:22:01,501 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/16201%2C0?embed=CreditUnitCr&page=1
+2016-11-18 13:22:02,142 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+771
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:22:06 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:22:02,312 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:22:02,312 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:22:02,344 - Response -INFO - 'billRefNo' field is presented at the Response!
+2016-11-18 13:22:02,393 - Response -INFO - 'billRefResets' field is presented at the Response!
+2016-11-18 13:22:02,430 - Response -INFO - 'statementDate' field is presented at the Response!
+2016-11-18 13:22:02,462 - Response -INFO - 'paymentDueDate' field is presented at the Response!
+2016-11-18 13:22:02,526 - Response -INFO - 'fromDate' field is presented at the Response!
+2016-11-18 13:22:02,564 - Response -INFO - 'toDate' field is presented at the Response!
+2016-11-18 13:22:02,614 - Response -INFO - 'nextToDate' field is presented at the Response!
+2016-11-18 13:22:02,614 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:22:02,644 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-18 13:22:02,644 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:22:02,664 - Response -INFO - 'serviceInternalId' field is presented at the Response!
+2016-11-18 13:22:02,694 - Response -INFO - 'serviceInternalIdResets' field is presented at the Response!
+2016-11-18 13:22:02,711 - Response -INFO - 'contractId' field is presented at the Response!
+2016-11-18 13:22:02,787 - Response -INFO - 'contractTypeDescription' field is presented at the Response!
+2016-11-18 13:22:02,828 - Response -INFO - 'unitCrId' field is presented at the Response!
+2016-11-18 13:22:02,888 - Response -INFO - 'unitCrDescriptionCode' field is presented at the Response!
+2016-11-18 13:22:02,908 - Response -INFO - 'domainId' field is presented at the Response!
+2016-11-18 13:22:02,938 - Response -INFO - 'unitCrDomain' field is presented at the Response!
+2016-11-18 13:22:02,978 - Response -INFO - 'unitCrDomainText' field is presented at the Response!
+2016-11-18 13:22:03,008 - Response -INFO - 'unitsApplied' field is presented at the Response!
+2016-11-18 13:22:03,028 - Response -INFO - 'unitsAvailable' field is presented at the Response!
+2016-11-18 13:22:03,058 - Response -INFO - 'amountAppliedDiscCurrency' field is presented at the Response!
+2016-11-18 13:22:03,078 - Response -INFO - 'secondaryAmount' field is presented at the Response!
+2016-11-18 13:22:03,078 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:22:03,108 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 16201,
+      "billRefResets": 0,
+      "statementDate": "2016-09-01T04:00:00Z",
+      "paymentDueDate": "2016-09-30T04:00:00Z",
+      "fromDate": "2016-08-01T04:00:00Z",
+      "toDate": "2016-09-01T04:00:00Z",
+      "nextToDate": "2016-10-01T04:00:00Z",
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0,
+          "taxTypeCode": 100
+        }
+      ]
+    }
+  ],
+  "message": "Success"
+}
+2016-11-18 13:22:03,108 - TMW_OPTIMA_442_010 -INFO - ######################          TMW_OPTIMA_442_010 test is completed!      ######################
+2016-11-18 13:22:03,108 - TMW_OPTIMA_442_011 -INFO - ######################          Executing TMW_OPTIMA_442_011 test          ######################
+2016-11-18 13:22:03,548 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 13:22:03,629 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:22:03,939 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/15/customerbills?filters=daterange<>2016-07-01+00%3A00%3A00%5E2016-09-02+23%3A59%3A00&embed=CreditUnitCr&page=1&limit=2
+2016-11-18 13:22:05,612 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+1457
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:22:09 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:22:05,743 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:22:05,743 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:22:05,783 - Response -INFO - 'billRefNo' field is presented at the Response!
+2016-11-18 13:22:05,803 - Response -INFO - 'billRefResets' field is presented at the Response!
+2016-11-18 13:22:05,833 - Response -INFO - 'statementDate' field is presented at the Response!
+2016-11-18 13:22:05,863 - Response -INFO - 'paymentDueDate' field is presented at the Response!
+2016-11-18 13:22:05,883 - Response -INFO - 'fromDate' field is presented at the Response!
+2016-11-18 13:22:05,903 - Response -INFO - 'toDate' field is presented at the Response!
+2016-11-18 13:22:05,923 - Response -INFO - 'nextToDate' field is presented at the Response!
+2016-11-18 13:22:05,923 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:22:05,953 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-18 13:22:05,985 - Response -INFO - Validation was done and 'self' is successfully presented!
+2016-11-18 13:22:06,015 - Response -INFO - Validation was done and 'links' is successfully presented!
+2016-11-18 13:22:06,045 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 0,
+      "billRefResets": 0,
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": [],
+      "customerBillUrl": [
+        "http://10.230.16.67:8080/server10.230.16.67/REF0000000000/REF0000000000/REF0000000000/BILL_0_1_1_2_669644.pdf",
+        "http://10.230.16.67:8080/server10.230.16.67/REF0000000000/REF0000000000/REF0000000000/BILL_0_1_3_1_669643.pdf"
+      ]
+    },
+    {
+      "billRefNo": 12801,
+      "billRefResets": 0,
+      "statementDate": "2016-01-01T05:00:00Z",
+      "paymentDueDate": "2016-02-01T05:00:00Z",
+      "fromDate": "2015-12-01T05:00:00Z",
+      "toDate": "2016-01-01T05:00:00Z",
+      "nextToDate": "2016-02-01T05:00:00Z",
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": []
+    }
+  ],
+  "totalCount": 6,
+  "self": {
+    "href": "http://10.230.16.71:8001/rest/v1/customeraccounts/15/customerbills?filters=daterange%3C%3E2016-07-01+00%3A00%3A00%5E2016-09-02+23%3A59%3A00&embed=CreditUnitCr&page=1&limit=2",
+    "rel": "self"
+  },
+  "links": [
+    {
+      "href": "http://10.230.16.71:8001/rest/v1/customeraccounts/15/customerbills?filters=daterange%3C%3E2016-07-01+00%3A00%3A00%5E2016-09-02+23%3A59%3A00&embed=CreditUnitCr&page=2&limit=2",
+      "rel": "next"
+    },
+    {
+      "href": "http://10.230.16.71:8001/rest/v1/customeraccounts/15/customerbills?filters=daterange%3C%3E2016-07-01+00%3A00%3A00%5E2016-09-02+23%3A59%3A00&embed=CreditUnitCr&page=3&limit=2",
+      "rel": "last"
+    }
+  ],
+  "message": "More records Found for the input criteria, totalCount exist : 6"
+}
+2016-11-18 13:22:06,045 - TMW_OPTIMA_442_011 -INFO - ######################          TMW_OPTIMA_442_011 test is completed!      ######################
+2016-11-18 13:22:06,045 - TMW_OPTIMA_442_012 -INFO - ######################          Executing TMW_OPTIMA_442_012 test          ######################
+2016-11-18 13:22:06,505 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:22:06,775 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?filters=daterange<>2015-06-01 00:00:00^2016-09-05 23:59:00&embed=CreditUnitCr
+2016-11-18 13:22:07,610 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:22:11 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:22:07,740 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:22:07,740 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:22:07,770 - Response -INFO - 'billRefNo' field is presented at the Response!
+2016-11-18 13:22:07,811 - Response -INFO - 'billRefResets' field is presented at the Response!
+2016-11-18 13:22:07,861 - Response -INFO - 'statementDate' field is presented at the Response!
+2016-11-18 13:22:07,891 - Response -INFO - 'paymentDueDate' field is presented at the Response!
+2016-11-18 13:22:07,931 - Response -INFO - 'fromDate' field is presented at the Response!
+2016-11-18 13:22:07,946 - Response -INFO - 'toDate' field is presented at the Response!
+2016-11-18 13:22:07,993 - Response -INFO - 'nextToDate' field is presented at the Response!
+2016-11-18 13:22:07,993 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:22:08,006 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-18 13:22:08,006 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:22:08,045 - Response -INFO - 'serviceInternalId' field is presented at the Response!
+2016-11-18 13:22:08,075 - Response -INFO - 'serviceInternalIdResets' field is presented at the Response!
+2016-11-18 13:22:08,095 - Response -INFO - 'contractId' field is presented at the Response!
+2016-11-18 13:22:08,125 - Response -INFO - 'contractTypeDescription' field is presented at the Response!
+2016-11-18 13:22:08,146 - Response -INFO - 'unitCrId' field is presented at the Response!
+2016-11-18 13:22:08,176 - Response -INFO - 'unitCrDescriptionCode' field is presented at the Response!
+2016-11-18 13:22:08,206 - Response -INFO - 'domainId' field is presented at the Response!
+2016-11-18 13:22:08,226 - Response -INFO - 'unitCrDomain' field is presented at the Response!
+2016-11-18 13:22:08,266 - Response -INFO - 'unitCrDomainText' field is presented at the Response!
+2016-11-18 13:22:08,287 - Response -INFO - 'unitsApplied' field is presented at the Response!
+2016-11-18 13:22:08,328 - Response -INFO - 'unitsAvailable' field is presented at the Response!
+2016-11-18 13:22:08,369 - Response -INFO - 'amountAppliedDiscCurrency' field is presented at the Response!
+2016-11-18 13:22:08,419 - Response -INFO - 'secondaryAmount' field is presented at the Response!
+2016-11-18 13:22:08,419 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:22:08,460 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 15201,
+      "billRefResets": 0,
+      "statementDate": "2016-04-01T04:00:00Z",
+      "paymentDueDate": "2016-04-28T04:00:00Z",
+      "fromDate": "2016-03-01T05:00:00Z",
+      "toDate": "2016-04-01T04:00:00Z",
+      "nextToDate": "2016-05-01T04:00:00Z",
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0
+        }
+      ]
+    }
+  ],
+  "message": "Success"
+}
+2016-11-18 13:22:08,460 - TMW_OPTIMA_442_012 -INFO - ######################          TMW_OPTIMA_442_012 test is completed!      ######################
+2016-11-18 13:22:14,228 - TMW_OPTIMA_466_001 -INFO - ######################          Executing TMW_OPTIMA_466_001 test          ######################
+2016-11-18 13:22:14,831 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-18 13:22:15,121 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 13:22:15,251 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:22:15,552 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/25?embed=servicecenters
+2016-11-18 13:22:19,585 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+1055
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:22:21 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:22:19,716 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:22:19,716 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:22:19,756 - Response -INFO - 'accountInternalId' field is presented at the Response!
+2016-11-18 13:22:19,796 - Response -INFO - 'serverId' field is presented at the Response!
+2016-11-18 13:22:19,826 - Response -INFO - 'hierarchyId' field is presented at the Response!
+2016-11-18 13:22:19,846 - Response -INFO - 'billFname' field is presented at the Response!
+2016-11-18 13:22:19,866 - Response -INFO - 'billLname' field is presented at the Response!
+2016-11-18 13:22:19,896 - Response -INFO - 'dateActive' field is presented at the Response!
+2016-11-18 13:22:19,916 - Response -INFO - 'accountCategory' field is presented at the Response!
+2016-11-18 13:22:19,916 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:22:19,946 - Response -INFO - Validation was done and 'serviceCenters' is successfully presented!
+2016-11-18 13:22:19,946 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:22:19,966 - Response -INFO - 'serviceCenterId' field is presented at the Response!
+2016-11-18 13:22:19,976 - Response -INFO - 'serviceCenterType' field is presented at the Response!
+2016-11-18 13:22:19,976 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:22:20,006 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": {
+    "accountInternalId": 25,
+    "serverId": 3,
+    "hierarchyId": 25,
+    "billFname": "Valentin",
+    "billLname": "Gyavurov",
+    "dateActive": "2015-02-02T11:15:53Z",
+    "accountCategory": {
+      "key": "2",
+      "displayValue": "Residential"
+    },
+    "serviceCenters": [
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "1",
+          "displayValue": "Billing Service Center"
+        },
+        "isDefault": false
+      },
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "2",
+          "displayValue": "Remittance Center"
+        },
+        "isDefault": false
+      },
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "4",
+          "displayValue": "Collections Center"
+        },
+        "isDefault": false
+      },
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "6",
+          "displayValue": "Print Service Center"
+        },
+        "isDefault": false
+      },
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "3",
+          "displayValue": "Service Inquiry Center"
+        },
+        "isDefault": false
+      }
+    ]
+  },
+  "message": "Success"
+}
+2016-11-18 13:22:20,006 - TMW_OPTIMA_466_001 -INFO - ######################          TMW_OPTIMA_466_001 test is completed!      ######################
+2016-11-18 13:22:20,006 - TMW_OPTIMA_466_002 -INFO - ######################          Executing TMW_OPTIMA_466_002 test          ######################
+2016-11-18 13:22:20,176 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-18 13:22:20,506 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:22:20,696 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/2699?embed=servicecenters
+2016-11-18 13:22:21,247 - Response -INFO - Response Details: Status Code
+: 
+404 Not Found
+Content-Length
+: 
+106
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:22:25 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:22:21,357 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:22:21,387 - Response -INFO - Validation was done and 'Invalid request' is successfully presented!
+2016-11-18 13:22:21,417 - Response -INFO - JSON Response Message:{
+  "code": 744621,
+  "message": "Invalid request, customeraccounts not found for IDs:[{AccountInternalId=2699}]"
+}
+2016-11-18 13:22:21,417 - TMW_OPTIMA_466_002 -INFO - ######################          TMW_OPTIMA_466_002 test is completed!      ######################
+2016-11-18 13:25:54,908 - TMW_OPTIMA_442_001 -INFO - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-18 13:25:55,631 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-18 13:25:56,031 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 13:25:56,133 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:25:56,413 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-18 13:25:57,637 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:26:01 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:25:57,829 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:25:57,829 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:25:57,869 - Response -INFO - 'billRefNo' field is presented at the Response!
+2016-11-18 13:25:57,919 - Response -INFO - 'billRefResets' field is presented at the Response!
+2016-11-18 13:25:57,969 - Response -INFO - 'statementDate' field is presented at the Response!
+2016-11-18 13:25:58,019 - Response -INFO - 'paymentDueDate' field is presented at the Response!
+2016-11-18 13:25:58,063 - Response -INFO - 'fromDate' field is presented at the Response!
+2016-11-18 13:25:58,131 - Response -INFO - 'toDate' field is presented at the Response!
+2016-11-18 13:25:58,161 - Response -INFO - 'nextToDate' field is presented at the Response!
+2016-11-18 13:25:58,161 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:25:58,191 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-18 13:25:58,191 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:25:58,221 - Response -INFO - 'serviceInternalId' field is presented at the Response!
+2016-11-18 13:25:58,251 - Response -INFO - 'serviceInternalIdResets' field is presented at the Response!
+2016-11-18 13:25:58,271 - Response -INFO - 'contractId' field is presented at the Response!
+2016-11-18 13:25:58,301 - Response -INFO - 'contractTypeDescription' field is presented at the Response!
+2016-11-18 13:25:58,331 - Response -INFO - 'unitCrId' field is presented at the Response!
+2016-11-18 13:25:58,371 - Response -INFO - 'unitCrDescriptionCode' field is presented at the Response!
+2016-11-18 13:25:58,391 - Response -INFO - 'domainId' field is presented at the Response!
+2016-11-18 13:25:58,421 - Response -INFO - 'unitCrDomain' field is presented at the Response!
+2016-11-18 13:25:58,451 - Response -INFO - 'unitCrDomainText' field is presented at the Response!
+2016-11-18 13:25:58,481 - Response -INFO - 'unitsApplied' field is presented at the Response!
+2016-11-18 13:25:58,511 - Response -INFO - 'unitsAvailable' field is presented at the Response!
+2016-11-18 13:25:58,541 - Response -INFO - 'amountAppliedDiscCurrency' field is presented at the Response!
+2016-11-18 13:25:58,571 - Response -INFO - 'secondaryAmount' field is presented at the Response!
+2016-11-18 13:25:58,571 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:25:58,591 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 15201,
+      "billRefResets": 0,
+      "statementDate": "2016-04-01T04:00:00Z",
+      "paymentDueDate": "2016-04-28T04:00:00Z",
+      "fromDate": "2016-03-01T05:00:00Z",
+      "toDate": "2016-04-01T04:00:00Z",
+      "nextToDate": "2016-05-01T04:00:00Z",
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0
+        }
+      ]
+    }
+  ],
+  "message": "Success"
+}
+2016-11-18 13:25:58,591 - TMW_OPTIMA_442_001 -INFO - ######################          TMW_OPTIMA_442_001 test is completed!      ######################
+2016-11-18 13:25:58,591 - TMW_OPTIMA_442_002 -INFO - ######################          Executing TMW_OPTIMA_442_002 test          ######################
+2016-11-18 13:25:59,112 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:25:59,383 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills?filters=daterange<>2016-07-01 00:00:00^2016-09-02 23:59:00&embed=CreditUnitCr&maxcount=2
+2016-11-18 13:26:00,613 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+978
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:26:04 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:26:00,754 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:26:00,754 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:26:00,784 - Response -INFO - 'billRefNo' field is presented at the Response!
+2016-11-18 13:26:00,814 - Response -INFO - 'billRefResets' field is presented at the Response!
+2016-11-18 13:26:00,844 - Response -INFO - 'statementDate' field is presented at the Response!
+2016-11-18 13:26:00,874 - Response -INFO - 'paymentDueDate' field is presented at the Response!
+2016-11-18 13:26:00,904 - Response -INFO - 'fromDate' field is presented at the Response!
+2016-11-18 13:26:00,924 - Response -INFO - 'toDate' field is presented at the Response!
+2016-11-18 13:26:00,944 - Response -INFO - 'nextToDate' field is presented at the Response!
+2016-11-18 13:26:00,944 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:26:00,984 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-18 13:26:00,984 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:26:01,014 - Response -INFO - 'serviceInternalId' field is presented at the Response!
+2016-11-18 13:26:01,044 - Response -INFO - 'serviceInternalIdResets' field is presented at the Response!
+2016-11-18 13:26:01,074 - Response -INFO - 'contractId' field is presented at the Response!
+2016-11-18 13:26:01,104 - Response -INFO - 'contractTypeDescription' field is presented at the Response!
+2016-11-18 13:26:01,124 - Response -INFO - 'unitCrId' field is presented at the Response!
+2016-11-18 13:26:01,144 - Response -INFO - 'unitCrDescriptionCode' field is presented at the Response!
+2016-11-18 13:26:01,174 - Response -INFO - 'domainId' field is presented at the Response!
+2016-11-18 13:26:01,204 - Response -INFO - 'unitCrDomain' field is presented at the Response!
+2016-11-18 13:26:01,244 - Response -INFO - 'unitCrDomainText' field is presented at the Response!
+2016-11-18 13:26:01,264 - Response -INFO - 'unitsApplied' field is presented at the Response!
+2016-11-18 13:26:01,294 - Response -INFO - 'unitsAvailable' field is presented at the Response!
+2016-11-18 13:26:01,324 - Response -INFO - 'amountAppliedDiscCurrency' field is presented at the Response!
+2016-11-18 13:26:01,344 - Response -INFO - 'secondaryAmount' field is presented at the Response!
+2016-11-18 13:26:01,344 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:26:01,374 - Response -INFO - Validation was done and 'More records Found for the input criteria' is successfully presented!
+2016-11-18 13:26:01,414 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 0,
+      "billRefResets": 0,
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": []
+    },
+    {
+      "billRefNo": 16201,
+      "billRefResets": 0,
+      "statementDate": "2016-09-01T04:00:00Z",
+      "paymentDueDate": "2016-09-30T04:00:00Z",
+      "fromDate": "2016-08-01T04:00:00Z",
+      "toDate": "2016-09-01T04:00:00Z",
+      "nextToDate": "2016-10-01T04:00:00Z",
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0,
+          "taxTypeCode": 100
+        }
+      ]
+    }
+  ],
+  "totalCount": 13,
+  "message": "More records Found for the input criteria, totalCount exist : 13"
+}
+2016-11-18 13:26:01,414 - TMW_OPTIMA_442_002 -INFO - ######################          TMW_OPTIMA_442_002 test is completed!      ######################
+2016-11-18 13:26:01,414 - TMW_OPTIMA_442_003 -INFO - ######################          Executing TMW_OPTIMA_442_003 test          ######################
+2016-11-18 13:26:01,884 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:26:02,125 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr
+2016-11-18 13:26:03,417 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:26:07 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:26:03,588 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:26:03,588 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:26:03,608 - Response -INFO - 'billRefNo' field is presented at the Response!
+2016-11-18 13:26:03,638 - Response -INFO - 'billRefResets' field is presented at the Response!
+2016-11-18 13:26:03,688 - Response -INFO - 'statementDate' field is presented at the Response!
+2016-11-18 13:26:03,728 - Response -INFO - 'paymentDueDate' field is presented at the Response!
+2016-11-18 13:26:03,748 - Response -INFO - 'fromDate' field is presented at the Response!
+2016-11-18 13:26:03,778 - Response -INFO - 'toDate' field is presented at the Response!
+2016-11-18 13:26:03,808 - Response -INFO - 'nextToDate' field is presented at the Response!
+2016-11-18 13:26:03,808 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:26:03,838 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-18 13:26:03,838 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:26:03,868 - Response -INFO - 'serviceInternalId' field is presented at the Response!
+2016-11-18 13:26:03,888 - Response -INFO - 'serviceInternalIdResets' field is presented at the Response!
+2016-11-18 13:26:03,908 - Response -INFO - 'contractId' field is presented at the Response!
+2016-11-18 13:26:03,938 - Response -INFO - 'contractTypeDescription' field is presented at the Response!
+2016-11-18 13:26:03,968 - Response -INFO - 'unitCrId' field is presented at the Response!
+2016-11-18 13:26:03,984 - Response -INFO - 'unitCrDescriptionCode' field is presented at the Response!
+2016-11-18 13:26:04,020 - Response -INFO - 'domainId' field is presented at the Response!
+2016-11-18 13:26:04,050 - Response -INFO - 'unitCrDomain' field is presented at the Response!
+2016-11-18 13:26:04,070 - Response -INFO - 'unitCrDomainText' field is presented at the Response!
+2016-11-18 13:26:04,100 - Response -INFO - 'unitsApplied' field is presented at the Response!
+2016-11-18 13:26:04,140 - Response -INFO - 'unitsAvailable' field is presented at the Response!
+2016-11-18 13:26:04,160 - Response -INFO - 'amountAppliedDiscCurrency' field is presented at the Response!
+2016-11-18 13:26:04,190 - Response -INFO - 'secondaryAmount' field is presented at the Response!
+2016-11-18 13:26:04,190 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:26:04,220 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 15201,
+      "billRefResets": 0,
+      "statementDate": "2016-04-01T04:00:00Z",
+      "paymentDueDate": "2016-04-28T04:00:00Z",
+      "fromDate": "2016-03-01T05:00:00Z",
+      "toDate": "2016-04-01T04:00:00Z",
+      "nextToDate": "2016-05-01T04:00:00Z",
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0
+        }
+      ]
+    }
+  ],
+  "message": "Success"
+}
+2016-11-18 13:26:04,220 - TMW_OPTIMA_442_003 -INFO - ######################          TMW_OPTIMA_442_003 test is completed!      ######################
+2016-11-18 13:26:04,220 - TMW_OPTIMA_442_004 -INFO - ######################          Executing TMW_OPTIMA_442_004 test          ######################
+2016-11-18 13:26:04,662 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 13:26:04,753 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:26:05,053 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills?filters=daterange<>2016-07-01 00:00:00^2016-09-02 23:59:00&embed=CreditUnitCr
+2016-11-18 13:26:10,090 - TMW_OPTIMA_442_005 -INFO - ######################          Executing TMW_OPTIMA_442_005 test          ######################
+2016-11-18 13:26:10,561 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 13:26:10,641 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:26:10,921 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/16201%2C0?maxcount=2&embed=CreditUnitCr&fields=warmBillFlag,chgWho
+2016-11-18 13:26:12,171 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+834
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:26:16 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:26:12,356 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:26:12,356 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:26:12,386 - Response -INFO - 'billRefNo' field is presented at the Response!
+2016-11-18 13:26:12,436 - Response -INFO - 'billRefResets' field is presented at the Response!
+2016-11-18 13:26:12,466 - Response -INFO - 'statementDate' field is presented at the Response!
+2016-11-18 13:26:12,479 - Response -INFO - 'paymentDueDate' field is presented at the Response!
+2016-11-18 13:26:12,520 - Response -INFO - 'fromDate' field is presented at the Response!
+2016-11-18 13:26:12,568 - Response -INFO - 'toDate' field is presented at the Response!
+2016-11-18 13:26:12,598 - Response -INFO - 'nextToDate' field is presented at the Response!
+2016-11-18 13:26:12,598 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:26:12,618 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-18 13:26:12,618 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:26:12,648 - Response -INFO - 'serviceInternalId' field is presented at the Response!
+2016-11-18 13:26:12,668 - Response -INFO - 'serviceInternalIdResets' field is presented at the Response!
+2016-11-18 13:26:12,698 - Response -INFO - 'contractId' field is presented at the Response!
+2016-11-18 13:26:12,718 - Response -INFO - 'contractTypeDescription' field is presented at the Response!
+2016-11-18 13:26:12,738 - Response -INFO - 'unitCrId' field is presented at the Response!
+2016-11-18 13:26:12,768 - Response -INFO - 'unitCrDescriptionCode' field is presented at the Response!
+2016-11-18 13:26:12,785 - Response -INFO - 'domainId' field is presented at the Response!
+2016-11-18 13:26:12,820 - Response -INFO - 'unitCrDomain' field is presented at the Response!
+2016-11-18 13:26:12,860 - Response -INFO - 'unitCrDomainText' field is presented at the Response!
+2016-11-18 13:26:12,890 - Response -INFO - 'unitsApplied' field is presented at the Response!
+2016-11-18 13:26:12,910 - Response -INFO - 'unitsAvailable' field is presented at the Response!
+2016-11-18 13:26:12,930 - Response -INFO - 'amountAppliedDiscCurrency' field is presented at the Response!
+2016-11-18 13:26:12,950 - Response -INFO - 'secondaryAmount' field is presented at the Response!
+2016-11-18 13:26:12,950 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:26:12,980 - Response -INFO - Validation was done and 'chgWho' is successfully presented!
+2016-11-18 13:26:13,010 - Response -INFO - Validation was done and 'warmBillFlag' is successfully presented!
+2016-11-18 13:26:13,030 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 16201,
+      "statementDate": "2016-09-01T04:00:00Z",
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0,
+          "taxTypeCode": 100
+        }
+      ],
+      "warmBillFlag": false,
+      "postPaidBilledUsageTotal": 0,
+      "billRefResets": 0,
+      "nextToDate": "2016-10-01T04:00:00Z",
+      "chgWho": "bip01                         ",
+      "toDate": "2016-09-01T04:00:00Z",
+      "postPaidBilledRcTotal": 0,
+      "fromDate": "2016-08-01T04:00:00Z",
+      "paymentDueDate": "2016-09-30T04:00:00Z",
+      "postPaidBilledNrcTotal": 0
+    }
+  ],
+  "message": "Success"
+}
+2016-11-18 13:26:13,030 - TMW_OPTIMA_442_005 -INFO - ######################          TMW_OPTIMA_442_005 test is completed!      ######################
+2016-11-18 13:26:13,030 - TMW_OPTIMA_442_006 -INFO - ######################          Executing TMW_OPTIMA_442_006 test          ######################
+2016-11-18 13:26:13,501 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:26:13,842 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills?filters=daterange<>2016-07-01 00:00:00^2016-09-02 23:59:00&maxcount=2&embed=CreditUnitCr&fields=zip
+2016-11-18 13:26:14,592 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+1003
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:26:18 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:26:14,733 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:26:14,743 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:26:14,773 - Response -INFO - 'billRefNo' field is presented at the Response!
+2016-11-18 13:26:14,813 - Response -INFO - 'billRefResets' field is presented at the Response!
+2016-11-18 13:26:14,843 - Response -INFO - 'statementDate' field is presented at the Response!
+2016-11-18 13:26:14,873 - Response -INFO - 'paymentDueDate' field is presented at the Response!
+2016-11-18 13:26:14,903 - Response -INFO - 'fromDate' field is presented at the Response!
+2016-11-18 13:26:14,933 - Response -INFO - 'toDate' field is presented at the Response!
+2016-11-18 13:26:14,963 - Response -INFO - 'nextToDate' field is presented at the Response!
+2016-11-18 13:26:14,963 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:26:14,993 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-18 13:26:14,993 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:26:15,013 - Response -INFO - 'serviceInternalId' field is presented at the Response!
+2016-11-18 13:26:15,043 - Response -INFO - 'serviceInternalIdResets' field is presented at the Response!
+2016-11-18 13:26:15,073 - Response -INFO - 'contractId' field is presented at the Response!
+2016-11-18 13:26:15,093 - Response -INFO - 'contractTypeDescription' field is presented at the Response!
+2016-11-18 13:26:15,133 - Response -INFO - 'unitCrId' field is presented at the Response!
+2016-11-18 13:26:15,153 - Response -INFO - 'unitCrDescriptionCode' field is presented at the Response!
+2016-11-18 13:26:15,183 - Response -INFO - 'domainId' field is presented at the Response!
+2016-11-18 13:26:15,203 - Response -INFO - 'unitCrDomain' field is presented at the Response!
+2016-11-18 13:26:15,233 - Response -INFO - 'unitCrDomainText' field is presented at the Response!
+2016-11-18 13:26:15,263 - Response -INFO - 'unitsApplied' field is presented at the Response!
+2016-11-18 13:26:15,283 - Response -INFO - 'unitsAvailable' field is presented at the Response!
+2016-11-18 13:26:15,313 - Response -INFO - 'amountAppliedDiscCurrency' field is presented at the Response!
+2016-11-18 13:26:15,343 - Response -INFO - 'secondaryAmount' field is presented at the Response!
+2016-11-18 13:26:15,343 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:26:15,373 - Response -INFO - Validation was done and 'More records Found for the input criteria' is successfully presented!
+2016-11-18 13:26:15,403 - Response -INFO - Validation was done and 'zip' is successfully presented!
+2016-11-18 13:26:15,433 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 0,
+      "postPaidBilledRcTotal": 0,
+      "creditUnitCr": [],
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "billRefResets": 0
+    },
+    {
+      "billRefNo": 16201,
+      "zip": "11111           ",
+      "toDate": "2016-09-01T04:00:00Z",
+      "statementDate": "2016-09-01T04:00:00Z",
+      "postPaidBilledRcTotal": 0,
+      "fromDate": "2016-08-01T04:00:00Z",
+      "paymentDueDate": "2016-09-30T04:00:00Z",
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0,
+          "taxTypeCode": 100
+        }
+      ],
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "billRefResets": 0,
+      "nextToDate": "2016-10-01T04:00:00Z"
+    }
+  ],
+  "totalCount": 13,
+  "message": "More records Found for the input criteria, totalCount exist : 13"
+}
+2016-11-18 13:26:15,433 - TMW_OPTIMA_442_006 -INFO - ######################          TMW_OPTIMA_442_006 test is completed!      ######################
+2016-11-18 13:26:15,433 - TMW_OPTIMA_442_007 -INFO - ######################          Executing TMW_OPTIMA_442_007 test          ######################
+2016-11-18 13:26:15,915 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 13:26:16,016 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:26:16,356 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills?filters=daterange<>2016-07-01 00:00:00^2016-09-02 23:59:00&embed=CreditUnitCr&maxcount=3
+2016-11-18 13:26:17,671 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+1297
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:26:21 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:26:17,802 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:26:17,802 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:26:17,842 - Response -INFO - 'billRefNo' field is presented at the Response!
+2016-11-18 13:26:17,862 - Response -INFO - 'billRefResets' field is presented at the Response!
+2016-11-18 13:26:17,892 - Response -INFO - 'statementDate' field is presented at the Response!
+2016-11-18 13:26:17,922 - Response -INFO - 'paymentDueDate' field is presented at the Response!
+2016-11-18 13:26:17,952 - Response -INFO - 'fromDate' field is presented at the Response!
+2016-11-18 13:26:17,972 - Response -INFO - 'toDate' field is presented at the Response!
+2016-11-18 13:26:18,002 - Response -INFO - 'nextToDate' field is presented at the Response!
+2016-11-18 13:26:18,002 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:26:18,022 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-18 13:26:18,022 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:26:18,042 - Response -INFO - 'serviceInternalId' field is presented at the Response!
+2016-11-18 13:26:18,082 - Response -INFO - 'serviceInternalIdResets' field is presented at the Response!
+2016-11-18 13:26:18,112 - Response -INFO - 'contractId' field is presented at the Response!
+2016-11-18 13:26:18,132 - Response -INFO - 'contractTypeDescription' field is presented at the Response!
+2016-11-18 13:26:18,172 - Response -INFO - 'unitCrId' field is presented at the Response!
+2016-11-18 13:26:18,192 - Response -INFO - 'unitCrDescriptionCode' field is presented at the Response!
+2016-11-18 13:26:18,210 - Response -INFO - 'domainId' field is presented at the Response!
+2016-11-18 13:26:18,254 - Response -INFO - 'unitCrDomain' field is presented at the Response!
+2016-11-18 13:26:18,284 - Response -INFO - 'unitCrDomainText' field is presented at the Response!
+2016-11-18 13:26:18,304 - Response -INFO - 'unitsApplied' field is presented at the Response!
+2016-11-18 13:26:18,334 - Response -INFO - 'unitsAvailable' field is presented at the Response!
+2016-11-18 13:26:18,374 - Response -INFO - 'amountAppliedDiscCurrency' field is presented at the Response!
+2016-11-18 13:26:18,416 - Response -INFO - 'secondaryAmount' field is presented at the Response!
+2016-11-18 13:26:18,416 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:26:18,456 - Response -INFO - Validation was done and 'More records Found for the input criteria' is successfully presented!
+2016-11-18 13:26:18,496 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 0,
+      "billRefResets": 0,
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": []
+    },
+    {
+      "billRefNo": 16201,
+      "billRefResets": 0,
+      "statementDate": "2016-09-01T04:00:00Z",
+      "paymentDueDate": "2016-09-30T04:00:00Z",
+      "fromDate": "2016-08-01T04:00:00Z",
+      "toDate": "2016-09-01T04:00:00Z",
+      "nextToDate": "2016-10-01T04:00:00Z",
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0,
+          "taxTypeCode": 100
+        }
+      ]
+    },
+    {
+      "billRefNo": 16001,
+      "billRefResets": 0,
+      "statementDate": "2016-08-01T04:00:00Z",
+      "paymentDueDate": "2016-09-01T04:00:00Z",
+      "fromDate": "2016-07-01T04:00:00Z",
+      "toDate": "2016-08-01T04:00:00Z",
+      "nextToDate": "2016-09-01T04:00:00Z",
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": []
+    }
+  ],
+  "totalCount": 13,
+  "message": "More records Found for the input criteria, totalCount exist : 13"
+}
+2016-11-18 13:26:18,496 - TMW_OPTIMA_442_007 -INFO - ######################          TMW_OPTIMA_442_007 test is completed!      ######################
+2016-11-18 13:26:18,496 - TMW_OPTIMA_442_008 -INFO - ######################          Executing TMW_OPTIMA_442_008 test          ######################
+2016-11-18 13:26:19,026 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:26:19,277 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/16201%2C0?maxcount=0&embed=CreditUnitCr
+2016-11-18 13:26:19,847 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+100
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:26:24 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:26:19,947 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:26:19,977 - Response -INFO - Validation was done and 'More records Found for the input criteria' is successfully presented!
+2016-11-18 13:26:19,997 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [],
+  "message": "More records Found for the input criteria, totalCount exist : 1"
+}
+2016-11-18 13:26:19,997 - TMW_OPTIMA_442_008 -INFO - ######################          TMW_OPTIMA_442_008 test is completed!      ######################
+2016-11-18 13:26:19,997 - TMW_OPTIMA_442_009 -INFO - ######################          Executing TMW_OPTIMA_442_009 test          ######################
+2016-11-18 13:26:20,467 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:26:20,778 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills?filters=daterange<>2015-06-01 00:00:00^2016-09-05 23:59:00&embed=CreditUnitCr
+2016-11-18 13:26:21,358 - Response -INFO - Response Details: Status Code
+: 
+400 Bad Request
+Content-Length
+: 
+91
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:26:25 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:26:21,468 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:26:21,499 - Response -INFO - Validation was done and 'Date range must not exceed configuration parameter maxdays 365.' is successfully presented!
+2016-11-18 13:26:21,549 - Response -INFO - JSON Response Message:{
+  "code": 714421,
+  "message": "Date range must not exceed configuration parameter maxdays 365."
+}
+2016-11-18 13:26:21,549 - TMW_OPTIMA_442_009 -INFO - ######################          TMW_OPTIMA_442_009 test is completed!      ######################
+2016-11-18 13:26:21,559 - TMW_OPTIMA_442_010 -INFO - ######################          Executing TMW_OPTIMA_442_010 test          ######################
+2016-11-18 13:26:22,131 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:26:22,341 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/16201%2C0?embed=CreditUnitCr&page=1
+2016-11-18 13:26:23,413 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+771
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:26:27 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:26:23,524 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:26:23,524 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:26:23,544 - Response -INFO - 'billRefNo' field is presented at the Response!
+2016-11-18 13:26:23,574 - Response -INFO - 'billRefResets' field is presented at the Response!
+2016-11-18 13:26:23,594 - Response -INFO - 'statementDate' field is presented at the Response!
+2016-11-18 13:26:23,624 - Response -INFO - 'paymentDueDate' field is presented at the Response!
+2016-11-18 13:26:23,644 - Response -INFO - 'fromDate' field is presented at the Response!
+2016-11-18 13:26:23,664 - Response -INFO - 'toDate' field is presented at the Response!
+2016-11-18 13:26:23,694 - Response -INFO - 'nextToDate' field is presented at the Response!
+2016-11-18 13:26:23,694 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:26:23,724 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-18 13:26:23,724 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:26:23,734 - Response -INFO - 'serviceInternalId' field is presented at the Response!
+2016-11-18 13:26:23,754 - Response -INFO - 'serviceInternalIdResets' field is presented at the Response!
+2016-11-18 13:26:23,774 - Response -INFO - 'contractId' field is presented at the Response!
+2016-11-18 13:26:23,794 - Response -INFO - 'contractTypeDescription' field is presented at the Response!
+2016-11-18 13:26:23,824 - Response -INFO - 'unitCrId' field is presented at the Response!
+2016-11-18 13:26:23,854 - Response -INFO - 'unitCrDescriptionCode' field is presented at the Response!
+2016-11-18 13:26:23,884 - Response -INFO - 'domainId' field is presented at the Response!
+2016-11-18 13:26:23,904 - Response -INFO - 'unitCrDomain' field is presented at the Response!
+2016-11-18 13:26:23,924 - Response -INFO - 'unitCrDomainText' field is presented at the Response!
+2016-11-18 13:26:23,944 - Response -INFO - 'unitsApplied' field is presented at the Response!
+2016-11-18 13:26:23,964 - Response -INFO - 'unitsAvailable' field is presented at the Response!
+2016-11-18 13:26:23,984 - Response -INFO - 'amountAppliedDiscCurrency' field is presented at the Response!
+2016-11-18 13:26:24,004 - Response -INFO - 'secondaryAmount' field is presented at the Response!
+2016-11-18 13:26:24,004 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:26:24,034 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 16201,
+      "billRefResets": 0,
+      "statementDate": "2016-09-01T04:00:00Z",
+      "paymentDueDate": "2016-09-30T04:00:00Z",
+      "fromDate": "2016-08-01T04:00:00Z",
+      "toDate": "2016-09-01T04:00:00Z",
+      "nextToDate": "2016-10-01T04:00:00Z",
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0,
+          "taxTypeCode": 100
+        }
+      ]
+    }
+  ],
+  "message": "Success"
+}
+2016-11-18 13:26:24,034 - TMW_OPTIMA_442_010 -INFO - ######################          TMW_OPTIMA_442_010 test is completed!      ######################
+2016-11-18 13:26:24,034 - TMW_OPTIMA_442_011 -INFO - ######################          Executing TMW_OPTIMA_442_011 test          ######################
+2016-11-18 13:26:24,494 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:26:24,765 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/15/customerbills?filters=daterange<>2016-07-01+00%3A00%3A00%5E2016-09-02+23%3A59%3A00&embed=CreditUnitCr&page=1&limit=2
+2016-11-18 13:26:25,935 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+1457
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:26:30 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:26:26,046 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:26:26,046 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:26:26,076 - Response -INFO - 'billRefNo' field is presented at the Response!
+2016-11-18 13:26:26,096 - Response -INFO - 'billRefResets' field is presented at the Response!
+2016-11-18 13:26:26,116 - Response -INFO - 'statementDate' field is presented at the Response!
+2016-11-18 13:26:26,146 - Response -INFO - 'paymentDueDate' field is presented at the Response!
+2016-11-18 13:26:26,166 - Response -INFO - 'fromDate' field is presented at the Response!
+2016-11-18 13:26:26,186 - Response -INFO - 'toDate' field is presented at the Response!
+2016-11-18 13:26:26,206 - Response -INFO - 'nextToDate' field is presented at the Response!
+2016-11-18 13:26:26,206 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:26:26,236 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-18 13:26:26,256 - Response -INFO - Validation was done and 'self' is successfully presented!
+2016-11-18 13:26:26,286 - Response -INFO - Validation was done and 'links' is successfully presented!
+2016-11-18 13:26:26,316 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 0,
+      "billRefResets": 0,
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": [],
+      "customerBillUrl": [
+        "http://10.230.16.67:8080/server10.230.16.67/REF0000000000/REF0000000000/REF0000000000/BILL_0_1_1_2_669644.pdf",
+        "http://10.230.16.67:8080/server10.230.16.67/REF0000000000/REF0000000000/REF0000000000/BILL_0_1_3_1_669643.pdf"
+      ]
+    },
+    {
+      "billRefNo": 12801,
+      "billRefResets": 0,
+      "statementDate": "2016-01-01T05:00:00Z",
+      "paymentDueDate": "2016-02-01T05:00:00Z",
+      "fromDate": "2015-12-01T05:00:00Z",
+      "toDate": "2016-01-01T05:00:00Z",
+      "nextToDate": "2016-02-01T05:00:00Z",
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": []
+    }
+  ],
+  "totalCount": 6,
+  "self": {
+    "href": "http://10.230.16.71:8001/rest/v1/customeraccounts/15/customerbills?filters=daterange%3C%3E2016-07-01+00%3A00%3A00%5E2016-09-02+23%3A59%3A00&embed=CreditUnitCr&page=1&limit=2",
+    "rel": "self"
+  },
+  "links": [
+    {
+      "href": "http://10.230.16.71:8001/rest/v1/customeraccounts/15/customerbills?filters=daterange%3C%3E2016-07-01+00%3A00%3A00%5E2016-09-02+23%3A59%3A00&embed=CreditUnitCr&page=2&limit=2",
+      "rel": "next"
+    },
+    {
+      "href": "http://10.230.16.71:8001/rest/v1/customeraccounts/15/customerbills?filters=daterange%3C%3E2016-07-01+00%3A00%3A00%5E2016-09-02+23%3A59%3A00&embed=CreditUnitCr&page=3&limit=2",
+      "rel": "last"
+    }
+  ],
+  "message": "More records Found for the input criteria, totalCount exist : 6"
+}
+2016-11-18 13:26:26,316 - TMW_OPTIMA_442_011 -INFO - ######################          TMW_OPTIMA_442_011 test is completed!      ######################
+2016-11-18 13:26:26,316 - TMW_OPTIMA_442_012 -INFO - ######################          Executing TMW_OPTIMA_442_012 test          ######################
+2016-11-18 13:26:26,816 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:26:27,116 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?filters=daterange<>2015-06-01 00:00:00^2016-09-05 23:59:00&embed=CreditUnitCr
+2016-11-18 13:26:27,927 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:26:32 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:26:28,047 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:26:28,047 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:26:28,077 - Response -INFO - 'billRefNo' field is presented at the Response!
+2016-11-18 13:26:28,097 - Response -INFO - 'billRefResets' field is presented at the Response!
+2016-11-18 13:26:28,137 - Response -INFO - 'statementDate' field is presented at the Response!
+2016-11-18 13:26:28,168 - Response -INFO - 'paymentDueDate' field is presented at the Response!
+2016-11-18 13:26:28,188 - Response -INFO - 'fromDate' field is presented at the Response!
+2016-11-18 13:26:28,218 - Response -INFO - 'toDate' field is presented at the Response!
+2016-11-18 13:26:28,238 - Response -INFO - 'nextToDate' field is presented at the Response!
+2016-11-18 13:26:28,238 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:26:28,258 - Response -INFO - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-18 13:26:28,258 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:26:28,268 - Response -INFO - 'serviceInternalId' field is presented at the Response!
+2016-11-18 13:26:28,288 - Response -INFO - 'serviceInternalIdResets' field is presented at the Response!
+2016-11-18 13:26:28,318 - Response -INFO - 'contractId' field is presented at the Response!
+2016-11-18 13:26:28,328 - Response -INFO - 'contractTypeDescription' field is presented at the Response!
+2016-11-18 13:26:28,348 - Response -INFO - 'unitCrId' field is presented at the Response!
+2016-11-18 13:26:28,368 - Response -INFO - 'unitCrDescriptionCode' field is presented at the Response!
+2016-11-18 13:26:28,388 - Response -INFO - 'domainId' field is presented at the Response!
+2016-11-18 13:26:28,418 - Response -INFO - 'unitCrDomain' field is presented at the Response!
+2016-11-18 13:26:28,448 - Response -INFO - 'unitCrDomainText' field is presented at the Response!
+2016-11-18 13:26:28,468 - Response -INFO - 'unitsApplied' field is presented at the Response!
+2016-11-18 13:26:28,498 - Response -INFO - 'unitsAvailable' field is presented at the Response!
+2016-11-18 13:26:28,518 - Response -INFO - 'amountAppliedDiscCurrency' field is presented at the Response!
+2016-11-18 13:26:28,548 - Response -INFO - 'secondaryAmount' field is presented at the Response!
+2016-11-18 13:26:28,548 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:26:28,568 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 15201,
+      "billRefResets": 0,
+      "statementDate": "2016-04-01T04:00:00Z",
+      "paymentDueDate": "2016-04-28T04:00:00Z",
+      "fromDate": "2016-03-01T05:00:00Z",
+      "toDate": "2016-04-01T04:00:00Z",
+      "nextToDate": "2016-05-01T04:00:00Z",
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0
+        }
+      ]
+    }
+  ],
+  "message": "Success"
+}
+2016-11-18 13:26:28,568 - TMW_OPTIMA_442_012 -INFO - ######################          TMW_OPTIMA_442_012 test is completed!      ######################
+2016-11-18 13:26:33,652 - TMW_OPTIMA_466_001 -INFO - ######################          Executing TMW_OPTIMA_466_001 test          ######################
+2016-11-18 13:26:34,206 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-18 13:26:34,426 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 13:26:34,556 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:26:34,776 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/25?embed=servicecenters
+2016-11-18 13:26:38,917 - Response -INFO - Response Details: Status Code
+: 
+200 OK
+Content-Length
+: 
+1055
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:26:40 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:26:39,058 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:26:39,058 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:26:39,088 - Response -INFO - 'accountInternalId' field is presented at the Response!
+2016-11-18 13:26:39,118 - Response -INFO - 'serverId' field is presented at the Response!
+2016-11-18 13:26:39,138 - Response -INFO - 'hierarchyId' field is presented at the Response!
+2016-11-18 13:26:39,168 - Response -INFO - 'billFname' field is presented at the Response!
+2016-11-18 13:26:39,188 - Response -INFO - 'billLname' field is presented at the Response!
+2016-11-18 13:26:39,208 - Response -INFO - 'dateActive' field is presented at the Response!
+2016-11-18 13:26:39,228 - Response -INFO - 'accountCategory' field is presented at the Response!
+2016-11-18 13:26:39,228 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:26:39,248 - Response -INFO - Validation was done and 'serviceCenters' is successfully presented!
+2016-11-18 13:26:39,248 - Response -INFO - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-18 13:26:39,268 - Response -INFO - 'serviceCenterId' field is presented at the Response!
+2016-11-18 13:26:39,288 - Response -INFO - 'serviceCenterType' field is presented at the Response!
+2016-11-18 13:26:39,288 - Response -INFO - All Required fields are successfully presented at the Response!
+2016-11-18 13:26:39,318 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "response": {
+    "accountInternalId": 25,
+    "serverId": 3,
+    "hierarchyId": 25,
+    "billFname": "Valentin",
+    "billLname": "Gyavurov",
+    "dateActive": "2015-02-02T11:15:53Z",
+    "accountCategory": {
+      "key": "2",
+      "displayValue": "Residential"
+    },
+    "serviceCenters": [
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "1",
+          "displayValue": "Billing Service Center"
+        },
+        "isDefault": false
+      },
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "2",
+          "displayValue": "Remittance Center"
+        },
+        "isDefault": false
+      },
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "6",
+          "displayValue": "Print Service Center"
+        },
+        "isDefault": false
+      },
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "4",
+          "displayValue": "Collections Center"
+        },
+        "isDefault": false
+      },
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "3",
+          "displayValue": "Service Inquiry Center"
+        },
+        "isDefault": false
+      }
+    ]
+  },
+  "message": "Success"
+}
+2016-11-18 13:26:39,318 - TMW_OPTIMA_466_001 -INFO - ######################          TMW_OPTIMA_466_001 test is completed!      ######################
+2016-11-18 13:26:39,318 - TMW_OPTIMA_466_002 -INFO - ######################          Executing TMW_OPTIMA_466_002 test          ######################
+2016-11-18 13:26:39,498 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-18 13:26:39,798 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:26:40,008 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/2699?embed=servicecenters
+2016-11-18 13:26:40,549 - Response -INFO - Response Details: Status Code
+: 
+404 Not Found
+Content-Length
+: 
+106
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:26:44 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:26:40,679 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:26:40,709 - Response -INFO - Validation was done and 'Invalid request' is successfully presented!
+2016-11-18 13:26:40,729 - Response -INFO - JSON Response Message:{
+  "code": 744621,
+  "message": "Invalid request, customeraccounts not found for IDs:[{AccountInternalId=2699}]"
+}
+2016-11-18 13:26:40,739 - TMW_OPTIMA_466_002 -INFO - ######################          TMW_OPTIMA_466_002 test is completed!      ######################
+2016-11-18 13:26:57,615 - TMW_OPTIMA_419_001 -INFO - ######################          Executing TMW_OPTIMA_419_001 test          ######################
+2016-11-18 13:26:58,366 - HomePage -INFO - Firefox browser instance was successfully initiated.
+2016-11-18 13:26:58,686 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 13:26:58,990 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:27:00,122 - Request -INFO - ContentTypeHeader was successfully added.
+2016-11-18 13:27:00,393 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-18 13:27:00,653 - Request -INFO - The request Payload was successfully added.
+2016-11-18 13:27:04,475 - Response -INFO - Response Details: Status Code
+: 
+201 Created
+Content-Length
+: 
+30
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:27:06 GMT
+Location
+: 
+http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits/439003,3
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:27:07,627 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:27:07,668 - Response -INFO - Validation was done and 'Success' is successfully presented!
+2016-11-18 13:27:11,874 - DatabaseUtil -INFO - The latest DB record for Customer Deposit is : TrackingID :439003 , TrackingIdServ :3 for AccountNo:135
+2016-11-18 13:27:15,158 - DatabaseUtil -INFO - The response is presenting the same TRACKING_ID as the one at the DB : 439003
+2016-11-18 13:27:15,189 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "message": "Success"
+}
+2016-11-18 13:27:15,189 - TMW_OPTIMA_419_001 -INFO - ######################          TMW_OPTIMA_419_001 test is completed!      ######################
+2016-11-18 13:27:15,199 - TMW_OPTIMA_419_002 -INFO - ######################          Executing TMW_OPTIMA_419_002 test          ######################
+2016-11-18 13:27:15,639 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 13:27:15,769 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:27:16,847 - Request -INFO - ContentTypeHeader was successfully added.
+2016-11-18 13:27:17,175 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-18 13:27:17,549 - Request -INFO - The request Payload was successfully added.
+2016-11-18 13:27:19,277 - Response -INFO - Response Details: Status Code
+: 
+201 Created
+Content-Length
+: 
+30
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:27:23 GMT
+Location
+: 
+http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits/440003,3
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:27:19,531 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:27:22,523 - DatabaseUtil -INFO - The latest DB record for Customer Deposit is : TrackingID :440003 , TrackingIdServ :3 for AccountNo:135
+2016-11-18 13:27:26,055 - DatabaseUtil -INFO - The response is presenting the same TRACKING_ID as the one at the DB : 440003
+2016-11-18 13:27:26,066 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "message": "Success"
+}
+2016-11-18 13:27:26,066 - TMW_OPTIMA_419_002 -INFO - ######################          TMW_OPTIMA_419_002 test is completed!      ######################
+2016-11-18 13:27:26,086 - TMW_OPTIMA_419_003 -INFO - ######################          Executing TMW_OPTIMA_419_003 test          ######################
+2016-11-18 13:27:26,548 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 13:27:26,740 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:27:27,790 - Request -INFO - ContentTypeHeader was successfully added.
+2016-11-18 13:27:28,131 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-18 13:27:28,421 - Request -INFO - The request Payload was successfully added.
+2016-11-18 13:27:29,125 - Response -INFO - Response Details: Status Code
+: 
+201 Created
+Content-Length
+: 
+30
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:27:33 GMT
+Location
+: 
+http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits/441003,3
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:27:29,236 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:27:32,516 - DatabaseUtil -INFO - The latest DB record for Customer Deposit is : TrackingID :441003 , TrackingIdServ :3 for AccountNo:135
+2016-11-18 13:27:35,857 - DatabaseUtil -INFO - The response is presenting the same TRACKING_ID as the one at the DB : 441003
+2016-11-18 13:27:35,888 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "message": "Success"
+}
+2016-11-18 13:27:35,888 - TMW_OPTIMA_419_003 -INFO - ######################          TMW_OPTIMA_419_003 test is completed!      ######################
+2016-11-18 13:27:35,888 - TMW_OPTIMA_419_004 -INFO - ######################          Executing TMW_OPTIMA_419_004 test          ######################
+2016-11-18 13:27:36,352 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 13:27:36,492 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:27:37,562 - Request -INFO - ContentTypeHeader was successfully added.
+2016-11-18 13:27:37,917 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/1355/customerdeposits
+2016-11-18 13:27:38,309 - Request -INFO - The request Payload was successfully added.
+2016-11-18 13:27:38,953 - Response -INFO - Response Details: Status Code
+: 
+404 Not Found
+Content-Length
+: 
+106
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:27:43 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:27:39,234 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:27:39,264 - Response -INFO - Validation was done and 'customeraccounts not found' is successfully presented!
+2016-11-18 13:27:39,304 - Response -INFO - JSON Response Message:{
+  "code": 744621,
+  "message": "Invalid request, customeraccounts not found for IDs:[{AccountInternalId=1355}]"
+}
+2016-11-18 13:27:39,304 - TMW_OPTIMA_419_004 -INFO - ######################          TMW_OPTIMA_419_004 test is completed!      ######################
+2016-11-18 13:27:39,304 - TMW_OPTIMA_419_005 -INFO - ######################          Executing TMW_OPTIMA_419_005 test          ######################
+2016-11-18 13:27:39,906 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:27:41,078 - Request -INFO - ContentTypeHeader was successfully added.
+2016-11-18 13:27:41,342 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-18 13:27:41,622 - Request -INFO - The request Payload was successfully added.
+2016-11-18 13:27:42,278 - TMW_OPTIMA_419_006 -INFO - ######################          Executing TMW_OPTIMA_419_006 test          ######################
+2016-11-18 13:27:42,778 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 13:27:42,960 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:27:44,112 - Request -INFO - ContentTypeHeader was successfully added.
+2016-11-18 13:27:44,426 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-18 13:27:44,556 - Request -INFO - The request Payload was successfully added.
+2016-11-18 13:27:45,484 - Response -INFO - Response Details: Status Code
+: 
+400 Bad Request
+Content-Length
+: 
+60
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:27:49 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:27:45,631 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:27:45,679 - Response -INFO - Validation was done and 'is mandatory' is successfully presented!
+2016-11-18 13:27:45,709 - Response -INFO - JSON Response Message:{
+  "code": 744193,
+  "message": "Account Internal Id is mandatory"
+}
+2016-11-18 13:27:45,709 - TMW_OPTIMA_419_006 -INFO - ######################          TMW_OPTIMA_419_006 test is completed!      ######################
+2016-11-18 13:27:45,709 - TMW_OPTIMA_419_007 -INFO - ######################          Executing TMW_OPTIMA_419_007 test          ######################
+2016-11-18 13:27:46,182 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 13:27:46,312 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:27:50,413 - Request -INFO - ContentTypeHeader was successfully added.
+2016-11-18 13:27:50,758 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-18 13:27:51,102 - Request -INFO - The request Payload was successfully added.
+2016-11-18 13:27:51,824 - Response -INFO - Response Details: Status Code
+: 
+400 Bad Request
+Content-Length
+: 
+51
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:27:56 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:27:51,959 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:27:51,997 - Response -INFO - Validation was done and 'is mandatory' is successfully presented!
+2016-11-18 13:27:52,047 - Response -INFO - JSON Response Message:{
+  "code": 744195,
+  "message": "Pay Method is mandatory"
+}
+2016-11-18 13:27:52,047 - TMW_OPTIMA_419_007 -INFO - ######################          TMW_OPTIMA_419_007 test is completed!      ######################
+2016-11-18 13:27:52,057 - TMW_OPTIMA_419_008 -INFO - ######################          Executing TMW_OPTIMA_419_008 test          ######################
+2016-11-18 13:27:52,591 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 13:27:52,753 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:27:53,867 - Request -INFO - ContentTypeHeader was successfully added.
+2016-11-18 13:27:54,292 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-18 13:27:54,654 - Request -INFO - The request Payload was successfully added.
+2016-11-18 13:27:55,810 - Response -INFO - Response Details: Status Code
+: 
+400 Bad Request
+Content-Length
+: 
+51
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:28:00 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:27:55,941 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:27:55,982 - Response -INFO - Validation was done and 'is mandatory' is successfully presented!
+2016-11-18 13:27:56,018 - Response -INFO - JSON Response Message:{
+  "code": 744195,
+  "message": "Pay Method is mandatory"
+}
+2016-11-18 13:27:56,019 - TMW_OPTIMA_419_008 -INFO - ######################          TMW_OPTIMA_419_008 test is completed!      ######################
+2016-11-18 13:27:56,021 - TMW_OPTIMA_419_009 -INFO - ######################          Executing TMW_OPTIMA_419_009 test          ######################
+2016-11-18 13:27:56,538 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 13:27:56,668 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:27:58,000 - Request -INFO - ContentTypeHeader was successfully added.
+2016-11-18 13:27:58,413 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-18 13:27:58,803 - Request -INFO - The request Payload was successfully added.
+2016-11-18 13:27:59,457 - Response -INFO - Response Details: Status Code
+: 
+400 Bad Request
+Content-Length
+: 
+87
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:28:03 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:27:59,588 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:27:59,628 - Response -INFO - Validation was done and 'Input Currency Code should be same as Account Currency Code' is successfully presented!
+2016-11-18 13:27:59,658 - Response -INFO - JSON Response Message:{
+  "code": 744191,
+  "message": "Input Currency Code should be same as Account Currency Code"
+}
+2016-11-18 13:27:59,658 - TMW_OPTIMA_419_009 -INFO - ######################          TMW_OPTIMA_419_009 test is completed!      ######################
+2016-11-18 13:27:59,668 - TMW_OPTIMA_419_010 -INFO - ######################          Executing TMW_OPTIMA_419_010 test          ######################
+2016-11-18 13:28:00,204 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 13:28:00,458 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:28:01,701 - Request -INFO - ContentTypeHeader was successfully added.
+2016-11-18 13:28:01,992 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-18 13:28:02,378 - Request -INFO - The request Payload was successfully added.
+2016-11-18 13:28:03,043 - Response -INFO - Response Details: Status Code
+: 
+400 Bad Request
+Content-Length
+: 
+87
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:28:07 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:28:03,172 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:28:03,193 - Response -INFO - Validation was done and 'Input Currency Code should be same as Account Currency Code' is successfully presented!
+2016-11-18 13:28:03,234 - Response -INFO - JSON Response Message:{
+  "code": 744191,
+  "message": "Input Currency Code should be same as Account Currency Code"
+}
+2016-11-18 13:28:03,234 - TMW_OPTIMA_419_010 -INFO - ######################          TMW_OPTIMA_419_010 test is completed!      ######################
+2016-11-18 13:28:03,244 - TMW_OPTIMA_419_011 -INFO - ######################          Executing TMW_OPTIMA_419_011 test          ######################
+2016-11-18 13:28:03,750 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 13:28:03,914 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:28:05,258 - Request -INFO - ContentTypeHeader was successfully added.
+2016-11-18 13:28:05,589 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-18 13:28:05,909 - Request -INFO - The request Payload was successfully added.
+2016-11-18 13:28:06,569 - Response -INFO - Response Details: Status Code
+: 
+400 Bad Request
+Content-Length
+: 
+88
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:28:10 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:28:06,690 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:28:06,720 - Response -INFO - Validation was done and 'is mandatory' is successfully presented!
+2016-11-18 13:28:06,770 - Response -INFO - JSON Response Message:{
+  "code": 744196,
+  "message": "ManualCcauthCode is mandatory when Pay Method is Credit Card"
+}
+2016-11-18 13:28:06,770 - TMW_OPTIMA_419_011 -INFO - ######################          TMW_OPTIMA_419_011 test is completed!      ######################
+2016-11-18 13:28:06,770 - TMW_OPTIMA_419_012 -INFO - ######################          Executing TMW_OPTIMA_419_012 test          ######################
+2016-11-18 13:28:07,286 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 13:28:07,448 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:28:08,655 - Request -INFO - ContentTypeHeader was successfully added.
+2016-11-18 13:28:08,936 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-18 13:28:09,316 - Request -INFO - The request Payload was successfully added.
+2016-11-18 13:28:10,400 - Response -INFO - Response Details: Status Code
+: 
+400 Bad Request
+Content-Length
+: 
+88
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:28:14 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:28:10,541 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:28:10,597 - Response -INFO - Validation was done and 'is mandatory' is successfully presented!
+2016-11-18 13:28:10,638 - Response -INFO - JSON Response Message:{
+  "code": 744196,
+  "message": "ManualCcauthCode is mandatory when Pay Method is Credit Card"
+}
+2016-11-18 13:28:10,638 - TMW_OPTIMA_419_012 -INFO - ######################          TMW_OPTIMA_419_012 test is completed!      ######################
+2016-11-18 13:28:10,640 - TMW_OPTIMA_419_013 -INFO - ######################          Executing TMW_OPTIMA_419_013 test          ######################
+2016-11-18 13:28:11,155 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 13:28:11,543 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:28:12,620 - Request -INFO - ContentTypeHeader was successfully added.
+2016-11-18 13:28:12,941 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-18 13:28:13,351 - Request -INFO - The request Payload was successfully added.
+2016-11-18 13:28:13,981 - Response -INFO - Response Details: Status Code
+: 
+201 Created
+Content-Length
+: 
+30
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:28:18 GMT
+Location
+: 
+http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits/442003,3
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:28:14,102 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:28:17,683 - DatabaseUtil -INFO - The latest DB record for Customer Deposit is : TrackingID :442003 , TrackingIdServ :3 for AccountNo:135
+2016-11-18 13:28:20,936 - DatabaseUtil -INFO - The response is presenting the same TRACKING_ID as the one at the DB : 442003
+2016-11-18 13:28:20,957 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "message": "Success"
+}
+2016-11-18 13:28:20,957 - TMW_OPTIMA_419_013 -INFO - ######################          TMW_OPTIMA_419_013 test is completed!      ######################
+2016-11-18 13:28:20,967 - TMW_OPTIMA_419_014 -INFO - ######################          Executing TMW_OPTIMA_419_014 test          ######################
+2016-11-18 13:28:24,390 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 13:28:24,536 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:28:25,697 - Request -INFO - ContentTypeHeader was successfully added.
+2016-11-18 13:28:26,016 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-18 13:28:26,408 - Request -INFO - The request Payload was successfully added.
+2016-11-18 13:28:27,518 - Response -INFO - Response Details: Status Code
+: 
+201 Created
+Content-Length
+: 
+30
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:28:31 GMT
+Location
+: 
+http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits/443003,3
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:28:27,629 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:28:31,029 - DatabaseUtil -INFO - The latest DB record for Customer Deposit is : TrackingID :443003 , TrackingIdServ :3 for AccountNo:135
+2016-11-18 13:28:34,350 - DatabaseUtil -INFO - The response is presenting the same TRACKING_ID as the one at the DB : 443003
+2016-11-18 13:28:34,381 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "message": "Success"
+}
+2016-11-18 13:28:34,381 - TMW_OPTIMA_419_014 -INFO - ######################          TMW_OPTIMA_419_014 test is completed!      ######################
+2016-11-18 13:28:34,381 - TMW_OPTIMA_419_015 -INFO - ######################          Executing TMW_OPTIMA_419_015 test          ######################
+2016-11-18 13:28:34,883 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 13:28:35,033 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:28:36,013 - Request -INFO - ContentTypeHeader was successfully added.
+2016-11-18 13:28:36,284 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-18 13:28:36,524 - Request -INFO - The request Payload was successfully added.
+2016-11-18 13:28:37,155 - Response -INFO - Response Details: Status Code
+: 
+201 Created
+Content-Length
+: 
+30
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:28:41 GMT
+Location
+: 
+http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits/444003,3
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:28:37,456 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:28:40,926 - DatabaseUtil -INFO - The latest DB record for Customer Deposit is : TrackingID :444003 , TrackingIdServ :3 for AccountNo:135
+2016-11-18 13:28:44,001 - DatabaseUtil -INFO - The response is presenting the same TRACKING_ID as the one at the DB : 444003
+2016-11-18 13:28:44,042 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "message": "Success"
+}
+2016-11-18 13:28:44,042 - TMW_OPTIMA_419_015 -INFO - ######################          TMW_OPTIMA_419_015 test is completed!      ######################
+2016-11-18 13:28:44,042 - TMW_OPTIMA_419_016 -INFO - ######################          Executing TMW_OPTIMA_419_016 test          ######################
+2016-11-18 13:28:44,526 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 13:28:44,656 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:28:45,686 - Request -INFO - ContentTypeHeader was successfully added.
+2016-11-18 13:28:45,937 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-18 13:28:46,207 - Request -INFO - The request Payload was successfully added.
+2016-11-18 13:28:46,897 - Response -INFO - Response Details: Status Code
+: 
+201 Created
+Content-Length
+: 
+30
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:28:51 GMT
+Location
+: 
+http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits/445003,3
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:28:47,028 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:28:50,328 - DatabaseUtil -INFO - The latest DB record for Customer Deposit is : TrackingID :445003 , TrackingIdServ :3 for AccountNo:135
+2016-11-18 13:28:53,559 - DatabaseUtil -INFO - The response is presenting the same TRACKING_ID as the one at the DB : 445003
+2016-11-18 13:28:56,592 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "message": "Success"
+}
+2016-11-18 13:28:56,592 - TMW_OPTIMA_419_016 -INFO - ######################          TMW_OPTIMA_419_016 test is completed!      ######################
+2016-11-18 13:28:56,592 - TMW_OPTIMA_419_017 -INFO - ######################          Executing TMW_OPTIMA_419_017 test          ######################
+2016-11-18 13:28:57,055 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 13:28:57,195 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:28:58,286 - Request -INFO - ContentTypeHeader was successfully added.
+2016-11-18 13:28:58,647 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-18 13:28:58,947 - Request -INFO - The request Payload was successfully added.
+2016-11-18 13:28:59,597 - Response -INFO - Response Details: Status Code
+: 
+400 Bad Request
+Content-Length
+: 
+70
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:29:03 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:28:59,708 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:28:59,738 - Response -INFO - JSON Response Message:{
+  "code": 744199,
+  "message": "Deposit Amount should be greater than zero"
+}
+2016-11-18 13:28:59,738 - TMW_OPTIMA_419_017 -INFO - ######################          TMW_OPTIMA_419_017 test is completed!      ######################
+2016-11-18 13:28:59,738 - TMW_OPTIMA_419_018 -INFO - ######################          Executing TMW_OPTIMA_419_018 test          ######################
+2016-11-18 13:29:00,188 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 13:29:00,328 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:29:01,359 - Request -INFO - ContentTypeHeader was successfully added.
+2016-11-18 13:29:01,630 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-18 13:29:01,860 - Request -INFO - The request Payload was successfully added.
+2016-11-18 13:29:02,570 - Response -INFO - Response Details: Status Code
+: 
+400 Bad Request
+Content-Length
+: 
+70
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:29:06 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:29:02,711 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:29:02,751 - Response -INFO - JSON Response Message:{
+  "code": 744199,
+  "message": "Deposit Amount should be greater than zero"
+}
+2016-11-18 13:29:02,751 - TMW_OPTIMA_419_018 -INFO - ######################          TMW_OPTIMA_419_018 test is completed!      ######################
+2016-11-18 13:29:02,751 - TMW_OPTIMA_419_019 -INFO - ######################          Executing TMW_OPTIMA_419_019 test          ######################
+2016-11-18 13:29:03,213 - HomePage -INFO - Home Page is successfully presented.
+2016-11-18 13:29:03,343 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:29:06,884 - Request -INFO - ContentTypeHeader was successfully added.
+2016-11-18 13:29:07,225 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-18 13:29:07,525 - Request -INFO - The request Payload was successfully added.
+2016-11-18 13:29:08,695 - Response -INFO - Response Details: Status Code
+: 
+201 Created
+Content-Length
+: 
+30
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:29:12 GMT
+Location
+: 
+http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits/446003,3
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:29:08,956 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:29:12,326 - DatabaseUtil -INFO - The latest DB record for Customer Deposit is : TrackingID :446003 , TrackingIdServ :3 for AccountNo:135
+2016-11-18 13:29:16,867 - DatabaseUtil -INFO - The response is presenting the same TRACKING_ID as the one at the DB : 446003
+2016-11-18 13:29:16,898 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "message": "Success"
+}
+2016-11-18 13:29:16,898 - TMW_OPTIMA_419_019 -INFO - ######################          TMW_OPTIMA_419_019 test is completed!      ######################
+2016-11-18 13:29:16,898 - TMW_OPTIMA_419_020 -INFO - ######################          Executing TMW_OPTIMA_419_020 test          ######################
+2016-11-18 13:29:17,522 - Request -INFO - The request Method was successfully selected.
+2016-11-18 13:29:18,604 - Request -INFO - ContentTypeHeader was successfully added.
+2016-11-18 13:29:18,935 - Request -INFO - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-18 13:29:19,225 - Request -INFO - The request Payload was successfully added.
+2016-11-18 13:29:19,905 - Response -INFO - Response Details: Status Code
+: 
+201 Created
+Content-Length
+: 
+30
+Content-Type
+: 
+application/json
+Date
+: 
+Fri, 18 Nov 2016 11:29:24 GMT
+Location
+: 
+http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits/447003,3
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-18 13:29:20,036 - Response -INFO - Response Body (Preview) tab is successfully selected
+2016-11-18 13:29:23,326 - DatabaseUtil -INFO - The latest DB record for Customer Deposit is : TrackingID :447003 , TrackingIdServ :3 for AccountNo:135
+2016-11-18 13:29:26,697 - DatabaseUtil -INFO - The response is presenting the same TRACKING_ID as the one at the DB : 447003
+2016-11-18 13:29:26,718 - Response -INFO - JSON Response Message:{
+  "code": 0,
+  "message": "Success"
+}
+2016-11-18 13:29:26,718 - TMW_OPTIMA_419_020 -INFO - ######################          TMW_OPTIMA_419_020 test is completed!      ######################
