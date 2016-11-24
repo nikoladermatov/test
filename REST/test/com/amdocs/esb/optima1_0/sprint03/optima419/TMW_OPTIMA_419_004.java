@@ -43,6 +43,9 @@ public class TMW_OPTIMA_419_004 {
 		//Test execution:
 		logger.info("######################          Executing TMW_OPTIMA_419_004 test          ######################");
 		
+		//Verification of :	
+		logger.info("TMW_OPTIMA_419_004 E2 with Deposit type General Deposit and Wrong CA ID");
+		
 //		HomePage.goTo();
 		HomePage.browserRefresh();
 		HomePage.verifyHomePagePresented("RESTClient");

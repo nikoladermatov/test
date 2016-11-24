@@ -140,7 +140,7 @@ public class DatabaseUtil {
 			            int trackingId = rs.getInt("TRACKING_ID");
 			            Assert.assertEquals(responseMessageText, responseMessageText.contains(query), false);
 			            
-			            logger.info("The response is presenting the same TRACKING_ID as the one at the DB : " + trackingId);       
+			            logger.info("The response is presenting the equal TRACKING_ID as the one at the DB : " + trackingId);       
 			        }}
 				    catch (SQLException ex) {
 				      System.out.println(ex);

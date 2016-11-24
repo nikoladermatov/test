@@ -36,6 +36,9 @@ public class TMW_OPTIMA_419_016 {
 		//Test execution
 		logger.info("######################          Executing TMW_OPTIMA_419_016 test          ######################");
 		
+		//Verification of :	
+		logger.info("TMW_OPTIMA_419_016 with Non-General Deposit and Payment Method- Direct debit");
+		
 //		HomePage.goTo();
 		HomePage.browserRefresh();
 		HomePage.verifyHomePagePresented("RESTClient");

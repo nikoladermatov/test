@@ -47660,3 +47660,3429 @@ Jetty(8.1.17.v20150415)
   "message": "Success"
 }
 2016-11-18 13:29:26,718 [main] INFO TMW_OPTIMA_419_020 - ######################          TMW_OPTIMA_419_020 test is completed!      ######################
+2016-11-22 11:17:43,440 [main] INFO TMW_OPTIMA_442_001 - ######################          Executing TMW_OPTIMA_442_001 test          ######################
+2016-11-22 11:17:44,076 [main] INFO HomePage - Firefox browser instance was successfully initiated.
+2016-11-22 11:17:44,326 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 11:17:44,483 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:17:44,767 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr&maxcount=2
+2016-11-22 11:17:48,019 [main] INFO Response - Response Details: Status Code
+: 
+200 OK
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 09:17:39 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 11:17:48,246 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 11:17:48,246 [main] INFO Response - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-22 11:17:48,339 [main] INFO Response - 'billRefNo' field is presented at the Response!
+2016-11-22 11:17:48,432 [main] INFO Response - 'billRefResets' field is presented at the Response!
+2016-11-22 11:17:48,481 [main] INFO Response - 'statementDate' field is presented at the Response!
+2016-11-22 11:17:48,512 [main] INFO Response - 'paymentDueDate' field is presented at the Response!
+2016-11-22 11:17:48,541 [main] INFO Response - 'fromDate' field is presented at the Response!
+2016-11-22 11:17:48,581 [main] INFO Response - 'toDate' field is presented at the Response!
+2016-11-22 11:17:48,617 [main] INFO Response - 'nextToDate' field is presented at the Response!
+2016-11-22 11:17:48,617 [main] INFO Response - All Required fields are successfully presented at the Response!
+2016-11-22 11:17:48,659 [main] INFO Response - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-22 11:17:48,660 [main] INFO Response - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-22 11:17:48,710 [main] INFO Response - 'serviceInternalId' field is presented at the Response!
+2016-11-22 11:17:48,737 [main] INFO Response - 'serviceInternalIdResets' field is presented at the Response!
+2016-11-22 11:17:48,760 [main] INFO Response - 'contractId' field is presented at the Response!
+2016-11-22 11:17:48,799 [main] INFO Response - 'contractTypeDescription' field is presented at the Response!
+2016-11-22 11:17:48,858 [main] INFO Response - 'unitCrId' field is presented at the Response!
+2016-11-22 11:17:48,887 [main] INFO Response - 'unitCrDescriptionCode' field is presented at the Response!
+2016-11-22 11:17:48,921 [main] INFO Response - 'domainId' field is presented at the Response!
+2016-11-22 11:17:48,948 [main] INFO Response - 'unitCrDomain' field is presented at the Response!
+2016-11-22 11:17:48,970 [main] INFO Response - 'unitCrDomainText' field is presented at the Response!
+2016-11-22 11:17:48,992 [main] INFO Response - 'unitsApplied' field is presented at the Response!
+2016-11-22 11:17:49,015 [main] INFO Response - 'unitsAvailable' field is presented at the Response!
+2016-11-22 11:17:49,047 [main] INFO Response - 'amountAppliedDiscCurrency' field is presented at the Response!
+2016-11-22 11:17:49,082 [main] INFO Response - 'secondaryAmount' field is presented at the Response!
+2016-11-22 11:17:49,082 [main] INFO Response - All Required fields are successfully presented at the Response!
+2016-11-22 11:17:49,108 [main] INFO Response - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 15201,
+      "billRefResets": 0,
+      "statementDate": "2016-04-01T04:00:00Z",
+      "paymentDueDate": "2016-04-28T04:00:00Z",
+      "fromDate": "2016-03-01T05:00:00Z",
+      "toDate": "2016-04-01T04:00:00Z",
+      "nextToDate": "2016-05-01T04:00:00Z",
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0
+        }
+      ]
+    }
+  ],
+  "message": "Success"
+}
+2016-11-22 11:17:49,109 [main] INFO TMW_OPTIMA_442_001 - ######################          TMW_OPTIMA_442_001 test is completed!      ######################
+2016-11-22 11:17:49,112 [main] INFO TMW_OPTIMA_442_002 - ######################          Executing TMW_OPTIMA_442_002 test          ######################
+2016-11-22 11:17:49,573 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 11:17:49,649 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:17:49,949 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills?filters=daterange<>2016-07-01 00:00:00^2016-09-02 23:59:00&embed=CreditUnitCr&maxcount=2
+2016-11-22 11:17:50,705 [main] INFO Response - Response Details: Status Code
+: 
+200 OK
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+978
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 09:17:42 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 11:17:50,845 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 11:17:50,846 [main] INFO Response - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-22 11:17:50,880 [main] INFO Response - 'billRefNo' field is presented at the Response!
+2016-11-22 11:17:50,923 [main] INFO Response - 'billRefResets' field is presented at the Response!
+2016-11-22 11:17:50,961 [main] INFO Response - 'statementDate' field is presented at the Response!
+2016-11-22 11:17:50,989 [main] INFO Response - 'paymentDueDate' field is presented at the Response!
+2016-11-22 11:17:51,014 [main] INFO Response - 'fromDate' field is presented at the Response!
+2016-11-22 11:17:51,043 [main] INFO Response - 'toDate' field is presented at the Response!
+2016-11-22 11:17:51,065 [main] INFO Response - 'nextToDate' field is presented at the Response!
+2016-11-22 11:17:51,066 [main] INFO Response - All Required fields are successfully presented at the Response!
+2016-11-22 11:17:51,088 [main] INFO Response - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-22 11:17:51,089 [main] INFO Response - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-22 11:17:51,116 [main] INFO Response - 'serviceInternalId' field is presented at the Response!
+2016-11-22 11:17:51,160 [main] INFO Response - 'serviceInternalIdResets' field is presented at the Response!
+2016-11-22 11:17:51,196 [main] INFO Response - 'contractId' field is presented at the Response!
+2016-11-22 11:17:51,229 [main] INFO Response - 'contractTypeDescription' field is presented at the Response!
+2016-11-22 11:17:51,272 [main] INFO Response - 'unitCrId' field is presented at the Response!
+2016-11-22 11:17:51,299 [main] INFO Response - 'unitCrDescriptionCode' field is presented at the Response!
+2016-11-22 11:17:51,326 [main] INFO Response - 'domainId' field is presented at the Response!
+2016-11-22 11:17:51,354 [main] INFO Response - 'unitCrDomain' field is presented at the Response!
+2016-11-22 11:17:51,377 [main] INFO Response - 'unitCrDomainText' field is presented at the Response!
+2016-11-22 11:17:51,403 [main] INFO Response - 'unitsApplied' field is presented at the Response!
+2016-11-22 11:17:51,427 [main] INFO Response - 'unitsAvailable' field is presented at the Response!
+2016-11-22 11:17:51,450 [main] INFO Response - 'amountAppliedDiscCurrency' field is presented at the Response!
+2016-11-22 11:17:51,480 [main] INFO Response - 'secondaryAmount' field is presented at the Response!
+2016-11-22 11:17:51,480 [main] INFO Response - All Required fields are successfully presented at the Response!
+2016-11-22 11:17:51,511 [main] INFO Response - Validation was done and 'More records Found for the input criteria' is successfully presented!
+2016-11-22 11:17:51,544 [main] INFO Response - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 0,
+      "billRefResets": 0,
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": []
+    },
+    {
+      "billRefNo": 16201,
+      "billRefResets": 0,
+      "statementDate": "2016-09-01T04:00:00Z",
+      "paymentDueDate": "2016-09-30T04:00:00Z",
+      "fromDate": "2016-08-01T04:00:00Z",
+      "toDate": "2016-09-01T04:00:00Z",
+      "nextToDate": "2016-10-01T04:00:00Z",
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0,
+          "taxTypeCode": 100
+        }
+      ]
+    }
+  ],
+  "totalCount": 13,
+  "message": "More records Found for the input criteria, totalCount exist : 13"
+}
+2016-11-22 11:17:51,545 [main] INFO TMW_OPTIMA_442_002 - ######################          TMW_OPTIMA_442_002 test is completed!      ######################
+2016-11-22 11:17:51,548 [main] INFO TMW_OPTIMA_442_003 - ######################          Executing TMW_OPTIMA_442_003 test          ######################
+2016-11-22 11:17:52,015 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 11:17:52,112 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:17:52,333 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?embed=CreditUnitCr
+2016-11-22 11:17:53,385 [main] INFO Response - Response Details: Status Code
+: 
+200 OK
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 09:17:45 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 11:17:53,516 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 11:17:53,516 [main] INFO Response - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-22 11:17:53,562 [main] INFO Response - 'billRefNo' field is presented at the Response!
+2016-11-22 11:17:53,592 [main] INFO Response - 'billRefResets' field is presented at the Response!
+2016-11-22 11:17:53,621 [main] INFO Response - 'statementDate' field is presented at the Response!
+2016-11-22 11:17:53,646 [main] INFO Response - 'paymentDueDate' field is presented at the Response!
+2016-11-22 11:17:53,670 [main] INFO Response - 'fromDate' field is presented at the Response!
+2016-11-22 11:17:53,699 [main] INFO Response - 'toDate' field is presented at the Response!
+2016-11-22 11:17:53,721 [main] INFO Response - 'nextToDate' field is presented at the Response!
+2016-11-22 11:17:53,722 [main] INFO Response - All Required fields are successfully presented at the Response!
+2016-11-22 11:17:53,742 [main] INFO Response - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-22 11:17:53,743 [main] INFO Response - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-22 11:17:53,767 [main] INFO Response - 'serviceInternalId' field is presented at the Response!
+2016-11-22 11:17:53,798 [main] INFO Response - 'serviceInternalIdResets' field is presented at the Response!
+2016-11-22 11:17:53,825 [main] INFO Response - 'contractId' field is presented at the Response!
+2016-11-22 11:17:53,851 [main] INFO Response - 'contractTypeDescription' field is presented at the Response!
+2016-11-22 11:17:53,882 [main] INFO Response - 'unitCrId' field is presented at the Response!
+2016-11-22 11:17:53,912 [main] INFO Response - 'unitCrDescriptionCode' field is presented at the Response!
+2016-11-22 11:17:53,941 [main] INFO Response - 'domainId' field is presented at the Response!
+2016-11-22 11:17:53,970 [main] INFO Response - 'unitCrDomain' field is presented at the Response!
+2016-11-22 11:17:54,000 [main] INFO Response - 'unitCrDomainText' field is presented at the Response!
+2016-11-22 11:17:54,041 [main] INFO Response - 'unitsApplied' field is presented at the Response!
+2016-11-22 11:17:54,063 [main] INFO Response - 'unitsAvailable' field is presented at the Response!
+2016-11-22 11:17:54,088 [main] INFO Response - 'amountAppliedDiscCurrency' field is presented at the Response!
+2016-11-22 11:17:54,119 [main] INFO Response - 'secondaryAmount' field is presented at the Response!
+2016-11-22 11:17:54,119 [main] INFO Response - All Required fields are successfully presented at the Response!
+2016-11-22 11:17:54,148 [main] INFO Response - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 15201,
+      "billRefResets": 0,
+      "statementDate": "2016-04-01T04:00:00Z",
+      "paymentDueDate": "2016-04-28T04:00:00Z",
+      "fromDate": "2016-03-01T05:00:00Z",
+      "toDate": "2016-04-01T04:00:00Z",
+      "nextToDate": "2016-05-01T04:00:00Z",
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0
+        }
+      ]
+    }
+  ],
+  "message": "Success"
+}
+2016-11-22 11:17:54,148 [main] INFO TMW_OPTIMA_442_003 - ######################          TMW_OPTIMA_442_003 test is completed!      ######################
+2016-11-22 11:17:54,151 [main] INFO TMW_OPTIMA_442_004 - ######################          Executing TMW_OPTIMA_442_004 test          ######################
+2016-11-22 11:17:54,566 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 11:17:54,647 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:17:54,894 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills?filters=daterange<>2016-07-01 00:00:00^2016-09-02 23:59:00&embed=CreditUnitCr
+2016-11-22 11:17:56,441 [main] INFO TMW_OPTIMA_442_005 - ######################          Executing TMW_OPTIMA_442_005 test          ######################
+2016-11-22 11:17:56,934 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:17:57,201 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/16201%2C0?maxcount=2&embed=CreditUnitCr&fields=warmBillFlag,chgWho
+2016-11-22 11:17:57,912 [main] INFO Response - Response Details: Status Code
+: 
+200 OK
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+834
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 09:17:49 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 11:17:58,056 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 11:17:58,056 [main] INFO Response - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-22 11:17:58,082 [main] INFO Response - 'billRefNo' field is presented at the Response!
+2016-11-22 11:17:58,108 [main] INFO Response - 'billRefResets' field is presented at the Response!
+2016-11-22 11:17:58,135 [main] INFO Response - 'statementDate' field is presented at the Response!
+2016-11-22 11:17:58,161 [main] INFO Response - 'paymentDueDate' field is presented at the Response!
+2016-11-22 11:17:58,183 [main] INFO Response - 'fromDate' field is presented at the Response!
+2016-11-22 11:17:58,217 [main] INFO Response - 'toDate' field is presented at the Response!
+2016-11-22 11:17:58,253 [main] INFO Response - 'nextToDate' field is presented at the Response!
+2016-11-22 11:17:58,254 [main] INFO Response - All Required fields are successfully presented at the Response!
+2016-11-22 11:17:58,285 [main] INFO Response - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-22 11:17:58,286 [main] INFO Response - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-22 11:17:58,307 [main] INFO Response - 'serviceInternalId' field is presented at the Response!
+2016-11-22 11:17:58,337 [main] INFO Response - 'serviceInternalIdResets' field is presented at the Response!
+2016-11-22 11:17:58,361 [main] INFO Response - 'contractId' field is presented at the Response!
+2016-11-22 11:17:58,384 [main] INFO Response - 'contractTypeDescription' field is presented at the Response!
+2016-11-22 11:17:58,408 [main] INFO Response - 'unitCrId' field is presented at the Response!
+2016-11-22 11:17:58,438 [main] INFO Response - 'unitCrDescriptionCode' field is presented at the Response!
+2016-11-22 11:17:58,462 [main] INFO Response - 'domainId' field is presented at the Response!
+2016-11-22 11:17:58,482 [main] INFO Response - 'unitCrDomain' field is presented at the Response!
+2016-11-22 11:17:58,508 [main] INFO Response - 'unitCrDomainText' field is presented at the Response!
+2016-11-22 11:17:58,535 [main] INFO Response - 'unitsApplied' field is presented at the Response!
+2016-11-22 11:17:58,566 [main] INFO Response - 'unitsAvailable' field is presented at the Response!
+2016-11-22 11:17:58,592 [main] INFO Response - 'amountAppliedDiscCurrency' field is presented at the Response!
+2016-11-22 11:17:58,613 [main] INFO Response - 'secondaryAmount' field is presented at the Response!
+2016-11-22 11:17:58,613 [main] INFO Response - All Required fields are successfully presented at the Response!
+2016-11-22 11:17:58,640 [main] INFO Response - Validation was done and 'chgWho' is successfully presented!
+2016-11-22 11:17:58,661 [main] INFO Response - Validation was done and 'warmBillFlag' is successfully presented!
+2016-11-22 11:17:58,682 [main] INFO Response - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 16201,
+      "statementDate": "2016-09-01T04:00:00Z",
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0,
+          "taxTypeCode": 100
+        }
+      ],
+      "warmBillFlag": false,
+      "postPaidBilledUsageTotal": 0,
+      "billRefResets": 0,
+      "nextToDate": "2016-10-01T04:00:00Z",
+      "chgWho": "bip01                         ",
+      "toDate": "2016-09-01T04:00:00Z",
+      "postPaidBilledRcTotal": 0,
+      "fromDate": "2016-08-01T04:00:00Z",
+      "paymentDueDate": "2016-09-30T04:00:00Z",
+      "postPaidBilledNrcTotal": 0
+    }
+  ],
+  "message": "Success"
+}
+2016-11-22 11:17:58,682 [main] INFO TMW_OPTIMA_442_005 - ######################          TMW_OPTIMA_442_005 test is completed!      ######################
+2016-11-22 11:17:58,685 [main] INFO TMW_OPTIMA_442_006 - ######################          Executing TMW_OPTIMA_442_006 test          ######################
+2016-11-22 11:17:59,107 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 11:17:59,195 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:17:59,555 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills?filters=daterange<>2016-07-01 00:00:00^2016-09-02 23:59:00&maxcount=2&embed=CreditUnitCr&fields=zip
+2016-11-22 11:18:00,731 [main] INFO Response - Response Details: Status Code
+: 
+200 OK
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+1003
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 09:17:52 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 11:18:00,910 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 11:18:00,910 [main] INFO Response - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-22 11:18:00,950 [main] INFO Response - 'billRefNo' field is presented at the Response!
+2016-11-22 11:18:00,979 [main] INFO Response - 'billRefResets' field is presented at the Response!
+2016-11-22 11:18:01,000 [main] INFO Response - 'statementDate' field is presented at the Response!
+2016-11-22 11:18:01,024 [main] INFO Response - 'paymentDueDate' field is presented at the Response!
+2016-11-22 11:18:01,045 [main] INFO Response - 'fromDate' field is presented at the Response!
+2016-11-22 11:18:01,067 [main] INFO Response - 'toDate' field is presented at the Response!
+2016-11-22 11:18:01,087 [main] INFO Response - 'nextToDate' field is presented at the Response!
+2016-11-22 11:18:01,088 [main] INFO Response - All Required fields are successfully presented at the Response!
+2016-11-22 11:18:01,133 [main] INFO Response - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-22 11:18:01,133 [main] INFO Response - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-22 11:18:01,159 [main] INFO Response - 'serviceInternalId' field is presented at the Response!
+2016-11-22 11:18:01,190 [main] INFO Response - 'serviceInternalIdResets' field is presented at the Response!
+2016-11-22 11:18:01,224 [main] INFO Response - 'contractId' field is presented at the Response!
+2016-11-22 11:18:01,249 [main] INFO Response - 'contractTypeDescription' field is presented at the Response!
+2016-11-22 11:18:01,328 [main] INFO Response - 'unitCrId' field is presented at the Response!
+2016-11-22 11:18:01,361 [main] INFO Response - 'unitCrDescriptionCode' field is presented at the Response!
+2016-11-22 11:18:01,390 [main] INFO Response - 'domainId' field is presented at the Response!
+2016-11-22 11:18:01,418 [main] INFO Response - 'unitCrDomain' field is presented at the Response!
+2016-11-22 11:18:01,438 [main] INFO Response - 'unitCrDomainText' field is presented at the Response!
+2016-11-22 11:18:01,464 [main] INFO Response - 'unitsApplied' field is presented at the Response!
+2016-11-22 11:18:01,492 [main] INFO Response - 'unitsAvailable' field is presented at the Response!
+2016-11-22 11:18:01,520 [main] INFO Response - 'amountAppliedDiscCurrency' field is presented at the Response!
+2016-11-22 11:18:01,548 [main] INFO Response - 'secondaryAmount' field is presented at the Response!
+2016-11-22 11:18:01,549 [main] INFO Response - All Required fields are successfully presented at the Response!
+2016-11-22 11:18:01,580 [main] INFO Response - Validation was done and 'More records Found for the input criteria' is successfully presented!
+2016-11-22 11:18:01,608 [main] INFO Response - Validation was done and 'zip' is successfully presented!
+2016-11-22 11:18:01,629 [main] INFO Response - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 0,
+      "postPaidBilledRcTotal": 0,
+      "creditUnitCr": [],
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "billRefResets": 0
+    },
+    {
+      "billRefNo": 16201,
+      "zip": "11111           ",
+      "toDate": "2016-09-01T04:00:00Z",
+      "statementDate": "2016-09-01T04:00:00Z",
+      "postPaidBilledRcTotal": 0,
+      "fromDate": "2016-08-01T04:00:00Z",
+      "paymentDueDate": "2016-09-30T04:00:00Z",
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0,
+          "taxTypeCode": 100
+        }
+      ],
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "billRefResets": 0,
+      "nextToDate": "2016-10-01T04:00:00Z"
+    }
+  ],
+  "totalCount": 13,
+  "message": "More records Found for the input criteria, totalCount exist : 13"
+}
+2016-11-22 11:18:01,630 [main] INFO TMW_OPTIMA_442_006 - ######################          TMW_OPTIMA_442_006 test is completed!      ######################
+2016-11-22 11:18:01,632 [main] INFO TMW_OPTIMA_442_007 - ######################          Executing TMW_OPTIMA_442_007 test          ######################
+2016-11-22 11:18:02,079 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 11:18:02,155 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:18:02,411 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills?filters=daterange<>2016-07-01 00:00:00^2016-09-02 23:59:00&embed=CreditUnitCr&maxcount=3
+2016-11-22 11:18:03,113 [main] INFO Response - Response Details: Status Code
+: 
+200 OK
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+1297
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 09:17:54 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 11:18:03,246 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 11:18:03,247 [main] INFO Response - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-22 11:18:03,270 [main] INFO Response - 'billRefNo' field is presented at the Response!
+2016-11-22 11:18:03,299 [main] INFO Response - 'billRefResets' field is presented at the Response!
+2016-11-22 11:18:03,329 [main] INFO Response - 'statementDate' field is presented at the Response!
+2016-11-22 11:18:03,357 [main] INFO Response - 'paymentDueDate' field is presented at the Response!
+2016-11-22 11:18:03,377 [main] INFO Response - 'fromDate' field is presented at the Response!
+2016-11-22 11:18:03,397 [main] INFO Response - 'toDate' field is presented at the Response!
+2016-11-22 11:18:03,427 [main] INFO Response - 'nextToDate' field is presented at the Response!
+2016-11-22 11:18:03,427 [main] INFO Response - All Required fields are successfully presented at the Response!
+2016-11-22 11:18:03,446 [main] INFO Response - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-22 11:18:03,447 [main] INFO Response - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-22 11:18:03,472 [main] INFO Response - 'serviceInternalId' field is presented at the Response!
+2016-11-22 11:18:03,492 [main] INFO Response - 'serviceInternalIdResets' field is presented at the Response!
+2016-11-22 11:18:03,511 [main] INFO Response - 'contractId' field is presented at the Response!
+2016-11-22 11:18:03,531 [main] INFO Response - 'contractTypeDescription' field is presented at the Response!
+2016-11-22 11:18:03,554 [main] INFO Response - 'unitCrId' field is presented at the Response!
+2016-11-22 11:18:03,581 [main] INFO Response - 'unitCrDescriptionCode' field is presented at the Response!
+2016-11-22 11:18:03,603 [main] INFO Response - 'domainId' field is presented at the Response!
+2016-11-22 11:18:03,623 [main] INFO Response - 'unitCrDomain' field is presented at the Response!
+2016-11-22 11:18:03,644 [main] INFO Response - 'unitCrDomainText' field is presented at the Response!
+2016-11-22 11:18:03,672 [main] INFO Response - 'unitsApplied' field is presented at the Response!
+2016-11-22 11:18:03,700 [main] INFO Response - 'unitsAvailable' field is presented at the Response!
+2016-11-22 11:18:03,730 [main] INFO Response - 'amountAppliedDiscCurrency' field is presented at the Response!
+2016-11-22 11:18:03,761 [main] INFO Response - 'secondaryAmount' field is presented at the Response!
+2016-11-22 11:18:03,762 [main] INFO Response - All Required fields are successfully presented at the Response!
+2016-11-22 11:18:03,799 [main] INFO Response - Validation was done and 'More records Found for the input criteria' is successfully presented!
+2016-11-22 11:18:03,825 [main] INFO Response - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 0,
+      "billRefResets": 0,
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": []
+    },
+    {
+      "billRefNo": 16201,
+      "billRefResets": 0,
+      "statementDate": "2016-09-01T04:00:00Z",
+      "paymentDueDate": "2016-09-30T04:00:00Z",
+      "fromDate": "2016-08-01T04:00:00Z",
+      "toDate": "2016-09-01T04:00:00Z",
+      "nextToDate": "2016-10-01T04:00:00Z",
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0,
+          "taxTypeCode": 100
+        }
+      ]
+    },
+    {
+      "billRefNo": 16001,
+      "billRefResets": 0,
+      "statementDate": "2016-08-01T04:00:00Z",
+      "paymentDueDate": "2016-09-01T04:00:00Z",
+      "fromDate": "2016-07-01T04:00:00Z",
+      "toDate": "2016-08-01T04:00:00Z",
+      "nextToDate": "2016-09-01T04:00:00Z",
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": []
+    }
+  ],
+  "totalCount": 13,
+  "message": "More records Found for the input criteria, totalCount exist : 13"
+}
+2016-11-22 11:18:03,825 [main] INFO TMW_OPTIMA_442_007 - ######################          TMW_OPTIMA_442_007 test is completed!      ######################
+2016-11-22 11:18:03,828 [main] INFO TMW_OPTIMA_442_008 - ######################          Executing TMW_OPTIMA_442_008 test          ######################
+2016-11-22 11:18:04,251 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 11:18:04,359 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:18:04,593 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/16201%2C0?maxcount=0&embed=CreditUnitCr
+2016-11-22 11:18:05,217 [main] INFO Response - Response Details: Status Code
+: 
+200 OK
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+100
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 09:17:56 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 11:18:05,349 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 11:18:05,401 [main] INFO Response - Validation was done and 'More records Found for the input criteria' is successfully presented!
+2016-11-22 11:18:05,472 [main] INFO Response - JSON Response Message:{
+  "code": 0,
+  "response": [],
+  "message": "More records Found for the input criteria, totalCount exist : 1"
+}
+2016-11-22 11:18:05,473 [main] INFO TMW_OPTIMA_442_008 - ######################          TMW_OPTIMA_442_008 test is completed!      ######################
+2016-11-22 11:18:05,475 [main] INFO TMW_OPTIMA_442_009 - ######################          Executing TMW_OPTIMA_442_009 test          ######################
+2016-11-22 11:18:06,008 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 11:18:06,079 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:18:06,343 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills?filters=daterange<>2015-06-01 00:00:00^2016-09-05 23:59:00&embed=CreditUnitCr
+2016-11-22 11:18:06,883 [main] INFO Response - Response Details: Status Code
+: 
+400 Bad Request
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+91
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 09:17:58 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 11:18:07,009 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 11:18:07,039 [main] INFO Response - Validation was done and 'Date range must not exceed configuration parameter maxdays 365.' is successfully presented!
+2016-11-22 11:18:07,060 [main] INFO Response - JSON Response Message:{
+  "code": 714421,
+  "message": "Date range must not exceed configuration parameter maxdays 365."
+}
+2016-11-22 11:18:07,060 [main] INFO TMW_OPTIMA_442_009 - ######################          TMW_OPTIMA_442_009 test is completed!      ######################
+2016-11-22 11:18:07,062 [main] INFO TMW_OPTIMA_442_010 - ######################          Executing TMW_OPTIMA_442_010 test          ######################
+2016-11-22 11:18:07,482 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 11:18:07,559 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:18:07,767 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/16201%2C0?embed=CreditUnitCr&page=1
+2016-11-22 11:18:08,812 [main] INFO Response - Response Details: Status Code
+: 
+200 OK
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+771
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 09:18:00 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 11:18:08,958 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 11:18:08,959 [main] INFO Response - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-22 11:18:08,993 [main] INFO Response - 'billRefNo' field is presented at the Response!
+2016-11-22 11:18:09,016 [main] INFO Response - 'billRefResets' field is presented at the Response!
+2016-11-22 11:18:09,044 [main] INFO Response - 'statementDate' field is presented at the Response!
+2016-11-22 11:18:09,063 [main] INFO Response - 'paymentDueDate' field is presented at the Response!
+2016-11-22 11:18:09,083 [main] INFO Response - 'fromDate' field is presented at the Response!
+2016-11-22 11:18:09,102 [main] INFO Response - 'toDate' field is presented at the Response!
+2016-11-22 11:18:09,122 [main] INFO Response - 'nextToDate' field is presented at the Response!
+2016-11-22 11:18:09,123 [main] INFO Response - All Required fields are successfully presented at the Response!
+2016-11-22 11:18:09,144 [main] INFO Response - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-22 11:18:09,144 [main] INFO Response - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-22 11:18:09,169 [main] INFO Response - 'serviceInternalId' field is presented at the Response!
+2016-11-22 11:18:09,189 [main] INFO Response - 'serviceInternalIdResets' field is presented at the Response!
+2016-11-22 11:18:09,208 [main] INFO Response - 'contractId' field is presented at the Response!
+2016-11-22 11:18:09,230 [main] INFO Response - 'contractTypeDescription' field is presented at the Response!
+2016-11-22 11:18:09,252 [main] INFO Response - 'unitCrId' field is presented at the Response!
+2016-11-22 11:18:09,273 [main] INFO Response - 'unitCrDescriptionCode' field is presented at the Response!
+2016-11-22 11:18:09,297 [main] INFO Response - 'domainId' field is presented at the Response!
+2016-11-22 11:18:09,318 [main] INFO Response - 'unitCrDomain' field is presented at the Response!
+2016-11-22 11:18:09,342 [main] INFO Response - 'unitCrDomainText' field is presented at the Response!
+2016-11-22 11:18:09,385 [main] INFO Response - 'unitsApplied' field is presented at the Response!
+2016-11-22 11:18:09,411 [main] INFO Response - 'unitsAvailable' field is presented at the Response!
+2016-11-22 11:18:09,439 [main] INFO Response - 'amountAppliedDiscCurrency' field is presented at the Response!
+2016-11-22 11:18:09,471 [main] INFO Response - 'secondaryAmount' field is presented at the Response!
+2016-11-22 11:18:09,472 [main] INFO Response - All Required fields are successfully presented at the Response!
+2016-11-22 11:18:09,499 [main] INFO Response - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 16201,
+      "billRefResets": 0,
+      "statementDate": "2016-09-01T04:00:00Z",
+      "paymentDueDate": "2016-09-30T04:00:00Z",
+      "fromDate": "2016-08-01T04:00:00Z",
+      "toDate": "2016-09-01T04:00:00Z",
+      "nextToDate": "2016-10-01T04:00:00Z",
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0,
+          "taxTypeCode": 100
+        }
+      ]
+    }
+  ],
+  "message": "Success"
+}
+2016-11-22 11:18:09,499 [main] INFO TMW_OPTIMA_442_010 - ######################          TMW_OPTIMA_442_010 test is completed!      ######################
+2016-11-22 11:18:09,502 [main] INFO TMW_OPTIMA_442_011 - ######################          Executing TMW_OPTIMA_442_011 test          ######################
+2016-11-22 11:18:09,932 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 11:18:10,023 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:18:10,277 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/15/customerbills?filters=daterange<>2016-07-01+00%3A00%3A00%5E2016-09-02+23%3A59%3A00&embed=CreditUnitCr&page=1&limit=2
+2016-11-22 11:18:10,960 [main] INFO Response - Response Details: Status Code
+: 
+200 OK
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+1457
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 09:18:02 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 11:18:11,083 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 11:18:11,083 [main] INFO Response - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-22 11:18:11,110 [main] INFO Response - 'billRefNo' field is presented at the Response!
+2016-11-22 11:18:11,132 [main] INFO Response - 'billRefResets' field is presented at the Response!
+2016-11-22 11:18:11,161 [main] INFO Response - 'statementDate' field is presented at the Response!
+2016-11-22 11:18:11,194 [main] INFO Response - 'paymentDueDate' field is presented at the Response!
+2016-11-22 11:18:11,214 [main] INFO Response - 'fromDate' field is presented at the Response!
+2016-11-22 11:18:11,234 [main] INFO Response - 'toDate' field is presented at the Response!
+2016-11-22 11:18:11,255 [main] INFO Response - 'nextToDate' field is presented at the Response!
+2016-11-22 11:18:11,256 [main] INFO Response - All Required fields are successfully presented at the Response!
+2016-11-22 11:18:11,276 [main] INFO Response - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-22 11:18:11,299 [main] INFO Response - Validation was done and 'self' is successfully presented!
+2016-11-22 11:18:11,319 [main] INFO Response - Validation was done and 'links' is successfully presented!
+2016-11-22 11:18:11,345 [main] INFO Response - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 0,
+      "billRefResets": 0,
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": [],
+      "customerBillUrl": [
+        "http://10.230.16.67:8080/server10.230.16.67/REF0000000000/REF0000000000/REF0000000000/BILL_0_1_1_2_669644.pdf",
+        "http://10.230.16.67:8080/server10.230.16.67/REF0000000000/REF0000000000/REF0000000000/BILL_0_1_3_1_669643.pdf"
+      ]
+    },
+    {
+      "billRefNo": 12801,
+      "billRefResets": 0,
+      "statementDate": "2016-01-01T05:00:00Z",
+      "paymentDueDate": "2016-02-01T05:00:00Z",
+      "fromDate": "2015-12-01T05:00:00Z",
+      "toDate": "2016-01-01T05:00:00Z",
+      "nextToDate": "2016-02-01T05:00:00Z",
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": []
+    }
+  ],
+  "totalCount": 6,
+  "self": {
+    "href": "http://10.230.16.71:8001/rest/v1/customeraccounts/15/customerbills?filters=daterange%3C%3E2016-07-01+00%3A00%3A00%5E2016-09-02+23%3A59%3A00&embed=CreditUnitCr&page=1&limit=2",
+    "rel": "self"
+  },
+  "links": [
+    {
+      "href": "http://10.230.16.71:8001/rest/v1/customeraccounts/15/customerbills?filters=daterange%3C%3E2016-07-01+00%3A00%3A00%5E2016-09-02+23%3A59%3A00&embed=CreditUnitCr&page=2&limit=2",
+      "rel": "next"
+    },
+    {
+      "href": "http://10.230.16.71:8001/rest/v1/customeraccounts/15/customerbills?filters=daterange%3C%3E2016-07-01+00%3A00%3A00%5E2016-09-02+23%3A59%3A00&embed=CreditUnitCr&page=3&limit=2",
+      "rel": "last"
+    }
+  ],
+  "message": "More records Found for the input criteria, totalCount exist : 6"
+}
+2016-11-22 11:18:11,346 [main] INFO TMW_OPTIMA_442_011 - ######################          TMW_OPTIMA_442_011 test is completed!      ######################
+2016-11-22 11:18:11,348 [main] INFO TMW_OPTIMA_442_012 - ######################          Executing TMW_OPTIMA_442_012 test          ######################
+2016-11-22 11:18:14,832 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:18:15,078 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerbills/15201%2C0?filters=daterange<>2015-06-01 00:00:00^2016-09-05 23:59:00&embed=CreditUnitCr
+2016-11-22 11:18:15,695 [main] INFO Response - Response Details: Status Code
+: 
+200 OK
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+753
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 09:18:07 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 11:18:15,853 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 11:18:15,853 [main] INFO Response - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-22 11:18:15,893 [main] INFO Response - 'billRefNo' field is presented at the Response!
+2016-11-22 11:18:15,917 [main] INFO Response - 'billRefResets' field is presented at the Response!
+2016-11-22 11:18:15,949 [main] INFO Response - 'statementDate' field is presented at the Response!
+2016-11-22 11:18:15,977 [main] INFO Response - 'paymentDueDate' field is presented at the Response!
+2016-11-22 11:18:16,003 [main] INFO Response - 'fromDate' field is presented at the Response!
+2016-11-22 11:18:16,036 [main] INFO Response - 'toDate' field is presented at the Response!
+2016-11-22 11:18:16,065 [main] INFO Response - 'nextToDate' field is presented at the Response!
+2016-11-22 11:18:16,066 [main] INFO Response - All Required fields are successfully presented at the Response!
+2016-11-22 11:18:16,089 [main] INFO Response - Validation was done and 'creditUnitCr' is successfully presented!
+2016-11-22 11:18:16,090 [main] INFO Response - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-22 11:18:16,114 [main] INFO Response - 'serviceInternalId' field is presented at the Response!
+2016-11-22 11:18:16,141 [main] INFO Response - 'serviceInternalIdResets' field is presented at the Response!
+2016-11-22 11:18:16,168 [main] INFO Response - 'contractId' field is presented at the Response!
+2016-11-22 11:18:16,191 [main] INFO Response - 'contractTypeDescription' field is presented at the Response!
+2016-11-22 11:18:16,220 [main] INFO Response - 'unitCrId' field is presented at the Response!
+2016-11-22 11:18:16,247 [main] INFO Response - 'unitCrDescriptionCode' field is presented at the Response!
+2016-11-22 11:18:16,268 [main] INFO Response - 'domainId' field is presented at the Response!
+2016-11-22 11:18:16,287 [main] INFO Response - 'unitCrDomain' field is presented at the Response!
+2016-11-22 11:18:16,314 [main] INFO Response - 'unitCrDomainText' field is presented at the Response!
+2016-11-22 11:18:16,366 [main] INFO Response - 'unitsApplied' field is presented at the Response!
+2016-11-22 11:18:16,404 [main] INFO Response - 'unitsAvailable' field is presented at the Response!
+2016-11-22 11:18:16,428 [main] INFO Response - 'amountAppliedDiscCurrency' field is presented at the Response!
+2016-11-22 11:18:16,453 [main] INFO Response - 'secondaryAmount' field is presented at the Response!
+2016-11-22 11:18:16,454 [main] INFO Response - All Required fields are successfully presented at the Response!
+2016-11-22 11:18:16,480 [main] INFO Response - JSON Response Message:{
+  "code": 0,
+  "response": [
+    {
+      "billRefNo": 15201,
+      "billRefResets": 0,
+      "statementDate": "2016-04-01T04:00:00Z",
+      "paymentDueDate": "2016-04-28T04:00:00Z",
+      "fromDate": "2016-03-01T05:00:00Z",
+      "toDate": "2016-04-01T04:00:00Z",
+      "nextToDate": "2016-05-01T04:00:00Z",
+      "postPaidBilledUsageTotal": 0,
+      "postPaidBilledRcTotal": 0,
+      "postPaidBilledNrcTotal": 0,
+      "creditUnitCr": [
+        {
+          "serviceInternalId": 82,
+          "serviceInternalIdResets": 0,
+          "contractId": 25001,
+          "contractTypeDescription": {
+            "key": "30285556",
+            "displayValue": "Niko_UC_Contracts"
+          },
+          "unitCrId": 30373,
+          "unitCrDescriptionCode": {
+            "key": "30285555",
+            "displayValue": "Niko_UC"
+          },
+          "domainId": 0,
+          "unitCrDomain": "3",
+          "unitCrDomainText": "Usage Charges",
+          "unitsApplied": 0.6,
+          "unitsAvailable": 1,
+          "amountAppliedDiscCurrency": 0,
+          "secondaryAmount": 0
+        }
+      ]
+    }
+  ],
+  "message": "Success"
+}
+2016-11-22 11:18:16,480 [main] INFO TMW_OPTIMA_442_012 - ######################          TMW_OPTIMA_442_012 test is completed!      ######################
+2016-11-22 11:18:24,372 [main] INFO TMW_OPTIMA_446_001 - ######################          Executing TMW_OPTIMA_446_001 test          ######################
+2016-11-22 11:18:24,947 [main] INFO HomePage - Firefox browser instance was successfully initiated.
+2016-11-22 11:18:25,325 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 11:18:25,461 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:18:25,678 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/25?embed=servicecenters
+2016-11-22 11:18:32,839 [main] INFO Response - Response Details: Status Code
+: 
+200 OK
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+1055
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 09:18:21 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 11:18:32,994 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 11:18:32,994 [main] INFO Response - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-22 11:18:33,034 [main] INFO Response - 'accountInternalId' field is presented at the Response!
+2016-11-22 11:18:33,063 [main] INFO Response - 'serverId' field is presented at the Response!
+2016-11-22 11:18:33,087 [main] INFO Response - 'hierarchyId' field is presented at the Response!
+2016-11-22 11:18:33,114 [main] INFO Response - 'billFname' field is presented at the Response!
+2016-11-22 11:18:33,135 [main] INFO Response - 'billLname' field is presented at the Response!
+2016-11-22 11:18:33,155 [main] INFO Response - 'dateActive' field is presented at the Response!
+2016-11-22 11:18:33,179 [main] INFO Response - 'accountCategory' field is presented at the Response!
+2016-11-22 11:18:33,180 [main] INFO Response - All Required fields are successfully presented at the Response!
+2016-11-22 11:18:33,201 [main] INFO Response - Validation was done and 'serviceCenters' is successfully presented!
+2016-11-22 11:18:33,201 [main] INFO Response - STARTING THE REQUIRED FIELDS VALIDATION PROCESS: 
+2016-11-22 11:18:33,220 [main] INFO Response - 'serviceCenterId' field is presented at the Response!
+2016-11-22 11:18:33,240 [main] INFO Response - 'serviceCenterType' field is presented at the Response!
+2016-11-22 11:18:33,240 [main] INFO Response - All Required fields are successfully presented at the Response!
+2016-11-22 11:18:33,259 [main] INFO Response - JSON Response Message:{
+  "code": 0,
+  "response": {
+    "accountInternalId": 25,
+    "serverId": 3,
+    "hierarchyId": 25,
+    "billFname": "Valentin",
+    "billLname": "Gyavurov",
+    "dateActive": "2015-02-02T11:15:53Z",
+    "accountCategory": {
+      "key": "2",
+      "displayValue": "Residential"
+    },
+    "serviceCenters": [
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "2",
+          "displayValue": "Remittance Center"
+        },
+        "isDefault": false
+      },
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "4",
+          "displayValue": "Collections Center"
+        },
+        "isDefault": false
+      },
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "3",
+          "displayValue": "Service Inquiry Center"
+        },
+        "isDefault": false
+      },
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "1",
+          "displayValue": "Billing Service Center"
+        },
+        "isDefault": false
+      },
+      {
+        "serviceCenterId": {
+          "key": "1",
+          "displayValue": "Billing Inquiry Center"
+        },
+        "serviceCenterType": {
+          "key": "6",
+          "displayValue": "Print Service Center"
+        },
+        "isDefault": false
+      }
+    ]
+  },
+  "message": "Success"
+}
+2016-11-22 11:18:33,260 [main] INFO TMW_OPTIMA_446_001 - ######################          TMW_OPTIMA_446_001 test is completed!      ######################
+2016-11-22 11:18:33,261 [main] INFO TMW_OPTIMA_446_002 - ######################          Executing TMW_OPTIMA_446_002 test          ######################
+2016-11-22 11:18:33,472 [main] INFO HomePage - Firefox browser instance was successfully initiated.
+2016-11-22 11:18:33,686 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 11:18:33,798 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:18:33,998 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/2699?embed=servicecenters
+2016-11-22 11:18:34,494 [main] INFO Response - Response Details: Status Code
+: 
+404 Not Found
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+106
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 09:18:26 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 11:18:34,616 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 11:18:34,649 [main] INFO Response - Validation was done and 'Invalid request' is successfully presented!
+2016-11-22 11:18:34,675 [main] INFO Response - JSON Response Message:{
+  "code": 744621,
+  "message": "Invalid request, customeraccounts not found for IDs:[{AccountInternalId=2699}]"
+}
+2016-11-22 11:18:34,675 [main] INFO TMW_OPTIMA_446_002 - ######################          TMW_OPTIMA_446_002 test is completed!      ######################
+2016-11-22 11:18:39,966 [main] INFO TMW_OPTIMA_419_001 - ######################          Executing TMW_OPTIMA_419_001 test          ######################
+2016-11-22 11:18:40,590 [main] INFO HomePage - Firefox browser instance was successfully initiated.
+2016-11-22 11:18:40,810 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 11:18:40,897 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:18:41,883 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 11:18:42,176 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 11:18:42,364 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 11:18:42,917 [main] INFO TMW_OPTIMA_419_002 - ######################          Executing TMW_OPTIMA_419_002 test          ######################
+2016-11-22 11:18:43,448 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:18:44,421 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 11:18:44,693 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 11:18:44,934 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 11:18:45,393 [main] INFO TMW_OPTIMA_419_003 - ######################          Executing TMW_OPTIMA_419_003 test          ######################
+2016-11-22 11:18:45,874 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 11:18:45,980 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:18:46,885 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 11:18:47,179 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 11:18:47,374 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 11:18:47,747 [main] INFO TMW_OPTIMA_419_004 - ######################          Executing TMW_OPTIMA_419_004 test          ######################
+2016-11-22 11:18:48,482 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:18:49,361 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 11:18:49,629 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/1355/customerdeposits
+2016-11-22 11:18:49,901 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 11:18:50,368 [main] INFO Response - Response Details: Status Code
+: 
+404 Not Found
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 09:18:41 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+Transfer-Encoding
+: 
+chunked
+2016-11-22 11:18:50,484 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 11:18:50,524 [main] INFO Response - Validation was done and 'customeraccounts not found' IS NOT presented!
+2016-11-22 11:18:50,525 [main] INFO Response - The test case has FAILED!
+2016-11-22 11:18:50,529 [main] INFO TMW_OPTIMA_419_005 - ######################          Executing TMW_OPTIMA_419_005 test          ######################
+2016-11-22 11:18:50,968 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 11:18:51,095 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:18:52,076 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 11:18:52,557 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 11:18:52,842 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 11:18:53,215 [main] INFO TMW_OPTIMA_419_006 - ######################          Executing TMW_OPTIMA_419_006 test          ######################
+2016-11-22 11:18:53,803 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:18:54,864 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 11:18:55,163 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 11:18:55,269 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 11:18:55,922 [main] INFO Response - Response Details: Status Code
+: 
+400 Bad Request
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+54
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 09:18:47 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 11:18:56,071 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 11:18:56,119 [main] INFO Response - Validation was done and 'is mandatory' is successfully presented!
+2016-11-22 11:18:56,152 [main] INFO Response - JSON Response Message:{
+  "code": 744194,
+  "message": "Currency Code is mandatory"
+}
+2016-11-22 11:18:56,152 [main] INFO TMW_OPTIMA_419_006 - ######################          TMW_OPTIMA_419_006 test is completed!      ######################
+2016-11-22 11:18:56,155 [main] INFO TMW_OPTIMA_419_007 - ######################          Executing TMW_OPTIMA_419_007 test          ######################
+2016-11-22 11:18:56,614 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 11:18:56,785 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:18:57,884 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 11:18:58,264 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 11:18:58,569 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 11:18:59,076 [main] INFO Response - Response Details: Status Code
+: 
+400 Bad Request
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 09:18:50 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+Transfer-Encoding
+: 
+chunked
+2016-11-22 11:18:59,355 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 11:18:59,383 [main] INFO Response - Validation was done and 'is mandatory' IS NOT presented!
+2016-11-22 11:18:59,383 [main] INFO Response - The test case has FAILED!
+2016-11-22 11:18:59,387 [main] INFO TMW_OPTIMA_419_008 - ######################          Executing TMW_OPTIMA_419_008 test          ######################
+2016-11-22 11:18:59,892 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 11:19:00,027 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:19:01,008 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 11:19:01,312 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 11:19:01,568 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 11:19:01,962 [main] INFO Request - The request was successfully submitted.
+2016-11-22 11:19:02,166 [main] INFO Response - Response Details: Status Code
+: 
+400 Bad Request
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 09:18:53 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+Transfer-Encoding
+: 
+chunked
+2016-11-22 11:19:02,307 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 11:19:02,335 [main] INFO Response - Validation was done and 'is mandatory' IS NOT presented!
+2016-11-22 11:19:02,335 [main] INFO Response - The test case has FAILED!
+2016-11-22 11:19:02,339 [main] INFO TMW_OPTIMA_419_009 - ######################          Executing TMW_OPTIMA_419_009 test          ######################
+2016-11-22 11:19:02,829 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 11:19:02,950 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:19:03,938 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 11:19:04,248 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 11:19:04,542 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 11:19:05,252 [main] INFO Response - Response Details: Status Code
+: 
+400 Bad Request
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 09:18:56 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+Transfer-Encoding
+: 
+chunked
+2016-11-22 11:19:05,385 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 11:19:05,415 [main] INFO Response - Validation was done and 'Input Currency Code should be same as Account Currency Code' IS NOT presented!
+2016-11-22 11:19:05,416 [main] INFO Response - The test case has FAILED!
+2016-11-22 11:19:05,418 [main] INFO TMW_OPTIMA_419_010 - ######################          Executing TMW_OPTIMA_419_010 test          ######################
+2016-11-22 11:19:05,888 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 11:19:06,168 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:19:07,134 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 11:19:07,531 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 11:19:07,896 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 11:19:08,220 [main] INFO Request - The request was successfully submitted.
+2016-11-22 11:19:08,425 [main] INFO Response - Response Details: Status Code
+: 
+400 Bad Request
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 09:18:59 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+Transfer-Encoding
+: 
+chunked
+2016-11-22 11:19:08,584 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 11:19:08,630 [main] INFO Response - Validation was done and 'Input Currency Code should be same as Account Currency Code' IS NOT presented!
+2016-11-22 11:19:08,630 [main] INFO Response - The test case has FAILED!
+2016-11-22 11:19:08,633 [main] INFO TMW_OPTIMA_419_011 - ######################          Executing TMW_OPTIMA_419_011 test          ######################
+2016-11-22 11:19:09,213 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:19:10,188 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 11:19:10,514 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 11:19:10,809 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 11:19:11,330 [main] INFO Response - Response Details: Status Code
+: 
+400 Bad Request
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 09:19:02 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+Transfer-Encoding
+: 
+chunked
+2016-11-22 11:19:11,480 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 11:19:11,509 [main] INFO Response - Validation was done and 'is mandatory' IS NOT presented!
+2016-11-22 11:19:11,510 [main] INFO Response - The test case has FAILED!
+2016-11-22 11:19:11,512 [main] INFO TMW_OPTIMA_419_012 - ######################          Executing TMW_OPTIMA_419_012 test          ######################
+2016-11-22 11:19:12,184 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:19:13,574 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 11:19:13,885 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 11:19:14,220 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 11:19:17,373 [main] INFO Request - The request was successfully submitted.
+2016-11-22 11:19:17,579 [main] INFO Response - Response Details: Status Code
+: 
+400 Bad Request
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 09:19:06 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+Transfer-Encoding
+: 
+chunked
+2016-11-22 11:19:17,734 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 11:19:17,775 [main] INFO Response - Validation was done and 'is mandatory' IS NOT presented!
+2016-11-22 11:19:17,776 [main] INFO Response - The test case has FAILED!
+2016-11-22 11:19:17,779 [main] INFO TMW_OPTIMA_419_013 - ######################          Executing TMW_OPTIMA_419_013 test          ######################
+2016-11-22 11:19:18,239 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 11:19:18,386 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:19:19,515 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 11:19:19,837 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 11:19:20,215 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 11:19:20,671 [main] INFO TMW_OPTIMA_419_014 - ######################          Executing TMW_OPTIMA_419_014 test          ######################
+2016-11-22 11:19:21,159 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 11:19:21,315 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:19:22,353 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 11:19:22,633 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 11:19:22,932 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 11:19:23,350 [main] INFO TMW_OPTIMA_419_015 - ######################          Executing TMW_OPTIMA_419_015 test          ######################
+2016-11-22 11:19:23,790 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 11:19:23,916 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:19:24,887 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 11:19:25,322 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 11:19:25,649 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 11:19:26,030 [main] INFO Request - The request was successfully submitted.
+2016-11-22 11:19:26,109 [main] INFO TMW_OPTIMA_419_016 - ######################          Executing TMW_OPTIMA_419_016 test          ######################
+2016-11-22 11:19:26,712 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:19:27,839 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 11:19:28,252 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 11:19:28,566 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 11:19:28,886 [main] INFO Request - The request was successfully submitted.
+2016-11-22 11:19:28,958 [main] INFO TMW_OPTIMA_419_017 - ######################          Executing TMW_OPTIMA_419_017 test          ######################
+2016-11-22 11:19:29,513 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:19:30,516 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 11:19:30,818 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 11:19:31,070 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 11:19:31,386 [main] INFO Request - The request was successfully submitted.
+2016-11-22 11:19:31,561 [main] INFO Response - Response Details: Status Code
+: 
+400 Bad Request
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 09:19:23 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+Transfer-Encoding
+: 
+chunked
+2016-11-22 11:19:31,714 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 11:19:31,750 [main] INFO Response - JSON Response Message:{
+  "code": 400,
+  "message": "Unrecognized field \"accountInternalId\" (Class com.amdocs.bl.main.data.model.DepositCreateInputMessage), not marked as ignorable\n at [Source: org.apache.cxf.transport.http.AbstractHTTPDestination$1@488f531e; line: 1, column: 25] (through reference chain: com.amdocs.bl.main.data.model.DepositCreateInputMessage[\"accountInternalId\"])"
+}
+2016-11-22 11:19:31,750 [main] INFO TMW_OPTIMA_419_017 - ######################          TMW_OPTIMA_419_017 test is completed!      ######################
+2016-11-22 11:19:31,752 [main] INFO TMW_OPTIMA_419_018 - ######################          Executing TMW_OPTIMA_419_018 test          ######################
+2016-11-22 11:19:32,300 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 11:19:32,552 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:19:33,633 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 11:19:33,953 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 11:19:34,307 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 11:19:35,016 [main] INFO Response - Response Details: Status Code
+: 
+400 Bad Request
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 09:19:26 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+Transfer-Encoding
+: 
+chunked
+2016-11-22 11:19:35,167 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 11:19:35,197 [main] INFO Response - JSON Response Message:{
+  "code": 400,
+  "message": "Unrecognized field \"accountInternalId\" (Class com.amdocs.bl.main.data.model.DepositCreateInputMessage), not marked as ignorable\n at [Source: org.apache.cxf.transport.http.AbstractHTTPDestination$1@4128db34; line: 1, column: 25] (through reference chain: com.amdocs.bl.main.data.model.DepositCreateInputMessage[\"accountInternalId\"])"
+}
+2016-11-22 11:19:35,198 [main] INFO TMW_OPTIMA_419_018 - ######################          TMW_OPTIMA_419_018 test is completed!      ######################
+2016-11-22 11:19:35,200 [main] INFO TMW_OPTIMA_419_019 - ######################          Executing TMW_OPTIMA_419_019 test          ######################
+2016-11-22 11:19:35,766 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:19:39,389 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 11:19:39,732 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 11:19:40,130 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 11:19:40,504 [main] INFO TMW_OPTIMA_419_020 - ######################          Executing TMW_OPTIMA_419_020 test          ######################
+2016-11-22 11:19:40,998 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:19:41,950 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 11:19:42,246 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 11:19:42,503 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 11:20:18,534 [main] INFO TMW_OPTIMA_419_001 - ######################          Executing TMW_OPTIMA_419_001 test          ######################
+2016-11-22 11:20:19,108 [main] INFO HomePage - Firefox browser instance was successfully initiated.
+2016-11-22 11:20:19,331 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 11:20:19,502 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 11:20:20,536 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 11:20:20,817 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 11:20:21,043 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 16:09:57,622 [main] INFO TMW_OPTIMA_419_001 - ######################          Executing TMW_OPTIMA_419_001 test          ######################
+2016-11-22 16:09:59,301 [main] INFO HomePage - Firefox browser instance was successfully initiated.
+2016-11-22 16:09:59,575 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 16:09:59,804 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 16:10:01,167 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 16:10:01,505 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 16:10:01,850 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 16:10:02,757 [main] INFO Response - Response Details: Status Code
+: 
+201 Created
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+30
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 14:09:53 GMT
+Location
+: 
+http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits/462003,3
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 16:10:02,981 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 16:10:03,044 [main] INFO Response - Validation was done and 'Success' is successfully presented!
+2016-11-22 16:10:05,025 [main] INFO DatabaseUtil - The latest DB record for Customer Deposit is : TrackingID :462003 , TrackingIdServ :3 for AccountNo:135
+2016-11-22 16:10:06,411 [main] INFO DatabaseUtil - The response is presenting the same TRACKING_ID as the one at the DB : 462003
+2016-11-22 16:10:06,468 [main] INFO Response - JSON Response Message:{
+  "code": 0,
+  "message": "Success"
+}
+2016-11-22 16:10:06,468 [main] INFO TMW_OPTIMA_419_001 - ######################          TMW_OPTIMA_419_001 test is completed!      ######################
+2016-11-22 16:10:06,472 [main] INFO TMW_OPTIMA_419_002 - ######################          Executing TMW_OPTIMA_419_002 test          ######################
+2016-11-22 16:10:07,008 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 16:10:07,188 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 16:10:08,351 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 16:10:08,985 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 16:10:09,250 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 16:10:10,438 [main] INFO Response - Response Details: Status Code
+: 
+201 Created
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+30
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 14:10:01 GMT
+Location
+: 
+http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits/463003,3
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 16:10:10,666 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 16:10:11,920 [main] INFO DatabaseUtil - The latest DB record for Customer Deposit is : TrackingID :463003 , TrackingIdServ :3 for AccountNo:135
+2016-11-22 16:10:13,240 [main] INFO DatabaseUtil - The response is presenting the same TRACKING_ID as the one at the DB : 463003
+2016-11-22 16:10:13,277 [main] INFO Response - JSON Response Message:{
+  "code": 0,
+  "message": "Success"
+}
+2016-11-22 16:10:13,277 [main] INFO TMW_OPTIMA_419_002 - ######################          TMW_OPTIMA_419_002 test is completed!      ######################
+2016-11-22 16:10:13,279 [main] INFO TMW_OPTIMA_419_003 - ######################          Executing TMW_OPTIMA_419_003 test          ######################
+2016-11-22 16:10:13,767 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 16:10:13,913 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 16:10:15,060 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 16:10:15,363 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 16:10:15,676 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 16:10:16,139 [main] INFO Request - The request was successfully submitted.
+2016-11-22 16:10:16,383 [main] INFO Response - Response Details: Status Code
+: 
+201 Created
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+30
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 14:10:07 GMT
+Location
+: 
+http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits/464003,3
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 16:10:16,608 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 16:10:17,867 [main] INFO DatabaseUtil - The latest DB record for Customer Deposit is : TrackingID :464003 , TrackingIdServ :3 for AccountNo:135
+2016-11-22 16:10:19,182 [main] INFO DatabaseUtil - The response is presenting the same TRACKING_ID as the one at the DB : 464003
+2016-11-22 16:10:19,215 [main] INFO Response - JSON Response Message:{
+  "code": 0,
+  "message": "Success"
+}
+2016-11-22 16:10:19,216 [main] INFO TMW_OPTIMA_419_003 - ######################          TMW_OPTIMA_419_003 test is completed!      ######################
+2016-11-22 16:10:19,220 [main] INFO TMW_OPTIMA_419_004 - ######################          Executing TMW_OPTIMA_419_004 test          ######################
+2016-11-22 16:10:19,730 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 16:10:19,913 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 16:10:21,108 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 16:10:21,409 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/1355/customerdeposits
+2016-11-22 16:10:21,639 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 16:10:22,185 [main] INFO Request - The request was successfully submitted.
+2016-11-22 16:10:22,437 [main] INFO Response - Response Details: Status Code
+: 
+404 Not Found
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+106
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 14:10:13 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 16:10:22,675 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 16:10:22,720 [main] INFO Response - Validation was done and 'customeraccounts not found' is successfully presented!
+2016-11-22 16:10:22,763 [main] INFO Response - JSON Response Message:{
+  "code": 744621,
+  "message": "Invalid request, customeraccounts not found for IDs:[{AccountInternalId=1355}]"
+}
+2016-11-22 16:10:22,764 [main] INFO TMW_OPTIMA_419_004 - ######################          TMW_OPTIMA_419_004 test is completed!      ######################
+2016-11-22 16:10:22,767 [main] INFO TMW_OPTIMA_419_005 - ######################          Executing TMW_OPTIMA_419_005 test          ######################
+2016-11-22 16:10:23,237 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 16:10:23,430 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 16:10:24,682 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 16:10:24,999 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 16:10:25,269 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 16:10:25,872 [main] INFO TMW_OPTIMA_419_006 - ######################          Executing TMW_OPTIMA_419_006 test          ######################
+2016-11-22 16:10:26,368 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 16:10:26,522 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 16:10:27,747 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 16:10:28,082 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 16:10:28,167 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 16:10:29,034 [main] INFO Response - Response Details: Status Code
+: 
+400 Bad Request
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+54
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 14:10:19 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 16:10:29,278 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 16:10:29,328 [main] INFO Response - Validation was done and 'is mandatory' is successfully presented!
+2016-11-22 16:10:29,368 [main] INFO Response - JSON Response Message:{
+  "code": 744194,
+  "message": "Currency Code is mandatory"
+}
+2016-11-22 16:10:29,368 [main] INFO TMW_OPTIMA_419_006 - ######################          TMW_OPTIMA_419_006 test is completed!      ######################
+2016-11-22 16:10:29,371 [main] INFO TMW_OPTIMA_419_007 - ######################          Executing TMW_OPTIMA_419_007 test          ######################
+2016-11-22 16:10:29,873 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 16:10:30,123 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 16:10:31,350 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 16:10:31,668 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 16:10:31,917 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 16:10:32,628 [main] INFO Response - Response Details: Status Code
+: 
+400 Bad Request
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+51
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 14:10:23 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 16:10:32,839 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 16:10:32,883 [main] INFO Response - Validation was done and 'is mandatory' is successfully presented!
+2016-11-22 16:10:32,933 [main] INFO Response - JSON Response Message:{
+  "code": 744195,
+  "message": "Pay Method is mandatory"
+}
+2016-11-22 16:10:32,933 [main] INFO TMW_OPTIMA_419_007 - ######################          TMW_OPTIMA_419_007 test is completed!      ######################
+2016-11-22 16:10:32,935 [main] INFO TMW_OPTIMA_419_008 - ######################          Executing TMW_OPTIMA_419_008 test          ######################
+2016-11-22 16:10:33,479 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 16:10:33,653 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 16:10:34,804 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 16:10:35,137 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 16:10:35,419 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 16:10:35,890 [main] INFO Request - The request was successfully submitted.
+2016-11-22 16:10:36,194 [main] INFO Response - Response Details: Status Code
+: 
+400 Bad Request
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+51
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 14:10:26 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 16:10:36,483 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 16:10:36,535 [main] INFO Response - Validation was done and 'is mandatory' is successfully presented!
+2016-11-22 16:10:36,581 [main] INFO Response - JSON Response Message:{
+  "code": 744195,
+  "message": "Pay Method is mandatory"
+}
+2016-11-22 16:10:36,582 [main] INFO TMW_OPTIMA_419_008 - ######################          TMW_OPTIMA_419_008 test is completed!      ######################
+2016-11-22 16:10:36,584 [main] INFO TMW_OPTIMA_419_009 - ######################          Executing TMW_OPTIMA_419_009 test          ######################
+2016-11-22 16:10:37,076 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 16:10:37,233 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 16:10:38,429 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 16:10:38,794 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 16:10:39,135 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 16:10:39,815 [main] INFO Response - Response Details: Status Code
+: 
+400 Bad Request
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+87
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 14:10:30 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 16:10:40,032 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 16:10:40,102 [main] INFO Response - Validation was done and 'Input Currency Code should be same as Account Currency Code' is successfully presented!
+2016-11-22 16:10:40,152 [main] INFO Response - JSON Response Message:{
+  "code": 744191,
+  "message": "Input Currency Code should be same as Account Currency Code"
+}
+2016-11-22 16:10:40,152 [main] INFO TMW_OPTIMA_419_009 - ######################          TMW_OPTIMA_419_009 test is completed!      ######################
+2016-11-22 16:10:40,155 [main] INFO TMW_OPTIMA_419_010 - ######################          Executing TMW_OPTIMA_419_010 test          ######################
+2016-11-22 16:10:40,651 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 16:10:40,844 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 16:10:42,428 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 16:10:43,102 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 16:10:43,472 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 16:10:44,135 [main] INFO Response - Response Details: Status Code
+: 
+400 Bad Request
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+87
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 14:10:34 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 16:10:44,310 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 16:10:44,352 [main] INFO Response - Validation was done and 'Input Currency Code should be same as Account Currency Code' is successfully presented!
+2016-11-22 16:10:44,394 [main] INFO Response - JSON Response Message:{
+  "code": 744191,
+  "message": "Input Currency Code should be same as Account Currency Code"
+}
+2016-11-22 16:10:44,395 [main] INFO TMW_OPTIMA_419_010 - ######################          TMW_OPTIMA_419_010 test is completed!      ######################
+2016-11-22 16:10:44,397 [main] INFO TMW_OPTIMA_419_011 - ######################          Executing TMW_OPTIMA_419_011 test          ######################
+2016-11-22 16:10:44,818 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 16:10:44,966 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 16:10:46,000 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 16:10:46,285 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 16:10:46,508 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 16:10:47,132 [main] INFO Response - Response Details: Status Code
+: 
+400 Bad Request
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+88
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 14:10:37 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 16:10:47,298 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 16:10:47,336 [main] INFO Response - Validation was done and 'is mandatory' is successfully presented!
+2016-11-22 16:10:47,370 [main] INFO Response - JSON Response Message:{
+  "code": 744196,
+  "message": "ManualCcauthCode is mandatory when Pay Method is Credit Card"
+}
+2016-11-22 16:10:47,371 [main] INFO TMW_OPTIMA_419_011 - ######################          TMW_OPTIMA_419_011 test is completed!      ######################
+2016-11-22 16:10:47,374 [main] INFO TMW_OPTIMA_419_012 - ######################          Executing TMW_OPTIMA_419_012 test          ######################
+2016-11-22 16:10:47,810 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 16:10:47,964 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 16:10:48,967 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 16:10:49,389 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 16:10:49,623 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 16:10:50,266 [main] INFO Request - The request was successfully submitted.
+2016-11-22 16:10:50,496 [main] INFO Response - Response Details: Status Code
+: 
+400 Bad Request
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+88
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 14:10:41 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 16:10:50,688 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 16:10:50,775 [main] INFO Response - Validation was done and 'is mandatory' is successfully presented!
+2016-11-22 16:10:50,839 [main] INFO Response - JSON Response Message:{
+  "code": 744196,
+  "message": "ManualCcauthCode is mandatory when Pay Method is Credit Card"
+}
+2016-11-22 16:10:50,839 [main] INFO TMW_OPTIMA_419_012 - ######################          TMW_OPTIMA_419_012 test is completed!      ######################
+2016-11-22 16:10:50,842 [main] INFO TMW_OPTIMA_419_013 - ######################          Executing TMW_OPTIMA_419_013 test          ######################
+2016-11-22 16:10:51,359 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 16:10:51,547 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 16:10:52,585 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 16:10:52,933 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 16:10:53,333 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 16:10:53,765 [main] INFO Request - The request was successfully submitted.
+2016-11-22 16:10:53,995 [main] INFO Response - Response Details: Status Code
+: 
+201 Created
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+30
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 14:10:44 GMT
+Location
+: 
+http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits/466003,3
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 16:10:54,178 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 16:10:55,437 [main] INFO DatabaseUtil - The latest DB record for Customer Deposit is : TrackingID :466003 , TrackingIdServ :3 for AccountNo:135
+2016-11-22 16:10:56,784 [main] INFO DatabaseUtil - The response is presenting the same TRACKING_ID as the one at the DB : 466003
+2016-11-22 16:10:56,823 [main] INFO Response - JSON Response Message:{
+  "code": 0,
+  "message": "Success"
+}
+2016-11-22 16:10:56,823 [main] INFO TMW_OPTIMA_419_013 - ######################          TMW_OPTIMA_419_013 test is completed!      ######################
+2016-11-22 16:10:56,825 [main] INFO TMW_OPTIMA_419_014 - ######################          Executing TMW_OPTIMA_419_014 test          ######################
+2016-11-22 16:10:57,478 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 16:10:58,566 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 16:10:58,860 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 16:10:59,101 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 16:10:59,675 [main] INFO Response - Response Details: Status Code
+: 
+201 Created
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+30
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 14:10:50 GMT
+Location
+: 
+http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits/467003,3
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 16:10:59,858 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 16:11:01,117 [main] INFO DatabaseUtil - The latest DB record for Customer Deposit is : TrackingID :467003 , TrackingIdServ :3 for AccountNo:135
+2016-11-22 16:11:02,960 [main] INFO DatabaseUtil - The response is presenting the same TRACKING_ID as the one at the DB : 467003
+2016-11-22 16:11:03,018 [main] INFO Response - JSON Response Message:{
+  "code": 0,
+  "message": "Success"
+}
+2016-11-22 16:11:03,019 [main] INFO TMW_OPTIMA_419_014 - ######################          TMW_OPTIMA_419_014 test is completed!      ######################
+2016-11-22 16:11:03,020 [main] INFO TMW_OPTIMA_419_015 - ######################          Executing TMW_OPTIMA_419_015 test          ######################
+2016-11-22 16:11:03,485 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 16:11:03,618 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 16:11:04,669 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 16:11:04,964 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 16:11:05,184 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 16:11:05,822 [main] INFO Response - Response Details: Status Code
+: 
+201 Created
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+30
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 14:10:56 GMT
+Location
+: 
+http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits/468003,3
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 16:11:06,000 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 16:11:07,283 [main] INFO DatabaseUtil - The latest DB record for Customer Deposit is : TrackingID :468003 , TrackingIdServ :3 for AccountNo:135
+2016-11-22 16:11:08,623 [main] INFO DatabaseUtil - The response is presenting the same TRACKING_ID as the one at the DB : 468003
+2016-11-22 16:11:08,676 [main] INFO Response - JSON Response Message:{
+  "code": 0,
+  "message": "Success"
+}
+2016-11-22 16:11:08,677 [main] INFO TMW_OPTIMA_419_015 - ######################          TMW_OPTIMA_419_015 test is completed!      ######################
+2016-11-22 16:11:08,679 [main] INFO TMW_OPTIMA_419_016 - ######################          Executing TMW_OPTIMA_419_016 test          ######################
+2016-11-22 16:11:09,229 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 16:11:09,498 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 16:11:10,564 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 16:11:10,835 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 16:11:11,058 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 16:11:12,051 [main] INFO Response - Response Details: Status Code
+: 
+201 Created
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+30
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 14:11:02 GMT
+Location
+: 
+http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits/469003,3
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 16:11:12,218 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 16:11:13,501 [main] INFO DatabaseUtil - The latest DB record for Customer Deposit is : TrackingID :469003 , TrackingIdServ :3 for AccountNo:135
+2016-11-22 16:11:14,834 [main] INFO DatabaseUtil - The response is presenting the same TRACKING_ID as the one at the DB : 469003
+2016-11-22 16:11:14,886 [main] INFO Response - JSON Response Message:{
+  "code": 0,
+  "message": "Success"
+}
+2016-11-22 16:11:14,886 [main] INFO TMW_OPTIMA_419_016 - ######################          TMW_OPTIMA_419_016 test is completed!      ######################
+2016-11-22 16:11:14,888 [main] INFO TMW_OPTIMA_419_017 - ######################          Executing TMW_OPTIMA_419_017 test          ######################
+2016-11-22 16:11:15,402 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 16:11:16,441 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 16:11:16,719 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 16:11:16,918 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 16:11:17,488 [main] INFO Response - Response Details: Status Code
+: 
+400 Bad Request
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+70
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 14:11:08 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 16:11:17,648 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 16:11:17,691 [main] INFO Response - JSON Response Message:{
+  "code": 744199,
+  "message": "Deposit Amount should be greater than zero"
+}
+2016-11-22 16:11:17,694 [main] INFO TMW_OPTIMA_419_017 - ######################          TMW_OPTIMA_419_017 test is completed!      ######################
+2016-11-22 16:11:17,696 [main] INFO TMW_OPTIMA_419_018 - ######################          Executing TMW_OPTIMA_419_018 test          ######################
+2016-11-22 16:11:18,167 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 16:11:18,297 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 16:11:19,354 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 16:11:19,628 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 16:11:19,833 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 16:11:20,417 [main] INFO Response - Response Details: Status Code
+: 
+400 Bad Request
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+70
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 14:11:11 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 16:11:20,575 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 16:11:20,617 [main] INFO Response - JSON Response Message:{
+  "code": 744199,
+  "message": "Deposit Amount should be greater than zero"
+}
+2016-11-22 16:11:20,617 [main] INFO TMW_OPTIMA_419_018 - ######################          TMW_OPTIMA_419_018 test is completed!      ######################
+2016-11-22 16:11:20,620 [main] INFO TMW_OPTIMA_419_019 - ######################          Executing TMW_OPTIMA_419_019 test          ######################
+2016-11-22 16:11:21,230 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 16:11:22,380 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 16:11:22,645 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 16:11:22,851 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 16:11:23,450 [main] INFO Response - Response Details: Status Code
+: 
+201 Created
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+30
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 14:11:14 GMT
+Location
+: 
+http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits/470003,3
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 16:11:23,611 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 16:11:24,873 [main] INFO DatabaseUtil - The latest DB record for Customer Deposit is : TrackingID :470003 , TrackingIdServ :3 for AccountNo:135
+2016-11-22 16:11:26,176 [main] INFO DatabaseUtil - The response is presenting the same TRACKING_ID as the one at the DB : 470003
+2016-11-22 16:11:26,209 [main] INFO Response - JSON Response Message:{
+  "code": 0,
+  "message": "Success"
+}
+2016-11-22 16:11:26,209 [main] INFO TMW_OPTIMA_419_019 - ######################          TMW_OPTIMA_419_019 test is completed!      ######################
+2016-11-22 16:11:26,212 [main] INFO TMW_OPTIMA_419_020 - ######################          Executing TMW_OPTIMA_419_020 test          ######################
+2016-11-22 16:11:26,644 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 16:11:26,800 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 16:11:27,814 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 16:11:28,082 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 16:11:28,320 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 16:11:28,936 [main] INFO Request - The request was successfully submitted.
+2016-11-22 16:11:29,120 [main] INFO Response - Response Details: Status Code
+: 
+201 Created
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+30
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 14:11:19 GMT
+Location
+: 
+http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits/471003,3
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 16:11:29,313 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 16:11:30,571 [main] INFO DatabaseUtil - The latest DB record for Customer Deposit is : TrackingID :471003 , TrackingIdServ :3 for AccountNo:135
+2016-11-22 16:11:31,874 [main] INFO DatabaseUtil - The response is presenting the same TRACKING_ID as the one at the DB : 471003
+2016-11-22 16:11:31,910 [main] INFO Response - JSON Response Message:{
+  "code": 0,
+  "message": "Success"
+}
+2016-11-22 16:11:31,910 [main] INFO TMW_OPTIMA_419_020 - ######################          TMW_OPTIMA_419_020 test is completed!      ######################
+2016-11-22 17:12:56,202 [main] INFO TMW_OPTIMA_419_001 - ######################          Executing TMW_OPTIMA_419_001 test          ######################
+2016-11-22 17:12:56,206 [main] INFO TMW_OPTIMA_419_001 - TMW_OPTIMA_419_001 with Deposit type General Deposit
+2016-11-22 17:12:57,680 [main] INFO HomePage - Firefox browser instance was successfully initiated.
+2016-11-22 17:12:57,938 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 17:12:58,130 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 17:12:59,328 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 17:12:59,627 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 17:12:59,835 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 17:13:01,310 [main] INFO Response - Response Details: Status Code
+: 
+201 Created
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+30
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 15:12:51 GMT
+Location
+: 
+http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits/472003,3
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 17:13:01,591 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 17:13:01,651 [main] INFO Response - Validation was done and 'Success' is successfully presented!
+2016-11-22 17:13:03,549 [main] INFO DatabaseUtil - The latest DB record for Customer Deposit is : TrackingID :472003 , TrackingIdServ :3 for AccountNo:135
+2016-11-22 17:13:04,916 [main] INFO DatabaseUtil - The response is presenting the same TRACKING_ID as the one at the DB : 472003
+2016-11-22 17:13:04,960 [main] INFO Response - JSON Response Message:{
+  "code": 0,
+  "message": "Success"
+}
+2016-11-22 17:13:04,960 [main] INFO TMW_OPTIMA_419_001 - ######################          TMW_OPTIMA_419_001 test is completed!      ######################
+2016-11-22 17:13:04,963 [main] INFO TMW_OPTIMA_419_002 - ######################          Executing TMW_OPTIMA_419_002 test          ######################
+2016-11-22 17:13:04,964 [main] INFO TMW_OPTIMA_419_002 - TMW_OPTIMA_419_002 with Deposit type Non-General Deposit
+2016-11-22 17:13:05,474 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 17:13:05,677 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 17:13:06,751 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 17:13:07,058 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 17:13:07,281 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 17:13:07,765 [main] INFO Request - The request was successfully submitted.
+2016-11-22 17:13:08,007 [main] INFO Response - Response Details: Status Code
+: 
+201 Created
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+30
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 15:12:58 GMT
+Location
+: 
+http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits/473003,3
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 17:13:08,198 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 17:13:09,484 [main] INFO DatabaseUtil - The latest DB record for Customer Deposit is : TrackingID :473003 , TrackingIdServ :3 for AccountNo:135
+2016-11-22 17:13:10,787 [main] INFO DatabaseUtil - The response is presenting the same TRACKING_ID as the one at the DB : 473003
+2016-11-22 17:13:10,845 [main] INFO Response - JSON Response Message:{
+  "code": 0,
+  "message": "Success"
+}
+2016-11-22 17:13:10,846 [main] INFO TMW_OPTIMA_419_002 - ######################          TMW_OPTIMA_419_002 test is completed!      ######################
+2016-11-22 17:13:10,849 [main] INFO TMW_OPTIMA_419_003 - ######################          Executing TMW_OPTIMA_419_003 test          ######################
+2016-11-22 17:13:10,849 [main] INFO TMW_OPTIMA_419_003 - TMW_OPTIMA_419_003 E1 Caller's tenant not authorized to access
+2016-11-22 17:13:11,318 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 17:13:11,497 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 17:13:12,643 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 17:13:12,940 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 17:13:13,147 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 17:13:13,850 [main] INFO Response - Response Details: Status Code
+: 
+201 Created
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+30
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 15:13:04 GMT
+Location
+: 
+http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits/474003,3
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 17:13:14,046 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 17:13:15,327 [main] INFO DatabaseUtil - The latest DB record for Customer Deposit is : TrackingID :474003 , TrackingIdServ :3 for AccountNo:135
+2016-11-22 17:13:16,655 [main] INFO DatabaseUtil - The response is presenting the same TRACKING_ID as the one at the DB : 474003
+2016-11-22 17:13:16,693 [main] INFO Response - JSON Response Message:{
+  "code": 0,
+  "message": "Success"
+}
+2016-11-22 17:13:16,693 [main] INFO TMW_OPTIMA_419_003 - ######################          TMW_OPTIMA_419_003 test is completed!      ######################
+2016-11-22 17:13:16,696 [main] INFO TMW_OPTIMA_419_004 - ######################          Executing TMW_OPTIMA_419_004 test          ######################
+2016-11-22 17:13:16,696 [main] INFO TMW_OPTIMA_419_004 - TMW_OPTIMA_419_004 E2 with Deposit type General Deposit and Wrong CA ID
+2016-11-22 17:13:17,193 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 17:13:17,364 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 17:13:18,626 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 17:13:18,976 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/1355/customerdeposits
+2016-11-22 17:13:19,223 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 17:13:19,648 [main] INFO Request - The request was successfully submitted.
+2016-11-22 17:13:19,848 [main] INFO Response - Response Details: Status Code
+: 
+404 Not Found
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+106
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 15:13:10 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 17:13:20,042 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 17:13:20,083 [main] INFO Response - Validation was done and 'customeraccounts not found' is successfully presented!
+2016-11-22 17:13:20,142 [main] INFO Response - JSON Response Message:{
+  "code": 744621,
+  "message": "Invalid request, customeraccounts not found for IDs:[{AccountInternalId=1355}]"
+}
+2016-11-22 17:13:20,142 [main] INFO TMW_OPTIMA_419_004 - ######################          TMW_OPTIMA_419_004 test is completed!      ######################
+2016-11-22 17:13:20,145 [main] INFO TMW_OPTIMA_419_005 - ######################          Executing TMW_OPTIMA_419_005 test          ######################
+2016-11-22 17:13:20,145 [main] INFO TMW_OPTIMA_419_005 - TMW_OPTIMA_419_005 E2 with Deposit type Non-General Deposit and Wrong CA ID
+2016-11-22 17:13:20,662 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 17:13:20,825 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 17:13:21,948 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 17:13:22,291 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 17:13:22,600 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 17:13:23,589 [main] INFO TMW_OPTIMA_419_006 - ######################          Executing TMW_OPTIMA_419_006 test          ######################
+2016-11-22 17:13:23,589 [main] INFO TMW_OPTIMA_419_006 - TMW_OPTIMA_419_006 E3 Error message
+2016-11-22 17:13:24,230 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 17:13:25,477 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 17:13:25,835 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 17:13:26,055 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 17:13:26,614 [main] INFO Request - The request was successfully submitted.
+2016-11-22 17:13:26,886 [main] INFO Response - Response Details: Status Code
+: 
+400 Bad Request
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+54
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 15:13:17 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 17:13:27,158 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 17:13:27,201 [main] INFO Response - Validation was done and 'is mandatory' is successfully presented!
+2016-11-22 17:13:27,241 [main] INFO Response - JSON Response Message:{
+  "code": 744194,
+  "message": "Currency Code is mandatory"
+}
+2016-11-22 17:13:27,242 [main] INFO TMW_OPTIMA_419_006 - ######################          TMW_OPTIMA_419_006 test is completed!      ######################
+2016-11-22 17:13:27,244 [main] INFO TMW_OPTIMA_419_007 - ######################          Executing TMW_OPTIMA_419_007 test          ######################
+2016-11-22 17:13:27,245 [main] INFO TMW_OPTIMA_419_007 - TMW_OPTIMA_419_007 with General Deposit and missing mandatory parameter
+2016-11-22 17:13:27,721 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 17:13:27,864 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 17:13:28,996 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 17:13:29,293 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 17:13:29,468 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 17:13:30,131 [main] INFO Response - Response Details: Status Code
+: 
+400 Bad Request
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+51
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 15:13:20 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 17:13:30,320 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 17:13:30,363 [main] INFO Response - Validation was done and 'is mandatory' is successfully presented!
+2016-11-22 17:13:30,409 [main] INFO Response - JSON Response Message:{
+  "code": 744195,
+  "message": "Pay Method is mandatory"
+}
+2016-11-22 17:13:30,410 [main] INFO TMW_OPTIMA_419_007 - ######################          TMW_OPTIMA_419_007 test is completed!      ######################
+2016-11-22 17:13:30,412 [main] INFO TMW_OPTIMA_419_008 - ######################          Executing TMW_OPTIMA_419_008 test          ######################
+2016-11-22 17:13:30,412 [main] INFO TMW_OPTIMA_419_008 - TMW_OPTIMA_419_008 with Non-General Deposit and missing mandatory parameter
+2016-11-22 17:13:30,852 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 17:13:31,197 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 17:13:32,378 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 17:13:32,659 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 17:13:32,851 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 17:13:33,497 [main] INFO Response - Response Details: Status Code
+: 
+400 Bad Request
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+51
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 15:13:24 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 17:13:33,698 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 17:13:33,743 [main] INFO Response - Validation was done and 'is mandatory' is successfully presented!
+2016-11-22 17:13:33,795 [main] INFO Response - JSON Response Message:{
+  "code": 744195,
+  "message": "Pay Method is mandatory"
+}
+2016-11-22 17:13:33,795 [main] INFO TMW_OPTIMA_419_008 - ######################          TMW_OPTIMA_419_008 test is completed!      ######################
+2016-11-22 17:13:33,797 [main] INFO TMW_OPTIMA_419_009 - TMW_OPTIMA_419_009 with General Deposit and different than the account currency code
+2016-11-22 17:13:33,798 [main] INFO TMW_OPTIMA_419_009 - ######################          Executing TMW_OPTIMA_419_009 test          ######################
+2016-11-22 17:13:34,230 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 17:13:34,380 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 17:13:35,464 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 17:13:35,800 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 17:13:35,993 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 17:13:36,625 [main] INFO Response - Response Details: Status Code
+: 
+400 Bad Request
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+87
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 15:13:27 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 17:13:36,805 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 17:13:36,841 [main] INFO Response - Validation was done and 'Input Currency Code should be same as Account Currency Code' is successfully presented!
+2016-11-22 17:13:36,880 [main] INFO Response - JSON Response Message:{
+  "code": 744191,
+  "message": "Input Currency Code should be same as Account Currency Code"
+}
+2016-11-22 17:13:36,880 [main] INFO TMW_OPTIMA_419_009 - ######################          TMW_OPTIMA_419_009 test is completed!      ######################
+2016-11-22 17:13:36,883 [main] INFO TMW_OPTIMA_419_010 - ######################          Executing TMW_OPTIMA_419_010 test          ######################
+2016-11-22 17:13:36,884 [main] INFO TMW_OPTIMA_419_010 - TMW_OPTIMA_419_010 with Non-General Deposit and different than the account currency code
+2016-11-22 17:13:37,334 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 17:13:37,479 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 17:13:38,653 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 17:13:38,959 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 17:13:39,177 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 17:13:39,863 [main] INFO Response - Response Details: Status Code
+: 
+400 Bad Request
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+87
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 15:13:30 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 17:13:40,073 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 17:13:40,116 [main] INFO Response - Validation was done and 'Input Currency Code should be same as Account Currency Code' is successfully presented!
+2016-11-22 17:13:40,171 [main] INFO Response - JSON Response Message:{
+  "code": 744191,
+  "message": "Input Currency Code should be same as Account Currency Code"
+}
+2016-11-22 17:13:40,172 [main] INFO TMW_OPTIMA_419_010 - ######################          TMW_OPTIMA_419_010 test is completed!      ######################
+2016-11-22 17:13:40,174 [main] INFO TMW_OPTIMA_419_011 - ######################          Executing TMW_OPTIMA_419_011 test          ######################
+2016-11-22 17:13:40,174 [main] INFO TMW_OPTIMA_419_011 - TMW_OPTIMA_419_011 with General Deposit,Payment Method- Credit Card and no Manual Credit Card Authorization Code_Date
+2016-11-22 17:13:40,684 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 17:13:40,859 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 17:13:42,118 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 17:13:42,507 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 17:13:42,844 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 17:13:43,663 [main] INFO Response - Response Details: Status Code
+: 
+400 Bad Request
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+88
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 15:13:34 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 17:13:43,875 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 17:13:43,920 [main] INFO Response - Validation was done and 'is mandatory' is successfully presented!
+2016-11-22 17:13:43,971 [main] INFO Response - JSON Response Message:{
+  "code": 744196,
+  "message": "ManualCcauthCode is mandatory when Pay Method is Credit Card"
+}
+2016-11-22 17:13:43,971 [main] INFO TMW_OPTIMA_419_011 - ######################          TMW_OPTIMA_419_011 test is completed!      ######################
+2016-11-22 17:13:43,974 [main] INFO TMW_OPTIMA_419_012 - ######################          Executing TMW_OPTIMA_419_012 test          ######################
+2016-11-22 17:13:43,976 [main] INFO TMW_OPTIMA_419_012 - TMW_OPTIMA_419_012 with Non-General Deposit,Payment Method- Credit Card and no Manual Credit Card Authorization Code_Date
+2016-11-22 17:13:44,649 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 17:13:44,963 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 17:13:46,114 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 17:13:46,461 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 17:13:46,850 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 17:13:48,029 [main] INFO Response - Response Details: Status Code
+: 
+400 Bad Request
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+88
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 15:13:38 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 17:13:48,263 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 17:13:48,313 [main] INFO Response - Validation was done and 'is mandatory' is successfully presented!
+2016-11-22 17:13:48,370 [main] INFO Response - JSON Response Message:{
+  "code": 744196,
+  "message": "ManualCcauthCode is mandatory when Pay Method is Credit Card"
+}
+2016-11-22 17:13:48,371 [main] INFO TMW_OPTIMA_419_012 - ######################          TMW_OPTIMA_419_012 test is completed!      ######################
+2016-11-22 17:13:48,373 [main] INFO TMW_OPTIMA_419_013 - ######################          Executing TMW_OPTIMA_419_013 test          ######################
+2016-11-22 17:13:48,374 [main] INFO TMW_OPTIMA_419_013 - TMW_OPTIMA_419_013 with General Deposit,Payment Method- Credit Card regular flow
+2016-11-22 17:13:48,886 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 17:13:49,084 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 17:13:50,250 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 17:13:50,565 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 17:13:50,941 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 17:13:51,468 [main] INFO Request - The request was successfully submitted.
+2016-11-22 17:13:51,741 [main] INFO Response - Response Details: Status Code
+: 
+201 Created
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+30
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 15:13:42 GMT
+Location
+: 
+http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits/476003,3
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 17:13:51,965 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 17:13:53,250 [main] INFO DatabaseUtil - The latest DB record for Customer Deposit is : TrackingID :476003 , TrackingIdServ :3 for AccountNo:135
+2016-11-22 17:13:54,544 [main] INFO DatabaseUtil - The response is presenting the same TRACKING_ID as the one at the DB : 476003
+2016-11-22 17:13:54,584 [main] INFO Response - JSON Response Message:{
+  "code": 0,
+  "message": "Success"
+}
+2016-11-22 17:13:54,584 [main] INFO TMW_OPTIMA_419_013 - ######################          TMW_OPTIMA_419_013 test is completed!      ######################
+2016-11-22 17:13:54,586 [main] INFO TMW_OPTIMA_419_014 - ######################          Executing TMW_OPTIMA_419_014 test          ######################
+2016-11-22 17:13:54,587 [main] INFO TMW_OPTIMA_419_014 - TMW_OPTIMA_419_014 with Non-General Deposit and Payment Method- Credit Card regular flow
+2016-11-22 17:13:55,084 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 17:13:55,295 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 17:13:56,560 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 17:13:56,862 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 17:13:57,165 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 17:13:57,836 [main] INFO Response - Response Details: Status Code
+: 
+201 Created
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+30
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 15:13:48 GMT
+Location
+: 
+http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits/477003,3
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 17:13:58,026 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 17:13:59,276 [main] INFO DatabaseUtil - The latest DB record for Customer Deposit is : TrackingID :477003 , TrackingIdServ :3 for AccountNo:135
+2016-11-22 17:14:00,597 [main] INFO DatabaseUtil - The response is presenting the same TRACKING_ID as the one at the DB : 477003
+2016-11-22 17:14:00,636 [main] INFO Response - JSON Response Message:{
+  "code": 0,
+  "message": "Success"
+}
+2016-11-22 17:14:00,637 [main] INFO TMW_OPTIMA_419_014 - ######################          TMW_OPTIMA_419_014 test is completed!      ######################
+2016-11-22 17:14:00,639 [main] INFO TMW_OPTIMA_419_015 - ######################          Executing TMW_OPTIMA_419_015 test          ######################
+2016-11-22 17:14:00,639 [main] INFO TMW_OPTIMA_419_015 - TMW_OPTIMA_419_015 with General Deposit and Payment Method- Direct debit
+2016-11-22 17:14:01,129 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 17:14:01,316 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 17:14:02,549 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 17:14:02,944 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 17:14:03,232 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 17:14:03,970 [main] INFO Response - Response Details: Status Code
+: 
+201 Created
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+30
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 15:13:54 GMT
+Location
+: 
+http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits/478003,3
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 17:14:04,281 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 17:14:05,531 [main] INFO DatabaseUtil - The latest DB record for Customer Deposit is : TrackingID :478003 , TrackingIdServ :3 for AccountNo:135
+2016-11-22 17:14:06,845 [main] INFO DatabaseUtil - The response is presenting the same TRACKING_ID as the one at the DB : 478003
+2016-11-22 17:14:06,887 [main] INFO Response - JSON Response Message:{
+  "code": 0,
+  "message": "Success"
+}
+2016-11-22 17:14:06,888 [main] INFO TMW_OPTIMA_419_015 - ######################          TMW_OPTIMA_419_015 test is completed!      ######################
+2016-11-22 17:14:06,890 [main] INFO TMW_OPTIMA_419_016 - ######################          Executing TMW_OPTIMA_419_016 test          ######################
+2016-11-22 17:14:06,890 [main] INFO TMW_OPTIMA_419_016 - TMW_OPTIMA_419_016 with Non-General Deposit and Payment Method- Direct debit
+2016-11-22 17:14:07,454 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 17:14:07,615 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 17:14:08,794 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 17:14:09,127 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 17:14:09,479 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 17:14:10,631 [main] INFO Response - Response Details: Status Code
+: 
+201 Created
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+30
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 15:14:01 GMT
+Location
+: 
+http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits/479003,3
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 17:14:10,856 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 17:14:12,203 [main] INFO DatabaseUtil - The latest DB record for Customer Deposit is : TrackingID :479003 , TrackingIdServ :3 for AccountNo:135
+2016-11-22 17:14:13,556 [main] INFO DatabaseUtil - The response is presenting the same TRACKING_ID as the one at the DB : 479003
+2016-11-22 17:14:13,595 [main] INFO Response - JSON Response Message:{
+  "code": 0,
+  "message": "Success"
+}
+2016-11-22 17:14:13,595 [main] INFO TMW_OPTIMA_419_016 - ######################          TMW_OPTIMA_419_016 test is completed!      ######################
+2016-11-22 17:14:13,597 [main] INFO TMW_OPTIMA_419_017 - ######################          Executing TMW_OPTIMA_419_017 test          ######################
+2016-11-22 17:14:13,597 [main] INFO TMW_OPTIMA_419_017 - TMW_OPTIMA_419_017 with General Deposit and Negative Amount
+2016-11-22 17:14:14,115 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 17:14:14,313 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 17:14:15,517 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 17:14:15,826 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 17:14:16,123 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 17:14:16,683 [main] INFO Request - The request was successfully submitted.
+2016-11-22 17:14:16,921 [main] INFO Response - Response Details: Status Code
+: 
+400 Bad Request
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+70
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 15:14:07 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 17:14:17,148 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 17:14:17,195 [main] INFO Response - JSON Response Message:{
+  "code": 744199,
+  "message": "Deposit Amount should be greater than zero"
+}
+2016-11-22 17:14:17,195 [main] INFO TMW_OPTIMA_419_017 - ######################          TMW_OPTIMA_419_017 test is completed!      ######################
+2016-11-22 17:14:17,197 [main] INFO TMW_OPTIMA_419_018 - ######################          Executing TMW_OPTIMA_419_018 test          ######################
+2016-11-22 17:14:17,197 [main] INFO TMW_OPTIMA_419_018 - TMW_OPTIMA_419_018 with Non-General Deposit and Negative Amount
+2016-11-22 17:14:17,771 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 17:14:17,977 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 17:14:19,349 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 17:14:19,680 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 17:14:20,022 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 17:14:20,729 [main] INFO Response - Response Details: Status Code
+: 
+400 Bad Request
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+70
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 15:14:11 GMT
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 17:14:20,925 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 17:14:20,968 [main] INFO Response - JSON Response Message:{
+  "code": 744199,
+  "message": "Deposit Amount should be greater than zero"
+}
+2016-11-22 17:14:20,968 [main] INFO TMW_OPTIMA_419_018 - ######################          TMW_OPTIMA_419_018 test is completed!      ######################
+2016-11-22 17:14:20,971 [main] INFO TMW_OPTIMA_419_019 - ######################          Executing TMW_OPTIMA_419_019 test          ######################
+2016-11-22 17:14:20,974 [main] INFO TMW_OPTIMA_419_019 - TMW_OPTIMA_419_019 with General Deposit In the PAST
+2016-11-22 17:14:21,453 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 17:14:21,629 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 17:14:22,969 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 17:14:23,450 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 17:14:23,823 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 17:14:24,522 [main] INFO Response - Response Details: Status Code
+: 
+201 Created
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+30
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 15:14:15 GMT
+Location
+: 
+http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits/480003,3
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 17:14:24,768 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 17:14:26,054 [main] INFO DatabaseUtil - The latest DB record for Customer Deposit is : TrackingID :480003 , TrackingIdServ :3 for AccountNo:135
+2016-11-22 17:14:27,387 [main] INFO DatabaseUtil - The response is presenting the same TRACKING_ID as the one at the DB : 480003
+2016-11-22 17:14:27,427 [main] INFO Response - JSON Response Message:{
+  "code": 0,
+  "message": "Success"
+}
+2016-11-22 17:14:27,427 [main] INFO TMW_OPTIMA_419_019 - ######################          TMW_OPTIMA_419_019 test is completed!      ######################
+2016-11-22 17:14:27,429 [main] INFO TMW_OPTIMA_419_020 - ######################          Executing TMW_OPTIMA_419_020 test          ######################
+2016-11-22 17:14:27,429 [main] INFO TMW_OPTIMA_419_020 - TMW_OPTIMA_419_020 with Non-General Deposit In the PAST
+2016-11-22 17:14:27,965 [main] INFO HomePage - Home Page is successfully presented.
+2016-11-22 17:14:28,167 [main] INFO Request - The request Method was successfully selected.
+2016-11-22 17:14:29,580 [main] INFO Request - ContentTypeHeader was successfully added.
+2016-11-22 17:14:29,908 [main] INFO Request - The request URL was successfully updated with http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits
+2016-11-22 17:14:30,251 [main] INFO Request - The request Payload was successfully added.
+2016-11-22 17:14:31,583 [main] INFO Response - Response Details: Status Code
+: 
+201 Created
+Access-Control-Allow-Credentials
+: 
+true
+Access-Control-Allow-Headers
+: 
+origin, content-type, accept, authorization
+Access-Control-Allow-Methods
+: 
+GET, POST, PUT, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Origin
+: 
+*
+Access-Control-Max-Age
+: 
+1209600
+Content-Length
+: 
+30
+Content-Type
+: 
+application/json
+Date
+: 
+Tue, 22 Nov 2016 15:14:22 GMT
+Location
+: 
+http://10.230.16.71:8001/rest/v1/customeraccounts/135/customerdeposits/481003,3
+Server
+: 
+Jetty(8.1.17.v20150415)
+2016-11-22 17:14:31,783 [main] INFO Response - Response Body (Preview) tab is successfully selected
+2016-11-22 17:14:33,082 [main] INFO DatabaseUtil - The latest DB record for Customer Deposit is : TrackingID :481003 , TrackingIdServ :3 for AccountNo:135
+2016-11-22 17:14:34,417 [main] INFO DatabaseUtil - The response is presenting the same TRACKING_ID as the one at the DB : 481003
+2016-11-22 17:14:34,472 [main] INFO Response - JSON Response Message:{
+  "code": 0,
+  "message": "Success"
+}
+2016-11-22 17:14:34,473 [main] INFO TMW_OPTIMA_419_020 - ######################          TMW_OPTIMA_419_020 test is completed!      ######################

@@ -31,6 +31,9 @@ public class TMW_OPTIMA_419_009 {
 
         //Set Test Data:
 			int AccountInternalId = 135;
+			
+		//Verification of :	
+		logger.info("TMW_OPTIMA_419_009 with General Deposit and different than the account currency code");
 	
 	    //Test execution:
 		logger.info("######################          Executing TMW_OPTIMA_419_009 test          ######################");

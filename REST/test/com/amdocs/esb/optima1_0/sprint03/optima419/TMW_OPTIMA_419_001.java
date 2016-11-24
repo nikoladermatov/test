@@ -41,9 +41,12 @@ public class TMW_OPTIMA_419_001 {
 		
 		//Set Test Data:
 			int AccountInternalId = 135;
-		
+			
 		//Test execution
 		logger.info("######################          Executing TMW_OPTIMA_419_001 test          ######################");
+		
+		//Verification of:
+		logger.info("TMW_OPTIMA_419_001 with Deposit type General Deposit");
 		
 		HomePage.goTo();
 		HomePage.verifyHomePagePresented("RESTClient");

@@ -31,10 +31,14 @@ public class TMW_OPTIMA_419_005 {
 	
 		//Set Test Data:
 			int AccountInternalId = 135;
-
+			
+		//Verification : Test with Deposit type General Deposit
 		
 		//Test execution:
 		logger.info("######################          Executing TMW_OPTIMA_419_005 test          ######################");
+		
+		//Verification of :	
+		logger.info("TMW_OPTIMA_419_005 E2 with Deposit type Non-General Deposit and Wrong CA ID");
 		
 //		HomePage.goTo();
 		HomePage.browserRefresh();

@@ -35,6 +35,9 @@ public class TMW_OPTIMA_419_012 {
 		//Test execution:
 		logger.info("######################          Executing TMW_OPTIMA_419_012 test          ######################");
 		
+		//Verification of :	
+		logger.info("TMW_OPTIMA_419_012 with Non-General Deposit,Payment Method- Credit Card and no Manual Credit Card Authorization Code_Date");
+		
 //		HomePage.goTo();
 		HomePage.browserRefresh();
 		HomePage.verifyHomePagePresented("RESTClient");

@@ -36,6 +36,9 @@ public class TMW_OPTIMA_419_013 {
 		//Test execution:
 		logger.info("######################          Executing TMW_OPTIMA_419_013 test          ######################");
 		
+		//Verification of :	
+		logger.info("TMW_OPTIMA_419_013 with General Deposit,Payment Method- Credit Card regular flow");
+		
 //		HomePage.goTo();
 		HomePage.browserRefresh();
 		HomePage.verifyHomePagePresented("RESTClient");

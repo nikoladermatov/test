@@ -36,6 +36,9 @@ public class TMW_OPTIMA_419_003 {
 		//Test execution:
 		logger.info("######################          Executing TMW_OPTIMA_419_003 test          ######################");
 		
+		//Verification of :	
+		logger.info("TMW_OPTIMA_419_003 E1 Caller's tenant not authorized to access");
+		
 //		HomePage.goTo();
 		HomePage.browserRefresh();
 		HomePage.verifyHomePagePresented("RESTClient");

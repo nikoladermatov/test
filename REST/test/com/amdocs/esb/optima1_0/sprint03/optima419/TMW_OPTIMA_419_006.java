@@ -35,6 +35,9 @@ public class TMW_OPTIMA_419_006 {
 		//Test execution:
 		logger.info("######################          Executing TMW_OPTIMA_419_006 test          ######################");
 		
+		//Verification of :	
+		logger.info("TMW_OPTIMA_419_006 E3 Error message");
+		
 //		HomePage.goTo();
 		HomePage.browserRefresh();
 		HomePage.verifyHomePagePresented("RESTClient");

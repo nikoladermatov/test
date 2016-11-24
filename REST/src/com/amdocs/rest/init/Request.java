@@ -51,7 +51,7 @@ public class Request {
 				
 					logger.info("The request was successfully submitted.");								
 			}
-			
+			logger.info("The request was successfully submitted.");
 		}
 
 

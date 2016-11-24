@@ -36,6 +36,9 @@ public class TMW_OPTIMA_419_017 {
 		//Test execution
 		logger.info("######################          Executing TMW_OPTIMA_419_017 test          ######################");
 		
+		//Verification of :	
+		logger.info("TMW_OPTIMA_419_017 with General Deposit and Negative Amount");
+		
 //		HomePage.goTo();
 		HomePage.browserRefresh();
 		HomePage.verifyHomePagePresented("RESTClient");

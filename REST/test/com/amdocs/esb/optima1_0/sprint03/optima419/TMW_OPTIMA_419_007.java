@@ -35,6 +35,9 @@ public class TMW_OPTIMA_419_007 {
 		//Test execution:
 		logger.info("######################          Executing TMW_OPTIMA_419_007 test          ######################");
 		
+		//Verification of :	
+		logger.info("TMW_OPTIMA_419_007 with General Deposit and missing mandatory parameter");
+		
 //		HomePage.goTo();
 		HomePage.browserRefresh();
 		HomePage.verifyHomePagePresented("RESTClient");
