@@ -1,16 +1,12 @@
 package com.amdocs.rest.utils;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
-import java.util.Map;
-
 import org.junit.Assert;
-
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
-import org.testng.SkipException;
 
 public class DatabaseUtil {
 
@@ -30,7 +26,7 @@ public class DatabaseUtil {
 				}
 
 				// Create a connection to the database
-				Connection conn = null;
+//				Connection conn = null;
 				String url = "jdbc:oracle:thin:@10.230.16.75:1521/cust1";
 				String username = "optimaesb_10_dev";
 				String password = "arbor123";

@@ -1,23 +1,9 @@
 package com.amdocs.rest.init;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.concurrent.TimeUnit;
-
-import org.apache.log4j.Appender;
-import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.apache.log4j.PatternLayout;
-import org.apache.log4j.DailyRollingFileAppender;
 import org.junit.Assert;
 import org.openqa.selenium.By;
-
-//import com.kenanfx.cloud.enums.Password;
-//import com.kenanfx.cloud.enums.Username;
-
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxProfile;
-
 import com.amdocs.rest.utils.Browser;
 
 public class HomePage {

@@ -1,17 +1,9 @@
 package com.amdocs.rest.init;
-import java.util.List;
-import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.support.ui.Select;
+import java.util.concurrent.TimeUnit;
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
-import org.apache.log4j.Appender;
-import org.apache.log4j.Level;
-import org.apache.log4j.PatternLayout;
-import org.apache.log4j.DailyRollingFileAppender;
-import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
+
 
 import com.amdocs.rest.utils.Browser;
 
