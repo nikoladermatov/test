@@ -1,19 +1,12 @@
 package com.amdocs.esb.simpletests;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-
-import org.apache.log4j.Appender;
-import org.apache.log4j.Level;
-import org.apache.log4j.Logger;
-import org.apache.log4j.PatternLayout;
-import org.apache.log4j.DailyRollingFileAppender;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
+import org.apache.log4j.Logger;
 import com.amdocs.rest.init.Body;
 import com.amdocs.rest.init.HomePage;
 import com.amdocs.rest.init.Request;

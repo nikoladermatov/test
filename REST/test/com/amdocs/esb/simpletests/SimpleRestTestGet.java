@@ -1,17 +1,12 @@
 package com.amdocs.esb.simpletests;
-import java.io.File;
+
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-
-import org.apache.log4j.FileAppender;
 import org.apache.log4j.Logger;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
 import com.amdocs.rest.init.Response;
 import com.amdocs.rest.init.Request;
 import com.amdocs.rest.init.HomePage;

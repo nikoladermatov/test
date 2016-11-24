@@ -2,17 +2,11 @@ package com.amdocs.esb.optima1_0.sprint03.optima419;
 
 import java.io.FileInputStream;
 import java.util.Properties;
-import java.util.concurrent.TimeUnit;
-
 import org.apache.log4j.Logger;
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
-
 import com.amdocs.rest.init.HomePage;
 import com.amdocs.rest.init.Request;
 import com.amdocs.rest.init.Response;
-import com.amdocs.rest.utils.Browser;
 import com.amdocs.rest.utils.DatabaseUtil;
 
 public class TMW_OPTIMA_419_015 {

@@ -1,7 +1,6 @@
 package com.amdocs.esb.optima1_0.sprint03.optima419;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
-import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
