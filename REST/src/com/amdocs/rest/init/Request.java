@@ -54,6 +54,14 @@ public class Request {
 			Browser.driver.findElement(By.id("request-method")).sendKeys(string);
 			logger.info("The request Method was successfully selected.");
 		}
+		
+		public static void chooseMethodGC(String string) {
+			// Choose the Method for the test
+			
+			Browser.driver.findElement(By.cssSelector("div[class='input-append dropdown-toggle']")).clear();
+			Browser.driver.findElement(By.cssSelector("div[class='input-append dropdown-toggle']")).sendKeys(string);
+			logger.info("The request Method was successfully selected.");
+		}
 
 
 		public static void addPayload(String string) {
@@ -68,6 +76,17 @@ public class Request {
 			// Add request Header in case is needed 
 			
 			Browser.driver.findElement(By.xpath("//a[contains(text(),'Headers')]")).click();
+			Browser.driver.findElement(By.xpath("//a[contains(text(),'Custom Header')]")).click();
+			Browser.driver.findElement(By.name("name")).sendKeys(string);
+			Browser.driver.findElement(By.name("value")).sendKeys(string2);
+			Browser.driver.findElement(By.xpath("//input[contains(@onclick,'restclient.main.addCustomHeader();')]")).click();
+			logger.info("ContentTypeHeader was successfully added.");
+		}
+		
+		public static void addContentTypeHeaderGC(String string, String string2) {
+			// Add request Header in case is needed 
+			
+			Browser.driver.findElement(By.id("request-method")).click();
 			Browser.driver.findElement(By.xpath("//a[contains(text(),'Custom Header')]")).click();
 			Browser.driver.findElement(By.name("name")).sendKeys(string);
 			Browser.driver.findElement(By.name("value")).sendKeys(string2);

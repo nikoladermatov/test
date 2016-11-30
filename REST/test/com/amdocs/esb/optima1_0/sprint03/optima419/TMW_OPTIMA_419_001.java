@@ -18,7 +18,7 @@ public class TMW_OPTIMA_419_001 {
 
 	@Before
 	public void setup() {
-		Browser.init();
+		Browser.initFF();
 		Browser.driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 	}
 

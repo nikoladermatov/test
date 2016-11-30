@@ -18,7 +18,7 @@ public class DBconnectionTest {
 	
 	@Before
 	public void setup() {
-		Browser.init();
+		Browser.initFF();
 		Browser.driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	}
 

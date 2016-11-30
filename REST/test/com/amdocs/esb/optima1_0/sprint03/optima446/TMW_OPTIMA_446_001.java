@@ -16,7 +16,7 @@ public class TMW_OPTIMA_446_001 {
 
 	@Before
 	public void setup() {
-		Browser.init();
+		Browser.initFF();
 		Browser.driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
 	}
 

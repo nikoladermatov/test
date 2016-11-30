@@ -12,5 +12,6 @@
 	<classpathentry kind="lib" path="C:/old_machine/Pragmatic/selenium-server-standalone-2.45.0.jar"/>
 	<classpathentry kind="lib" path="C:/old_machine/ojdbc6-11.jar/ojdbc6-11.jar"/>
 	<classpathentry kind="lib" path="C:/old_machine/Pragmatic/jxl-2.6.9.jar/jxl-2.6.9.jar"/>
+	<classpathentry kind="lib" path="C:/old_machine/Pragmatic/selenium-server-standalone-3.0.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
